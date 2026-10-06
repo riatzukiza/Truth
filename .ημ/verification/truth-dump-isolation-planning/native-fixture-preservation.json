@@ -1,0 +1,10 @@
+{
+  "original_fixture_files": 161,
+  "changed": [],
+  "new_input": "kanban/tasks/error-dump-run-isolation.md",
+  "read_exit": 0,
+  "frontmatter_status": "incoming",
+  "points": 3,
+  "operational_write": false,
+  "board_validation_claim": false
+}

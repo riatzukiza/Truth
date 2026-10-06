@@ -1,0 +1,197 @@
+{
+  "streams_exact": 24,
+  "streams": [
+    {
+      "manifest": "capture-manifest.json",
+      "command": "native-issue26",
+      "stream": "stdout",
+      "file": "native-issue26.stdout.b64",
+      "bytes": 6387,
+      "sha256": "caddbdbe326c41a31845215cdf0e54904e38fd1be4bca4e39653ce67219f80b3"
+    },
+    {
+      "manifest": "capture-manifest.json",
+      "command": "native-issue26",
+      "stream": "stderr",
+      "file": "native-issue26.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "manifest": "capture-manifest.json",
+      "command": "native-issue26-comments",
+      "stream": "stdout",
+      "file": "native-issue26-comments.stdout.b64",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "manifest": "capture-manifest.json",
+      "command": "native-issue26-comments",
+      "stream": "stderr",
+      "file": "native-issue26-comments.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "manifest": "capture-manifest.json",
+      "command": "native-proposed-card-read",
+      "stream": "stdout",
+      "file": "native-proposed-card-read.stdout.b64",
+      "bytes": 5835,
+      "sha256": "dbab13d75ffddf53a752ab752f3f60d276f0ec455b41d53ba81cb05562cebf73"
+    },
+    {
+      "manifest": "capture-manifest.json",
+      "command": "native-proposed-card-read",
+      "stream": "stderr",
+      "file": "native-proposed-card-read.stderr.b64",
+      "bytes": 159,
+      "sha256": "5917c2f2525a12c6261d7449f0c024af49e24578408f2725bc6805f8d2ac88eb"
+    },
+    {
+      "manifest": "capture-manifest.json",
+      "command": "actual-planning-owned-receipt",
+      "stream": "stdout",
+      "file": "actual-planning-owned-receipt.stdout.b64",
+      "bytes": 403,
+      "sha256": "a4715d46baf40fbe6f3d9bdf91b020a88daa40e1238f0edf3ba35c71c26b62df"
+    },
+    {
+      "manifest": "capture-manifest.json",
+      "command": "actual-planning-owned-receipt",
+      "stream": "stderr",
+      "file": "actual-planning-owned-receipt.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "manifest": "capture-manifest.json",
+      "command": "actual-sync-plus-plan-owned-receipts",
+      "stream": "stdout",
+      "file": "actual-sync-plus-plan-owned-receipts.stdout.b64",
+      "bytes": 621,
+      "sha256": "bb1742ee80ab4783d21a31fedbf27a2b671314d0f24acafd69c4a800685bec3a"
+    },
+    {
+      "manifest": "capture-manifest.json",
+      "command": "actual-sync-plus-plan-owned-receipts",
+      "stream": "stderr",
+      "file": "actual-sync-plus-plan-owned-receipts.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "manifest": "preparation-capture-manifest.json",
+      "command": "plan-clone",
+      "stream": "stdout",
+      "file": "plan-clone.stdout.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "manifest": "preparation-capture-manifest.json",
+      "command": "plan-clone",
+      "stream": "stderr",
+      "file": "plan-clone.stderr.b64",
+      "bytes": 84,
+      "sha256": "0b35fed5c86579ee9aff93474cc75febec35f340d204527b6c7867d2ae0c0e2f"
+    },
+    {
+      "manifest": "preparation-capture-manifest.json",
+      "command": "plan-worktree",
+      "stream": "stdout",
+      "file": "plan-worktree.stdout.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "manifest": "preparation-capture-manifest.json",
+      "command": "plan-worktree",
+      "stream": "stderr",
+      "file": "plan-worktree.stderr.b64",
+      "bytes": 72,
+      "sha256": "e556a453876d233dcd86e8da73ba7d4ccf3ac80f7ce627842a9ce9dda4f614a6"
+    },
+    {
+      "manifest": "preparation-capture-manifest.json",
+      "command": "plan-sparse",
+      "stream": "stdout",
+      "file": "plan-sparse.stdout.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "manifest": "preparation-capture-manifest.json",
+      "command": "plan-sparse",
+      "stream": "stderr",
+      "file": "plan-sparse.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "manifest": "preparation-capture-manifest.json",
+      "command": "plan-checkout",
+      "stream": "stdout",
+      "file": "plan-checkout.stdout.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "manifest": "preparation-capture-manifest.json",
+      "command": "plan-checkout",
+      "stream": "stderr",
+      "file": "plan-checkout.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "manifest": "preparation-capture-manifest.json",
+      "command": "fetch-approved-sync",
+      "stream": "stdout",
+      "file": "fetch-approved-sync.stdout.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "manifest": "preparation-capture-manifest.json",
+      "command": "fetch-approved-sync",
+      "stream": "stderr",
+      "file": "fetch-approved-sync.stderr.b64",
+      "bytes": 133,
+      "sha256": "8e5f6cb4ac1841867450446269ecefbf8667dcc044f0ac10a299b10991a71915"
+    },
+    {
+      "manifest": "preparation-capture-manifest.json",
+      "command": "ff-approved-sync",
+      "stream": "stdout",
+      "file": "ff-approved-sync.stdout.b64",
+      "bytes": 13538,
+      "sha256": "5dbef932478336882837316792c2e3e45dc644fdb2757b9480a8abb367346310"
+    },
+    {
+      "manifest": "preparation-capture-manifest.json",
+      "command": "ff-approved-sync",
+      "stream": "stderr",
+      "file": "ff-approved-sync.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "manifest": "observer-capture-manifest.json",
+      "command": "native-two-run-cleanup-observer",
+      "stream": "stdout",
+      "file": "native-two-run-cleanup-observer.stdout.b64",
+      "bytes": 412,
+      "sha256": "aae6b559fb0d682ed5942988e980d5a0fd5217345cefe1182ee6bc2cdc1da079"
+    },
+    {
+      "manifest": "observer-capture-manifest.json",
+      "command": "native-two-run-cleanup-observer",
+      "stream": "stderr",
+      "file": "native-two-run-cleanup-observer.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+}

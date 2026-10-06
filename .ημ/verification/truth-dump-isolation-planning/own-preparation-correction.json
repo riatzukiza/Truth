@@ -1,0 +1,6 @@
+{
+  "own_operator_error": "Python Path+str concatenation after first issue26 transport capture; fixed parenthesized path; first immutable capture retained and reused, later reads not previously executed",
+  "source_effect": "none",
+  "external_writes": "none",
+  "requires_upstream_issue": false
+}

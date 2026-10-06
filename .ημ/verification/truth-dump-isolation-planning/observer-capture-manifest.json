@@ -1,0 +1,52 @@
+{
+  "native-two-run-cleanup-observer": {
+    "command": [
+      "/usr/bin/bwrap",
+      "--ro-bind",
+      "/",
+      "/",
+      "--dev-bind",
+      "/dev",
+      "/dev",
+      "--proc",
+      "/proc",
+      "--bind",
+      "/tmp/truth-coverage-full-private-20261006-vy34cir7/private-tmp",
+      "/tmp",
+      "--bind",
+      "/tmp/truth-coverage-full-private-20261006-vy34cir7",
+      "/tmp/truth-coverage-full-private-20261006-vy34cir7",
+      "--unshare-net",
+      "--die-with-parent",
+      "--unsetenv",
+      "DISPLAY",
+      "--unsetenv",
+      "WAYLAND_DISPLAY",
+      "--chdir",
+      "/tmp/truth-coverage-full-private-20261006-vy34cir7/worktree",
+      "/usr/bin/java",
+      "-Xmx768m",
+      "-XX:ActiveProcessorCount=2",
+      "-Duser.home=/tmp/truth-coverage-full-private-20261006-vy34cir7/jvm-home",
+      "-Djava.io.tmpdir=/tmp/truth-coverage-full-private-20261006-vy34cir7/tmp",
+      "-cp",
+      "/tmp/truth-coverage-full-private-20261006-vy34cir7/worktree/test:/tmp/truth-coverage-full-private-20261006-vy34cir7/worktree/bench:/tmp/truth-coverage-full-private-20261006-vy34cir7/worktree/src:/tmp/truth-coverage-full-private-20261006-vy34cir7/worktree/resources:/tmp/truth-coverage-full-private-20261006-vy34cir7/maven-private/cloverage/cloverage/1.2.4/cloverage-1.2.4.jar:/tmp/truth-coverage-full-private-20261006-vy34cir7/maven-private/criterium/criterium/0.4.6/criterium-0.4.6.jar:/tmp/truth-coverage-full-private-20261006-vy34cir7/maven-private/metosin/malli/0.16.4/malli-0.16.4.jar:/tmp/truth-coverage-full-private-20261006-vy34cir7/maven-private/nrepl/nrepl/1.0.0/nrepl-1.0.0.jar:/tmp/truth-coverage-full-private-20261006-vy34cir7/maven-private/org/clojure/clojure/1.11.1/clojure-1.11.1.jar:/tmp/truth-coverage-full-private-20261006-vy34cir7/maven-private/org/commonmark/commonmark/0.21.0/commonmark-0.21.0.jar:/tmp/truth-coverage-full-private-20261006-vy34cir7/maven-private/org/commonmark/commonmark-ext-gfm-tables/0.21.0/commonmark-ext-gfm-tables-0.21.0.jar:/tmp/truth-coverage-full-private-20261006-vy34cir7/maven-private/org/lwjgl/lwjgl/3.3.3/lwjgl-3.3.3.jar:/tmp/truth-coverage-full-private-20261006-vy34cir7/maven-private/org/lwjgl/lwjgl/3.3.3/lwjgl-3.3.3-natives-linux.jar:/tmp/truth-coverage-full-private-20261006-vy34cir7/maven-private/org/lwjgl/lwjgl-glfw/3.3.3/lwjgl-glfw-3.3.3.jar:/tmp/truth-coverage-full-private-20261006-vy34cir7/maven-private/org/lwjgl/lwjgl-glfw/3.3.3/lwjgl-glfw-3.3.3-natives-linux.jar:/tmp/truth-coverage-full-private-20261006-vy34cir7/maven-private/org/lwjgl/lwjgl-opengl/3.3.3/lwjgl-opengl-3.3.3.jar:/tmp/truth-coverage-full-private-20261006-vy34cir7/maven-private/org/lwjgl/lwjgl-opengl/3.3.3/lwjgl-opengl-3.3.3-natives-linux.jar:/tmp/truth-coverage-full-private-20261006-vy34cir7/maven-private/org/lwjgl/lwjgl-stb/3.3.3/lwjgl-stb-3.3.3.jar:/tmp/truth-coverage-full-private-20261006-vy34cir7/maven-private/org/lwjgl/lwjgl-stb/3.3.3/lwjgl-stb-3.3.3-natives-linux.jar:/tmp/truth-coverage-full-private-20261006-vy34cir7/maven-private/org/clojure/data.json/2.4.0/data.json-2.4.0.jar:/tmp/truth-coverage-full-private-20261006-vy34cir7/maven-private/org/clojure/data.xml/0.2.0-alpha6/data.xml-0.2.0-alpha6.jar:/tmp/truth-coverage-full-private-20261006-vy34cir7/maven-private/org/clojure/java.classpath/1.0.0/java.classpath-1.0.0.jar:/tmp/truth-coverage-full-private-20261006-vy34cir7/maven-private/org/clojure/tools.cli/0.4.2/tools.cli-0.4.2.jar:/tmp/truth-coverage-full-private-20261006-vy34cir7/maven-private/org/clojure/tools.logging/0.5.0/tools.logging-0.5.0.jar:/tmp/truth-coverage-full-private-20261006-vy34cir7/maven-private/org/clojure/tools.namespace/1.3.0/tools.namespace-1.3.0.jar:/tmp/truth-coverage-full-private-20261006-vy34cir7/maven-private/org/clojure/tools.reader/1.3.6/tools.reader-1.3.6.jar:/tmp/truth-coverage-full-private-20261006-vy34cir7/maven-private/riddley/riddley/0.2.0/riddley-0.2.0.jar:/tmp/truth-coverage-full-private-20261006-vy34cir7/maven-private/slingshot/slingshot/0.12.2/slingshot-0.12.2.jar:/tmp/truth-coverage-full-private-20261006-vy34cir7/maven-private/borkdude/dynaload/0.3.5/dynaload-0.3.5.jar:/tmp/truth-coverage-full-private-20261006-vy34cir7/maven-private/borkdude/edamame/1.4.27/edamame-1.4.27.jar:/tmp/truth-coverage-full-private-20261006-vy34cir7/maven-private/fipp/fipp/0.6.26/fipp-0.6.26.jar:/tmp/truth-coverage-full-private-20261006-vy34cir7/maven-private/mvxcvi/arrangement/2.1.0/arrangement-2.1.0.jar:/tmp/truth-coverage-full-private-20261006-vy34cir7/maven-private/org/clojure/test.check/1.1.1/test.check-1.1.1.jar:/tmp/truth-coverage-full-private-20261006-vy34cir7/maven-private/org/clojure/core.specs.alpha/0.2.62/core.specs.alpha-0.2.62.jar:/tmp/truth-coverage-full-private-20261006-vy34cir7/maven-private/org/clojure/spec.alpha/0.3.218/spec.alpha-0.3.218.jar:/tmp/truth-coverage-full-private-20261006-vy34cir7/maven-private/org/clojure/data.codec/0.1.0/data.codec-0.1.0.jar:/tmp/truth-coverage-full-private-20261006-vy34cir7/maven-private/org/clojure/core.rrb-vector/0.1.2/core.rrb-vector-0.1.2.jar",
+      "clojure.main",
+      "/tmp/truth-coverage-full-private-20261006-vy34cir7/shared-temp-native-observer.clj"
+    ],
+    "exit": 0,
+    "elapsed_seconds": 4.532,
+    "actual_fixture_and_writer_unchanged": true,
+    "two_fictional_logical_runs_not_real_host_interference": true,
+    "stdout": {
+      "file": "native-two-run-cleanup-observer.stdout.b64",
+      "bytes": 412,
+      "sha256": "aae6b559fb0d682ed5942988e980d5a0fd5217345cefe1182ee6bc2cdc1da079"
+    },
+    "stderr": {
+      "file": "native-two-run-cleanup-observer.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "native-issue26": {
+    "command": [
+      "gh",
+      "api",
+      "repos/octave-commons/Truth/issues/26"
+    ],
+    "exit": 0,
+    "stdout": {
+      "file": "native-issue26.stdout.b64",
+      "bytes": 6387,
+      "sha256": "caddbdbe326c41a31845215cdf0e54904e38fd1be4bca4e39653ce67219f80b3"
+    },
+    "stderr": {
+      "file": "native-issue26.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "native-issue26-comments": {
+    "command": [
+      "gh",
+      "api",
+      "repos/octave-commons/Truth/issues/26/comments",
+      "--paginate"
+    ],
+    "exit": 0,
+    "stdout": {
+      "file": "native-issue26-comments.stdout.b64",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "stderr": {
+      "file": "native-issue26-comments.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "native-proposed-card-read": {
+    "command": [
+      "node",
+      "/tmp/truth-dump-isolation-planning-20261006-ov93oeq4/rheos/cli.cjs",
+      "read-task",
+      "6e7e3556-a697-4005-b8e4-11930791046e",
+      "--config",
+      "/tmp/truth-dump-isolation-planning-20261006-ov93oeq4/board-fixture/openhax.kanban.json"
+    ],
+    "exit": 0,
+    "stdout": {
+      "file": "native-proposed-card-read.stdout.b64",
+      "bytes": 5835,
+      "sha256": "dbab13d75ffddf53a752ab752f3f60d276f0ec455b41d53ba81cb05562cebf73"
+    },
+    "stderr": {
+      "file": "native-proposed-card-read.stderr.b64",
+      "bytes": 159,
+      "sha256": "5917c2f2525a12c6261d7449f0c024af49e24578408f2725bc6805f8d2ac88eb"
+    }
+  },
+  "actual-planning-owned-receipt": {
+    "command": [
+      "node",
+      "/tmp/truth-dump-isolation-planning-20261006-ov93oeq4/nbb-runtime/node_modules/nbb/cli.js",
+      "-cp",
+      "/tmp/truth-dump-isolation-planning-20261006-ov93oeq4/receipt-river-consumer/src/cljs:/tmp/truth-dump-isolation-planning-20261006-ov93oeq4/receipt-river-consumer/src/cljc",
+      "/tmp/truth-dump-isolation-planning-20261006-ov93oeq4/worktree/.\u03b7\u03bc/verification/truth-dump-isolation-planning/validate-owned-receipts.cljs",
+      "/tmp/truth-dump-isolation-planning-20261006-ov93oeq4/worktree",
+      "WORKTREE",
+      "b239e6bf1a43fcce64ccebf9234b0a1ff0734be1",
+      "1"
+    ],
+    "exit": 0,
+    "stdout": {
+      "file": "actual-planning-owned-receipt.stdout.b64",
+      "bytes": 403,
+      "sha256": "a4715d46baf40fbe6f3d9bdf91b020a88daa40e1238f0edf3ba35c71c26b62df"
+    },
+    "stderr": {
+      "file": "actual-planning-owned-receipt.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "actual-sync-plus-plan-owned-receipts": {
+    "command": [
+      "node",
+      "/tmp/truth-dump-isolation-planning-20261006-ov93oeq4/nbb-runtime/node_modules/nbb/cli.js",
+      "-cp",
+      "/tmp/truth-dump-isolation-planning-20261006-ov93oeq4/receipt-river-consumer/src/cljs:/tmp/truth-dump-isolation-planning-20261006-ov93oeq4/receipt-river-consumer/src/cljc",
+      "/tmp/truth-dump-isolation-planning-20261006-ov93oeq4/worktree/.\u03b7\u03bc/verification/truth-dump-isolation-planning/validate-owned-receipts.cljs",
+      "/tmp/truth-dump-isolation-planning-20261006-ov93oeq4/worktree",
+      "WORKTREE",
+      "58b0fd91ea65b7a4b3a1f571f22f3d394374a871",
+      "2"
+    ],
+    "exit": 0,
+    "stdout": {
+      "file": "actual-sync-plus-plan-owned-receipts.stdout.b64",
+      "bytes": 621,
+      "sha256": "bb1742ee80ab4783d21a31fedbf27a2b671314d0f24acafd69c4a800685bec3a"
+    },
+    "stderr": {
+      "file": "actual-sync-plus-plan-owned-receipts.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}
