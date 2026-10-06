@@ -1,0 +1,119 @@
+{
+  "personal_allow_auto_merge": false,
+  "workflow_records": [
+    {
+      "group": "personal-base",
+      "name": "coverage.yml",
+      "bytes": 1356,
+      "sha256": "a391200852edbd41813253f848bbcbe9dffadc926593b96dd5febbfd60749249",
+      "merge_invocation_matches": []
+    },
+    {
+      "group": "personal-base",
+      "name": "eta-mu-review.yml",
+      "bytes": 1021,
+      "sha256": "401a41a94cb9c0478e7d4ed13a3d0055f5d590cad175c6f51069ef40445fc8f3",
+      "merge_invocation_matches": []
+    },
+    {
+      "group": "personal-base",
+      "name": "execute-notebooks.yml",
+      "bytes": 1443,
+      "sha256": "6a309b51a3372560de91f3c099d01f696b1bdb963919dec50e19060c4ceab6f4",
+      "merge_invocation_matches": []
+    },
+    {
+      "group": "personal-base",
+      "name": "sandbox-bundle.yml",
+      "bytes": 7031,
+      "sha256": "f7f96c9dbf5922b1ca3cc75a65329e2b1e147d4374b88b75fc693ec6e0ce88d4",
+      "merge_invocation_matches": []
+    },
+    {
+      "group": "personal-base",
+      "name": "static-analysis.yml",
+      "bytes": 3575,
+      "sha256": "8ed64d858d82f02b0c12f93ac8641ccacfb81457ed71a1613750de99fffedb68",
+      "merge_invocation_matches": []
+    },
+    {
+      "group": "personal-base",
+      "name": "test.yml",
+      "bytes": 1356,
+      "sha256": "577357c36ce38ffc06df222b40d2e60e8fc56bd087bbf8e3c9bbbadcd810e3de",
+      "merge_invocation_matches": []
+    },
+    {
+      "group": "accepted",
+      "name": "coverage.yml",
+      "bytes": 1356,
+      "sha256": "a391200852edbd41813253f848bbcbe9dffadc926593b96dd5febbfd60749249",
+      "merge_invocation_matches": []
+    },
+    {
+      "group": "accepted",
+      "name": "eta-mu-review.yml",
+      "bytes": 1021,
+      "sha256": "401a41a94cb9c0478e7d4ed13a3d0055f5d590cad175c6f51069ef40445fc8f3",
+      "merge_invocation_matches": []
+    },
+    {
+      "group": "accepted",
+      "name": "execute-notebooks.yml",
+      "bytes": 1443,
+      "sha256": "6a309b51a3372560de91f3c099d01f696b1bdb963919dec50e19060c4ceab6f4",
+      "merge_invocation_matches": []
+    },
+    {
+      "group": "accepted",
+      "name": "sandbox-bundle.yml",
+      "bytes": 7031,
+      "sha256": "f7f96c9dbf5922b1ca3cc75a65329e2b1e147d4374b88b75fc693ec6e0ce88d4",
+      "merge_invocation_matches": []
+    },
+    {
+      "group": "accepted",
+      "name": "static-analysis.yml",
+      "bytes": 3575,
+      "sha256": "8ed64d858d82f02b0c12f93ac8641ccacfb81457ed71a1613750de99fffedb68",
+      "merge_invocation_matches": []
+    },
+    {
+      "group": "accepted",
+      "name": "test.yml",
+      "bytes": 1440,
+      "sha256": "f17a89ae3b025e6a87166b54161243db1d72d0c5a573ccadaa91de56e78edb55",
+      "merge_invocation_matches": []
+    }
+  ],
+  "merge_invocation_patterns": [
+    "gh\\s+pr\\s+merge",
+    "enablePullRequestAutoMerge",
+    "mergePullRequest",
+    "auto[-_]merge",
+    "/merges\\b",
+    "pulls/.*/merge",
+    "gh\\s+api[^\\n]*merge"
+  ],
+  "pinned_callee": {
+    "repository": "open-hax/eta-mu",
+    "revision": "2b918cdab2ebd30e745bb8fa86d077d7a3af0030",
+    "path": ".github/workflows/opencode-code-review.yml",
+    "bytes": 29117,
+    "sha256": "9723b9687e7839ce61f6bfbdd5aba9cd26893a2fd10ec340f7021423f4bec23f",
+    "merge_invocation_matches": []
+  },
+  "ready_trigger": [
+    "opened",
+    "synchronize",
+    "reopened",
+    "ready_for_review"
+  ],
+  "review_caller_permissions": [
+    "contents:read",
+    "pull-requests:read"
+  ],
+  "notebook_push_scope": "push paths docs/research/**.ipynb; metadata does not change these paths",
+  "recommendation": "READY with blocked/auto-merge-off is safe against the inspected eager-merge surface; this is not review, deterministic, credential, protection, or deployment qualification",
+  "limits": "Native repository setting is observed now; full configured reviewer/cohort and current-candidate gates remain independently required. No settings or workflow edits."
+}
