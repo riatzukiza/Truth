@@ -25,7 +25,7 @@ A failing negative fixture is RED evidence until the successor refuses it. Do no
 
 ## Historical review-body obligations
 
-The three diagnostics are byte-identical to accepted `58b0fd91ea65b7a4b3a1f571f22f3d394374a871. Review body items 096e831b8f33bce06740f4cf and 18a6b142614e5f4030f57c6e correctly identify compressed human-readable strings; item 8645b7790bf0302a74b85b16 identifies host-local probe filenames. Those are original producer records. A derived portable index/human-readable annotation can cite original object IDs and hashes without rewriting originals, but this is a proposal, not an accepted settlement. Every item stays open pending coordinator decision and authenticated native corroboration if rejection is proposed. A local peer assessment neither impersonates a Bot nor supplies formal native agreement, approval or cohort round.
+The three diagnostics are byte-identical to accepted `58b0fd91ea65b7a4b3a1f571f22f3d394374a871`. Review body items 096e831b8f33bce06740f4cf and 18a6b142614e5f4030f57c6e correctly identify compressed human-readable strings; item 8645b7790bf0302a74b85b16 identifies host-local probe filenames. Those are original producer records. A derived portable index/human-readable annotation can cite original object IDs and hashes without rewriting originals, but this is a proposal, not an accepted settlement. Every item stays open pending coordinator decision and authenticated native corroboration if rejection is proposed. A local peer assessment neither impersonates a Bot nor supplies formal native agreement, approval or cohort round.
 
 ## Admission and verification
 
