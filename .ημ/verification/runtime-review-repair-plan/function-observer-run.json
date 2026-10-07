@@ -1,0 +1,48 @@
+{
+  "command": [
+    "bwrap",
+    "--ro-bind",
+    "/",
+    "/",
+    "--dev-bind",
+    "/dev",
+    "/dev",
+    "--proc",
+    "/proc",
+    "--bind",
+    "/home/err/.codex/parallel-goal/issues-20261006/truth2-runtime-recovery-7585488fc2/private-tmp",
+    "/tmp",
+    "--bind",
+    "/home/err/.codex/parallel-goal/issues-20261006/truth2-runtime-recovery-7585488fc2",
+    "/home/err/.codex/parallel-goal/issues-20261006/truth2-runtime-recovery-7585488fc2",
+    "--unshare-net",
+    "--die-with-parent",
+    "--unsetenv",
+    "DISPLAY",
+    "--unsetenv",
+    "WAYLAND_DISPLAY",
+    "/usr/bin/java",
+    "-Xmx512m",
+    "-XX:ActiveProcessorCount=2",
+    "-Duser.home=/home/err/.codex/parallel-goal/issues-20261006/truth2-runtime-recovery-7585488fc2/jvm-home",
+    "-Djava.io.tmpdir=/home/err/.codex/parallel-goal/issues-20261006/truth2-runtime-recovery-7585488fc2/private-tmp",
+    "-Djava.awt.headless=true",
+    "-cp",
+    "/home/err/.codex/parallel-goal/issues-20261006/truth2-runtime-recovery-7585488fc2/jars/clojure-1.11.1.jar:/home/err/.codex/parallel-goal/issues-20261006/truth2-runtime-recovery-7585488fc2/jars/spec.alpha.jar:/home/err/.codex/parallel-goal/issues-20261006/truth2-runtime-recovery-7585488fc2/jars/core.specs.alpha.jar",
+    "clojure.main",
+    "/home/err/.codex/parallel-goal/issues-20261006/truth2-runtime-recovery-7585488fc2/function-observer.clj"
+  ],
+  "exit": 0,
+  "streams": {
+    "stdout": {
+      "file": "function-observer.stdout.b64",
+      "bytes": 1573,
+      "sha256": "6baadeb019e7506c359f5e0d6fa45ef07bbe7c7cecb01d2b2edc18de5e2dd932"
+    },
+    "stderr": {
+      "file": "function-observer.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

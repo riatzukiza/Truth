@@ -1,0 +1,76 @@
+[
+  {
+    "name": "clone",
+    "command": [
+      "git",
+      "clone",
+      "--bare",
+      "--no-hardlinks",
+      "--single-branch",
+      "--branch",
+      "codex/truth-sync-upstream-58b0fd9",
+      "https://github.com/riatzukiza/Truth.git",
+      "/home/err/.codex/parallel-goal/issues-20261006/truth-runtime-planning-bff7bfd493/source.git"
+    ],
+    "exit": 0,
+    "streams": {
+      "stdout": {
+        "file": "clone.stdout.b64",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stderr": {
+        "file": "clone.stderr.b64",
+        "bytes": 126,
+        "sha256": "2788e0fe90ce85687ccdd66f04660bdf02f228f509867c87c45bd992baa9767b"
+      }
+    }
+  },
+  {
+    "name": "newworktree",
+    "command": [
+      "git",
+      "--git-dir=/home/err/.codex/parallel-goal/issues-20261006/truth-runtime-planning-bff7bfd493/source.git",
+      "worktree",
+      "add",
+      "-b",
+      "codex/truth-runtime-review-repair-plan",
+      "/home/err/.codex/parallel-goal/issues-20261006/truth-runtime-planning-bff7bfd493/worktree",
+      "b239e6bf1a43fcce64ccebf9234b0a1ff0734be1"
+    ],
+    "exit": 0,
+    "streams": {
+      "stdout": {
+        "file": "newworktree.stdout.b64",
+        "bytes": 85,
+        "sha256": "a1551014ffc60d18480518fbf3c3f96bca4784e384ff67a1130aff3465571cbd"
+      },
+      "stderr": {
+        "file": "newworktree.stderr.b64",
+        "bytes": 73,
+        "sha256": "3a2f3e1325da6dd45551272ed16fe1496defa927724426b39dc7f60141801997"
+      }
+    }
+  },
+  {
+    "name": "nativeissue31",
+    "command": [
+      "gh",
+      "api",
+      "repos/octave-commons/Truth/issues/31"
+    ],
+    "exit": 0,
+    "streams": {
+      "stdout": {
+        "file": "nativeissue31.stdout.b64",
+        "bytes": 6168,
+        "sha256": "dfc953b382db166d6a4911e7f615b3284b57274dcf62d191ca330eadae967716"
+      },
+      "stderr": {
+        "file": "nativeissue31.stderr.b64",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    }
+  }
+]

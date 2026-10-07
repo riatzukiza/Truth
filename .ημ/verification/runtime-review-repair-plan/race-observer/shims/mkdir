@@ -1,0 +1,11 @@
+#!/bin/bash
+set -euo pipefail
+if [[ ${OBS_BARRIER:-0} == 1 ]]; then
+  /usr/bin/touch "$OBS_SYNC/$OBS_ID"
+  for i in {1..300}; do
+    [[ -e "$OBS_SYNC/A" && -e "$OBS_SYNC/B" ]] && break
+    /usr/bin/sleep .01
+  done
+  [[ -e "$OBS_SYNC/A" && -e "$OBS_SYNC/B" ]] || exit 90
+fi
+exec /bin/mkdir "$@"

@@ -1,0 +1,8 @@
+{
+  "exit": 1,
+  "operation": "initial preservation checker dereferenced accepted symlink instead of hashing link text",
+  "path": ".opencode/skill/agent-notes-splitter/SKILL.md",
+  "error": "FileNotFoundError",
+  "correction": "mode120000 uses os.readlink bytes, per Git blob meaning",
+  "effects": "own checker only, no source/shared mutation"
+}

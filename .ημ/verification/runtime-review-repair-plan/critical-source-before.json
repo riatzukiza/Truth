@@ -1,0 +1,34 @@
+{
+  "AGENTS.md": {
+    "bytes": 13206,
+    "sha256": "ea929d3ca73fd8bbd0252b1ee4125433e0332962338a42e02e0397016e0bee0c"
+  },
+  "PROCESS.md": {
+    "bytes": 12242,
+    "sha256": "fe63fa6f8cb91530fff5c6acc80bdd2e8db64bffbbc855d20c5afd9a24c41173"
+  },
+  "dev/demo.clj": {
+    "bytes": 13182,
+    "sha256": "bc94c5881b8e4decb5e6ec7bb2a797b08b9b6e76160c388efbd75111d62118a2"
+  },
+  "dev/demo_test.clj": {
+    "bytes": 4427,
+    "sha256": "771fa1257f32ce16f28e7279f1a557c330783e2b9fe328a0a3ce444fb1498161"
+  },
+  "bin/demo-capture": {
+    "bytes": 7215,
+    "sha256": "cc9e9bab1d8fb1d624fb4d16c1823f6cf914d6295b88b60a437483cbda554fc1"
+  },
+  "bin/formation-capture": {
+    "bytes": 6097,
+    "sha256": "559dbe71a4208fba31ea7ed5bf1b53331c24b50f495d6b2cf9b818d8f7770de9"
+  },
+  "src/infra/render/hud.clj": {
+    "bytes": 21060,
+    "sha256": "8b63d1a1797ae0be97ccdacdb76fb25097303604a77f8fe50a1020e6fa176cb0"
+  },
+  "openhax.kanban.json": {
+    "bytes": 95,
+    "sha256": "d27b66ffe03adac7b62ac887c01c43003e74e4a24a9d2acfea778cab2d03acc6"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "command": [
+    "node",
+    "/home/err/.codex/parallel-goal/issues-20261006/truth2-runtime-recovery-7585488fc2/nbb-runtime/cli.js",
+    "-cp",
+    "/home/err/.codex/parallel-goal/issues-20261006/truth2-runtime-recovery-7585488fc2/receipt-river-runtime/src/cljs",
+    "/home/err/.codex/parallel-goal/issues-20261006/truth2-runtime-recovery-7585488fc2/receipt-observation.cljs"
+  ],
+  "exit": 0,
+  "streams": {
+    "stdout": {
+      "file": "owning-receipt-api.stdout.b64",
+      "bytes": 107,
+      "sha256": "2b5dcc1f7bab2f16ed97436d9d33409d2b7af84e9fa8678c00cc91f10fd2402a"
+    },
+    "stderr": {
+      "file": "owning-receipt-api.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

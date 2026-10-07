@@ -323,3 +323,8 @@
   spore: none
   receipt-refs: truth-sync-local-provenance-20261006-83u16qs3
   note: Preserve all accepted ancestry and identities with sparse metadata preparation; distinguish object preservation from content review, and terminal sync purpose from activation. Network failures remain visible; no source/board writes or published qualification.
+
+
+## Truth runtime review repair planning — Incoming only
+
+Owner: root/issues. Receipt: root receipts.edn new row428, base b239. Efficiency0.78; friction0.48; skill-candidate0.42; no spore promotion. Preserve accepted formation rollback as a control while repairing select; use a real host atomic operation for reservation rather than promote a portable existence predicate to ownership. Separate foreign HUD planning, and distinguish exact synthetic defect witnesses from full test/native qualification. Both3+2 estimates remain provisional; planning review and lawful Rheos readiness precede red/green.

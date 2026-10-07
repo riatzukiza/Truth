@@ -1,0 +1,36 @@
+{
+  "command": [
+    "bwrap",
+    "--ro-bind",
+    "/",
+    "/",
+    "--dev-bind",
+    "/dev",
+    "/dev",
+    "--proc",
+    "/proc",
+    "--bind",
+    "/home/err/.codex/parallel-goal/issues-20261006/truth2-runtime-recovery-7585488fc2/private-tmp",
+    "/tmp",
+    "--bind",
+    "/home/err/.codex/parallel-goal/issues-20261006/truth2-runtime-recovery-7585488fc2",
+    "/home/err/.codex/parallel-goal/issues-20261006/truth2-runtime-recovery-7585488fc2",
+    "--unshare-net",
+    "--die-with-parent",
+    "/usr/bin/python3",
+    "/home/err/.codex/parallel-goal/issues-20261006/truth2-runtime-recovery-7585488fc2/race-observer/observe.py"
+  ],
+  "exit": 0,
+  "streams": {
+    "stdout": {
+      "file": "race-observer.stdout.b64",
+      "bytes": 840,
+      "sha256": "19570375c4f6be21b3d20806b012a8d6f87385d17670bd8a2911891169f5d752"
+    },
+    "stderr": {
+      "file": "race-observer.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}
