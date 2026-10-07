@@ -1,0 +1,58 @@
+{
+  "actual_comment_executed": true,
+  "operator": "installed actual owner CLI, not ef3-equivalence",
+  "command": "node CLI add-comment UUID --text TEXT --config ABSOWNCONFIG",
+  "runtime_sha256": "fba8bef53a9dbc159136de56f5a3c174af33b0d309ae0a26fce440467b50590c",
+  "event_id": "tasks-ci-coverage-workflow-broken-1791335352661",
+  "event_time": "2026-10-07T01:09:12.661Z",
+  "causal_root": "614276c8-c159-410a-9989-cdb58f65e69b",
+  "write_id": "1791335352659-0.123fwmw0fo1gyrt2x31",
+  "all_original_native_fields_equal_except_added_write_id": true,
+  "original_native_body_exact": true,
+  "card_raw_prefix_preserved": false,
+  "native_serializer_presentation_change": "Engine removed quote presentation/reordered frontmatter and addedwrite-id; original cardbytes retained inbaseGitblob andoriginal-card.b64. No manual restoration.",
+  "old_ledger_bytes": 508391,
+  "old_ledger_sha256": "6f2a8bc3a774ef87ff060828ebc62bdd4cd4e6a57ea8a45a0ecf3daf57d47328",
+  "old_ledger_rows": 1064,
+  "new_event_rows": 1,
+  "ledger_prefix_exact": true,
+  "other_configured_fixture_files_unchanged": 158,
+  "configured_fixture_files_before": 160,
+  "card_status": "ready",
+  "estimate": "2",
+  "uuid": "ci-coverage-workflow-broken",
+  "checklist_unchanged": true,
+  "other_tracked_board_changes": false,
+  "comment_text_provenance": {
+    "submitted_cli_text": {
+      "bytes": 2322,
+      "sha256": "178b042fed84845487b4d7d24c9edc1e30e06748a1860934333004d0b279de9c",
+      "capture": "native-comment-text.md"
+    },
+    "native_add_comment_response_text": {
+      "bytes": 2322,
+      "sha256": "178b042fed84845487b4d7d24c9edc1e30e06748a1860934333004d0b279de9c",
+      "capture": "native-add-evidence-comment.stdout.b64",
+      "json_field": "comment"
+    },
+    "native_read_task_section_content": {
+      "bytes": 2321,
+      "sha256": "54cf15ac4b5a3d7a106807505e64d94b0f39fd53167d8be756c9c34baf49c34f",
+      "capture": "native-task-after.stdout.b64",
+      "json_field": "sections[1].content"
+    },
+    "readback_difference": "Read-task section representation omits exactly one final LF from submitted/add-response text. No other byte differs.",
+    "raw_card_contains_full_submitted_bytes": true,
+    "raw_card_submitted_byte_offset": 2354,
+    "raw_card_sha256": "41eb35ef5b11466a40b4f94472f1ed68dabb8804cad5fd639560f47bc9610f3d",
+    "raw_card_storage_claim": "Full submitted2322B sequence remains present in the card blob; do not infer file-storage newline loss from the normalized2321B section representation.",
+    "previous_ambiguous_label_provenance": {
+      "head": "52df90265d5435410215a63f1bc30be529a6284d",
+      "field": "comment_sha256",
+      "value": "178b042fed84845487b4d7d24c9edc1e30e06748a1860934333004d0b279de9c",
+      "meaning": "Hash of submitted CLI text, not native read-task section content; old commit retained unchanged."
+    },
+    "native_comment_repeated": false,
+    "receipt_repeated": false
+  }
+}

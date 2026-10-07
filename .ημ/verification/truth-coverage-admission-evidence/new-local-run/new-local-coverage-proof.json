@@ -1,0 +1,33 @@
+{
+  "source": "58b0fd91ea65b7a4b3a1f571f22f3d394374a871",
+  "exit": 0,
+  "whole_original_command": "bin/coverage --text",
+  "test_count": 879,
+  "assertion_count": 15486,
+  "failures": 0,
+  "errors": 0,
+  "line_percent": 78.78,
+  "form_percent": 84.96,
+  "stdout_bytes": 31913,
+  "stdout_sha256": "53b16715ac0d9eaf4d1dfe4317cfc2f3b1a56a44d8fc186abdbb815c47f0c2f1",
+  "stderr_bytes": 3260,
+  "stderr_sha256": "d0b9b79ac293a9b3c42152679937eccd5c81dba0b13ae9f476fcd5d1820841eb",
+  "product_files_unchanged": 300,
+  "tracked_status": "",
+  "reports": [
+    {
+      "path": "/home/err/.codex/parallel-goal/foresight-prs-truth-recovery-20261006-ve63vqf3/coverage-worktree/target/coverage/lcov.info",
+      "bytes": 145123,
+      "sha256": "af0d3a4098b09597256e39982b1f663a3ae3def70b605c2ecc5761b1d4754eca"
+    },
+    {
+      "path": "/home/err/.codex/parallel-goal/foresight-prs-truth-recovery-20261006-ve63vqf3/coverage-worktree/target/coverage/codecov.json",
+      "bytes": 178193,
+      "sha256": "64d6e867d61f967ee455d54b65978ecbedda7879595a531166565ba04d497b58"
+    }
+  ],
+  "at": "2026-10-07T01:05:07.112805+00:00",
+  "provenance": "NEW isolated unchanged accepted run after filesystem loss, not reconstructed former local output.",
+  "codecovequals_hosted_parsed_JSON": false,
+  "codecov_bytes_equal_hosted": false
+}

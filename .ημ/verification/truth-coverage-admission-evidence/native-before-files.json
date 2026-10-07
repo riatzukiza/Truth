@@ -1,0 +1,642 @@
+{
+  "kanban/tasks/collision-shock-voxel-carving.md": {
+    "bytes": 3340,
+    "sha256": "1749e2f4f23fe0172da47d2909d78280f4a13d625c1920131ac6547f43b2a7cc"
+  },
+  "kanban/tasks/static-analysis-clj-kondo-correctness.md": {
+    "bytes": 2508,
+    "sha256": "060ad0c0055ce491d85bb039caca5ac0bd7365eea6d2a5c586c1037a20d167a7"
+  },
+  "kanban/tasks/rich-entity-inspection-ui.md": {
+    "bytes": 24800,
+    "sha256": "4246d17adddd65274882803bd5c4bf3cab2fdb03ed8e74e6b9c0fd79d5ed26a6"
+  },
+  "kanban/tasks/phase-0-render-units-coordinate-transform-spec.md": {
+    "bytes": 10187,
+    "sha256": "6486ef48f7af978670a424a721fcd354905c21a881639fc903d3e6395a3a4a23"
+  },
+  "kanban/tasks/focus-zoom-lod-ui-spec.md": {
+    "bytes": 16032,
+    "sha256": "bbac263d8d15e30a67793404bbb372c4f76422c5b24241c2252a1a5856717b92"
+  },
+  "kanban/tasks/static-analysis-final-validation.md": {
+    "bytes": 2634,
+    "sha256": "f8572056d66f7184e5032cb2bdcb864ae5797e24d95634bed6b8f7be05610271"
+  },
+  "kanban/tasks/gammie-alpha-beta-coupling.md": {
+    "bytes": 1204,
+    "sha256": "2f7eac97aa662ea3d5b190e3382d862fde9a21815a63665db65023a463122040"
+  },
+  "kanban/tasks/seed-and-grow-condensation.md": {
+    "bytes": 9670,
+    "sha256": "c18454d762df6c79d1dbd3e2548af88493f9918dd15d82c4ead6a0df1ea9ac54"
+  },
+  "kanban/tasks/stellar-mass-luminosity-real-model.md": {
+    "bytes": 4582,
+    "sha256": "d139debd0d669016d9d6d79210468aeaaad3acd2a0ef86a3878b5905879aa716"
+  },
+  "kanban/tasks/law-planet-formation-namespace.md": {
+    "bytes": 10354,
+    "sha256": "14b878c08461111a28675c75d51e05161b7bd321c9a51facb45eeca0ffa32570"
+  },
+  "kanban/tasks/spec-cljfmt-formatting-cleanup.md": {
+    "bytes": 3526,
+    "sha256": "1905bf1a9e9cc73545361ac2760d8cb720b8ad4827da3273dfde4511fb7137b2"
+  },
+  "kanban/tasks/perf-big5-shared-neighbor-pass.md": {
+    "bytes": 8915,
+    "sha256": "a1787525c2119dcc67b91491fd528ff79d1fcbdcc34dad817bae7fb26d5d8769"
+  },
+  "kanban/tasks/exposed-tunables-and-settings-menu-spec.md": {
+    "bytes": 16769,
+    "sha256": "de28580ee6016182963bc9d2029613e7db0eaf521537f7026a523dc5f85c0672"
+  },
+  "kanban/tasks/planetary-voxel-substrate.md": {
+    "bytes": 6371,
+    "sha256": "5f3bb34b1e0c386f99a15609b7d25df8afa028276c5b4af1a65096552e91ec75"
+  },
+  "kanban/tasks/phase-0-jeans-driven-formation-spec.md": {
+    "bytes": 17402,
+    "sha256": "318b94fd6826cdbe27abafac764ca03b180701a451dacbe6372f2fba06a6d6d9"
+  },
+  "kanban/tasks/spark-planet-binding.md": {
+    "bytes": 3564,
+    "sha256": "062096aae37d5316e56a57273e0c9e20a995b3f3beb7f4512d58e38bba5807ce"
+  },
+  "kanban/tasks/ecology-m5-phase3-atmosphere-retention.md": {
+    "bytes": 4211,
+    "sha256": "c0a7a96c981f8490f9a42360bcd19b719c5424d7a04a394752cfcfbb7ce97add"
+  },
+  "kanban/tasks/rich-entity-inspection-ui-spec.md": {
+    "bytes": 7661,
+    "sha256": "61ce80a8f2a479e7b6c76d7ab22a9d9910b4ce8bf0763372b423aea600664de3"
+  },
+  "kanban/tasks/stability-softened-elements.md": {
+    "bytes": 3037,
+    "sha256": "7b3f8395cdde7705610ed1efe4ee87d3b00d2757f33adab82dceaa4e01b9ae5a"
+  },
+  "kanban/tasks/phase-0-player-focus-promotion-demotion.md": {
+    "bytes": 7651,
+    "sha256": "5e4a4938315250449662789618108f3be8b31473a5dc88e68c75a14d26bc10f2"
+  },
+  "kanban/tasks/coherence-gated-thrust.md": {
+    "bytes": 2911,
+    "sha256": "d79f1c6bdd7c3f4b1045d9e00055cca0b763f433c0cccdfed5b87530cd3b58cb"
+  },
+  "kanban/tasks/voxel-god-scale-sculpting-ops.md": {
+    "bytes": 2872,
+    "sha256": "9e074fb617c99400cdce9d0e4d55906069acdea3ce20a788f37868040e6f92b2"
+  },
+  "kanban/tasks/formation-progress-metric.md": {
+    "bytes": 2037,
+    "sha256": "f99fa1d06d23c756a83c212fecb04ffadcf0f710aeb8f28e5915b0fc8ab80627"
+  },
+  "kanban/tasks/static-analysis-split-render.md": {
+    "bytes": 1812,
+    "sha256": "b656e3bfd82936095dd7794c1b2266efffeb8d3faa7c5c13c0785ee467122166"
+  },
+  "kanban/tasks/run-alias-broken-missing-infra-main.md": {
+    "bytes": 2722,
+    "sha256": "f2fa441a334fdbed4732043abb459f3a62052bd1a77d1a45467db8719705495d"
+  },
+  "kanban/tasks/camera-bind-blend-regression-fix.md": {
+    "bytes": 2819,
+    "sha256": "1a2a1977ba3238dfaa33966f7c3da2f62aa53749ad3d47269f4e2d6339ec3f5f"
+  },
+  "kanban/tasks/phase-0-player-focus-dual-representation-spec.md": {
+    "bytes": 12107,
+    "sha256": "bf17ac6c969c709b12a1a5f68100e5c196b6cbaf41049f448a06e1904f18290a"
+  },
+  "kanban/tasks/roadmap-phase-0-physics-honesty-chemistry-disks-plasma-inspection.md": {
+    "bytes": 16743,
+    "sha256": "7a463b7e1f591fe5831e9c7f059c4f060281da7f6e510a8e90f9909a736c402e"
+  },
+  "kanban/tasks/ecology-m5-phase1-planet-classification.md": {
+    "bytes": 3546,
+    "sha256": "57c783b970aca33b3aebfafe9d76b99f7f93d5266f3b06740ed9efd885be167d"
+  },
+  "kanban/tasks/static-analysis-clj-kondo-unused-bindings.md": {
+    "bytes": 2046,
+    "sha256": "edacc99f69758b5cacc17eb63b6f4b0c273c071da05e90a70f2bf746a6076034"
+  },
+  "kanban/tasks/static-analysis-splint-arithmetic-control.md": {
+    "bytes": 1512,
+    "sha256": "bc36e0c81ff505fbc78b5f0c7ce3be7ed544c5b3ba8fe8d2a9a2c25fa1703463"
+  },
+  "kanban/tasks/static-analysis-jscpd-reporting.md": {
+    "bytes": 734,
+    "sha256": "4087187a0f70c24bee8dab5a5db6659ff2f7846523517b29a0cffd31a78a1a97"
+  },
+  "kanban/tasks/ecology-m5-phase2-orbit-stability.md": {
+    "bytes": 2550,
+    "sha256": "1079830745233bd0facd5d2b52886cfaee0c4a48e54519c4c9bb2adf23516aec"
+  },
+  "kanban/tasks/static-analysis-dead-code-tooling-dsl.md": {
+    "bytes": 2428,
+    "sha256": "5993cc4fc30bb8cce90d5c7ff5721d4407dc2714e4b1afc8565078d8388f2420"
+  },
+  "kanban/tasks/static-analysis-clj-kondo-cleanup.md": {
+    "bytes": 20932,
+    "sha256": "92531dfabc014d04f1e9d98fbd8417eaab74ce16df3ecbf1c517e13b8b6b1b90"
+  },
+  "kanban/tasks/flight-assist-damping-and-toggle.md": {
+    "bytes": 2786,
+    "sha256": "f035f4a258f146ac76c2bde7cf44acbbe72baa6d790b80f501ba0d8679df3a99"
+  },
+  "kanban/tasks/static-analysis-component-vocabulary-exception.md": {
+    "bytes": 1552,
+    "sha256": "292649435466af10f827a56306970845b3fa9edd17ef7bc00d17cc961deef366"
+  },
+  "kanban/tasks/the-first-narrowing-star-to-planet.md": {
+    "bytes": 4653,
+    "sha256": "bd0c64cce6a694c5f76ffe3099420e23a49eb663a896ed655c4a765905aab2c8"
+  },
+  "kanban/tasks/static-analysis-split-stellar-core.md": {
+    "bytes": 2320,
+    "sha256": "cab7e30cf3e522d24c196acbc10d87597383650c4b9e374f642098cac9465f4e"
+  },
+  "kanban/tasks/phase-0-sph-density-field-spec.md": {
+    "bytes": 13089,
+    "sha256": "158893945f111da4dcde50193d83e2199e2c1902f8e3821e56f9ba98b05090a5"
+  },
+  "kanban/tasks/mass-transfer-benchmark.md": {
+    "bytes": 1014,
+    "sha256": "bd68cf3852eccf5cd7a7f7c279a5ab75e56e886b4c5b737ea919a15e96252743"
+  },
+  "kanban/tasks/phase-0-narrator-mood-ambience.md": {
+    "bytes": 4195,
+    "sha256": "79eeb0095008d343f35bcb79fdabcd8f2f6bb297ab2d207012919afb41e0bab9"
+  },
+  "kanban/tasks/spec-r-first-kernel-cutoff-for-sph.md": {
+    "bytes": 3648,
+    "sha256": "0b16da5f2b8e21383ca45e14d570dcadb5df476fe4a1b457195683715d277692"
+  },
+  "kanban/tasks/roche-lobe-envelope-physics-realspec-deferred-capability.md": {
+    "bytes": 5356,
+    "sha256": "0a10d7c723f34e15ea8cde4a6bc6fdaae882bc0167b473aba464b7d8f430086b"
+  },
+  "kanban/tasks/ecology-m5-phase4-handoff-event.md": {
+    "bytes": 3715,
+    "sha256": "0c7e075086c6a11a207ab1f1fcb91191d8aed491525460f424dd6cdb6cd44f1c"
+  },
+  "kanban/tasks/voxel-focus-promotion-demotion.md": {
+    "bytes": 3726,
+    "sha256": "5b9fcb8685149b5401c25fe7b6d2d67e21f2670f0c4d198c799284227d88786d"
+  },
+  "kanban/tasks/phase-0-player-focus-a-statistical-substrate.md": {
+    "bytes": 3690,
+    "sha256": "882197522f8cc6863c495979e8b18806f605b17fa88d1de08b59b6084fedd4fa"
+  },
+  "kanban/tasks/orbit-integration-regression-tests.md": {
+    "bytes": 2376,
+    "sha256": "d26f0249ea0e6e73056911470beeaa8d2d5b5e401a01d090431654d1752dae73"
+  },
+  "kanban/tasks/render-material-color-element-keys.md": {
+    "bytes": 1544,
+    "sha256": "4a14b1730ba603993c7d458d2aa65444630f7da980fff7db7e3470128c1752aa"
+  },
+  "kanban/tasks/tick-perf-drift-profile.md": {
+    "bytes": 27218,
+    "sha256": "ac7855f7ae847dd1fa492927944b676cf35e55fbc5208feafd0900e08a2dedc3"
+  },
+  "kanban/tasks/static-analysis-decompose-derive-edits.md": {
+    "bytes": 5121,
+    "sha256": "7003a60cbb1b446155e1c394c899ba2b1b26b1a2237253cb1cb9f32bd1d4dfec"
+  },
+  "kanban/tasks/debug-view-state-restore.md": {
+    "bytes": 2777,
+    "sha256": "a3323a925d88bad66645b281ca21d4ed6dcf974d8b353726b6d0c7f128de68b0"
+  },
+  "kanban/tasks/static-analysis-splint-final-gate.md": {
+    "bytes": 1803,
+    "sha256": "56f6b0eaf9bcd8fc8b2f76e388206dfe38e81d0e2910ec2a54e5905cdc7caff6"
+  },
+  "kanban/tasks/nebular-chemistry-and-composition-spec.md": {
+    "bytes": 10955,
+    "sha256": "49f386dd6a5fc5bdc539ee64f8aa43bc80fdd55e8c37ca87edeb895209ae1f5d"
+  },
+  "kanban/tasks/lod-rung-onrails-optimization.md": {
+    "bytes": 2089,
+    "sha256": "5fc83869677c4c18d6a82dc5770756b96dccf592b338f56eed86e2da5b3e885c"
+  },
+  "kanban/tasks/perf-60fps-parallel-tick.md": {
+    "bytes": 1412,
+    "sha256": "32098a51055ececbf37e2405ec0c21e6d1919ff2688d9c4e2cfb16797d10a583"
+  },
+  "kanban/tasks/narrowing-commitment-horizon.md": {
+    "bytes": 3325,
+    "sha256": "edf065e5d6b8bcb04c478fc3467c3444ca0c074cce07f2eb78904f6f5c92ffc3"
+  },
+  "kanban/tasks/static-analysis-splint-sweep-2026-07.md": {
+    "bytes": 8900,
+    "sha256": "1cd9588e2f30061ecd58d750363080808310d6ccf9817448f636a8a0432db4e3"
+  },
+  "kanban/tasks/static-analysis-kondo-sweep-2026-07.md": {
+    "bytes": 8775,
+    "sha256": "360405239d48a3357401f8e199eb4aad3d521ca4e9de122bf283e9bfaf8ff3ce"
+  },
+  "kanban/tasks/static-analysis-jscpd-test-fixtures.md": {
+    "bytes": 4455,
+    "sha256": "f115cb5ab1c95080c9068c8778f61feeb4b1f18b525fc997ec7a363c2b379ffc"
+  },
+  "kanban/tasks/gradual-mass-transfer-spec.md": {
+    "bytes": 10936,
+    "sha256": "fc217a6bb62a54513676fac3082897e41950c1bf457113959176d9995a2a6860"
+  },
+  "kanban/tasks/star-growth-disk-fragmentation-nebula-transparency-spec.md": {
+    "bytes": 20835,
+    "sha256": "0a0282af401b093fd8ab14b47a6bf614a8a834f226d6930ee5fd6fb3167b1b83"
+  },
+  "kanban/tasks/spec-fix-jscpd-reporting-in-bin-analyze.md": {
+    "bytes": 3705,
+    "sha256": "e17563d991733701033148185d3b5588b5da640eacc8f380f106a000d1d8bc06"
+  },
+  "kanban/tasks/narrowing-hud-binding-commitment-readout.md": {
+    "bytes": 1831,
+    "sha256": "c157e0d8c93d6d6064b29faa54d892014c4335c7c4ccc4fbd36c1a6cd660f06b"
+  },
+  "kanban/tasks/spark-as-gravity-bound-body.md": {
+    "bytes": 3850,
+    "sha256": "29c71fcb85582be1c6b3ccc4dad53bcd3488d26d6b92da8821990b403444ac1c"
+  },
+  "kanban/tasks/static-analysis-dead-code-domain-infra.md": {
+    "bytes": 2767,
+    "sha256": "47e9f96b621c98ab0291f66b104a9aae8bc6031b05c276dd5341c8203259c627"
+  },
+  "kanban/tasks/radial-disk-structure-spec-deferred-capability-d1.md": {
+    "bytes": 5564,
+    "sha256": "f010b3715ad3ac102d4d7e24f9152470114739ec559f47b176d121cbf37ff5b0"
+  },
+  "kanban/tasks/static-analysis-decompose-mega-functions.md": {
+    "bytes": 2363,
+    "sha256": "07cf3bdfeef63e0ea933c76952db3d8e7914c5fcd6d339aff25cc45e28656a2e"
+  },
+  "kanban/tasks/static-analysis-clj-kondo-shadowed-vars.md": {
+    "bytes": 2129,
+    "sha256": "428f4784950f5b1050a75845143e52c67c8d6f767322bd6dce4592675aba4ecb"
+  },
+  "kanban/tasks/planet-candidate-to-voxel-seed.md": {
+    "bytes": 2876,
+    "sha256": "a0ebe07ca3304163a91eaf6e830b89873324042892cfcef3cd2c1bd468375066"
+  },
+  "kanban/tasks/universal-compact-substepping.md": {
+    "bytes": 3297,
+    "sha256": "64ffc61afdbeb9b81be527aea50afcc272d0aa0a98c3362e9ba95acde65f4cd2"
+  },
+  "kanban/tasks/phase-0-renderer-asset-organization-spec.md": {
+    "bytes": 10099,
+    "sha256": "ba59d06d444498518e3c875c62f30544a0b407769b0306776f94c38db9834a4f"
+  },
+  "kanban/tasks/fragment-placement-decouple-dt.md": {
+    "bytes": 5395,
+    "sha256": "4282912d454a995d983338b6566c3379184a67ae8b7d2fb5b8c8e955126693ea"
+  },
+  "kanban/tasks/static-analysis-document-privatize.md": {
+    "bytes": 1499,
+    "sha256": "54d110d7e79ed8354ebb8cfddcd9b54b16cbb18aebe1e2cde1a9a87265018700"
+  },
+  "kanban/tasks/phase-0-renderer-asset-phases-5-6.md": {
+    "bytes": 2781,
+    "sha256": "34f9aac4e8a37195b637f574e539c21ca77ee5dff0efedc371a398f36f630f6d"
+  },
+  "kanban/tasks/mote-of-light-shader.md": {
+    "bytes": 2597,
+    "sha256": "fe00d6f40d6b21391eedd4b55311c00f3d51a63916a64d29185fec1a634acab0"
+  },
+  "kanban/tasks/phase-0-complete-planet-formation-pipeline-spec.md": {
+    "bytes": 19697,
+    "sha256": "75f8c3184410942f7333af83ca8122af165933518f73bf82108c4920f9629161"
+  },
+  "kanban/tasks/spec-neighbor-cache-fan-out-lane.md": {
+    "bytes": 491,
+    "sha256": "d9980ebf2c367db3bc744ebf4daf711d8423a0d6e85d94eecc94e6dd6c6e54dc"
+  },
+  "kanban/tasks/genesis-formation-authoritative-star-planet-formation-spec.md": {
+    "bytes": 28467,
+    "sha256": "1de1e5f74933818e54b8c32d202d4fe572b5cad8c420d4edb2ba933a4a01fecc"
+  },
+  "kanban/tasks/voxel-sculpt-verb-palette-wiring.md": {
+    "bytes": 4112,
+    "sha256": "21b9289d53be0fd3c4f52ae43fed7f6153d94b8a85a3dc8101180866fc67078c"
+  },
+  "kanban/tasks/ci-coverage-workflow-broken.md": {
+    "bytes": 2299,
+    "sha256": "82386c59d2f0f83d00051e8ae3cc15a7776fba1b3d8f63c3c43c562906b77469"
+  },
+  "kanban/tasks/disk-regime-tag-unification.md": {
+    "bytes": 1261,
+    "sha256": "48ae6e091367ee62dd567ba3dd200f4f05891bd77e91d44979c59a6c93838342"
+  },
+  "kanban/tasks/spec-soa-aware-barnes-hut-gravity-traversal.md": {
+    "bytes": 5330,
+    "sha256": "53ba6b5fee645b56302f1caa4b912ca2c417a416e78f819aaf8cc155e628e602"
+  },
+  "kanban/tasks/phase-0-stellar-remnant-ladder.md": {
+    "bytes": 4826,
+    "sha256": "62db50d93d04c3bd9781c7362f947de5065d940b9af29797c1b2e9c286e2b85a"
+  },
+  "kanban/tasks/stellar-wind-plasma-state-spec.md": {
+    "bytes": 10202,
+    "sha256": "76fc607cebe6156efaa45b3e65bff6fa34fa2ae75cf07e22c03679bbbb52a076"
+  },
+  "kanban/tasks/static-analysis-cljfmt-cleanup.md": {
+    "bytes": 2038,
+    "sha256": "51433f818c7c693f92ed283ef8392a5a094dccbd8718636d8e7e5c251276c555"
+  },
+  "kanban/tasks/phase-0-player-focus-b-focus-zone-system.md": {
+    "bytes": 3903,
+    "sha256": "86e55b5328153c8e659380afe77ca592072ff7ed7dba25fe6fc03743eefd3e15"
+  },
+  "kanban/tasks/spark-orientation-angular-momentum.md": {
+    "bytes": 2721,
+    "sha256": "aa099d9cd52563a705131accae54a18d8f8d5e1355343463f6064750973b51c8"
+  },
+  "kanban/tasks/phase-0-protoplanetary-disc-implementation-spec.md": {
+    "bytes": 18201,
+    "sha256": "1f780a94df649091f87af278ea46ff342ed6101f69015fad9c2738c29ab1464d"
+  },
+  "kanban/tasks/central-star-nearest-attractor.md": {
+    "bytes": 2930,
+    "sha256": "d5b689d38437bada8cd791c1bd826771acf26713c5070bf98e953590f31c2937"
+  },
+  "kanban/tasks/static-analysis-splint-predicate-test-collections.md": {
+    "bytes": 1776,
+    "sha256": "9dc06940c31be15a787c08621ec3d865e94acdd1529eab1ea788014a485df89b"
+  },
+  "kanban/tasks/static-analysis-split-stellar-disc-wind.md": {
+    "bytes": 10142,
+    "sha256": "f0dd5d280fd7984df5acea76277e76085117b32acde97a2121f48aea500d3937"
+  },
+  "kanban/tasks/narrowing-tether-default-camera-modes.md": {
+    "bytes": 2154,
+    "sha256": "2051a5d566fe78ec1900a3f7b9aeb3b042c7141e7cf81a3f8593ec7d9d0e60ff"
+  },
+  "kanban/tasks/voxel-band-render-path.md": {
+    "bytes": 2875,
+    "sha256": "c590725828e63434bb731c9f9de4a8b28d8afc999083684fc574e2d70d4a3a47"
+  },
+  "kanban/tasks/persistent-neighbor-cache.md": {
+    "bytes": 15094,
+    "sha256": "1abeb2c54f1449f7da0452c9030fde99c4aac496c534ba0bea608159fefba0fd"
+  },
+  "kanban/tasks/character-scale-mining-construction.md": {
+    "bytes": 1728,
+    "sha256": "3f588a8805fa527311bc734923e2e927eabc1c234f0ecb6372c4c8f76189a4c9"
+  },
+  "kanban/tasks/static-analysis-split-classifier.md": {
+    "bytes": 6284,
+    "sha256": "8672ed94e0cebbb45c5d1b5c64e08c39e2f5d4f9b3492a9a70acf49fa4642c7c"
+  },
+  "kanban/tasks/notes-to-specs-synthesis.md": {
+    "bytes": 9861,
+    "sha256": "57933faf78333ab80229ec4aa19f22f9446e016ec2c0fe483371cbe04b92b78d"
+  },
+  "kanban/tasks/rich-entity-inspection-ui-panes-2.md": {
+    "bytes": 1961,
+    "sha256": "3036b3d8e99f5847d7b11e7965db82d30bc1b92513939179dcf32de3fd7f0844"
+  },
+  "kanban/tasks/planet-orbit-circularization-blocker.md": {
+    "bytes": 10876,
+    "sha256": "7bc5d236d148252ef8a4e6583d1e66c14147207e8a17f853ea1af7ec824c62cd"
+  },
+  "kanban/tasks/static-analysis-facade-prune.md": {
+    "bytes": 6550,
+    "sha256": "9c60064c28e002b759884346338d08145c39a97fa46b6807e115d1270f98b809"
+  },
+  "kanban/tasks/static-analysis-structural-cleanup.md": {
+    "bytes": 41947,
+    "sha256": "45ddbca3c8c5a9f94cc542c810c49ceef2d6997298a68ff882a5a124093e50f0"
+  },
+  "kanban/tasks/protoplanetary-disk-and-planet-formation-spec.md": {
+    "bytes": 9406,
+    "sha256": "a62ff16641ae32285269533fada3ed73445980215d7e4133fb2c58d43704929c"
+  },
+  "kanban/tasks/genesis-arc-separation-physics-substrate-vs-player-arc.md": {
+    "bytes": 12798,
+    "sha256": "f72818774898e19dfb919f70b59dec2422ce96d2214f0453569e2676624b2e6d"
+  },
+  "kanban/tasks/ecology-water-gate-snowline.md": {
+    "bytes": 13137,
+    "sha256": "df327be92d082fb6e1bff77e27fc8bb735e169e025592fd124dcd9940d72aa0a"
+  },
+  "kanban/tasks/star-substep-heating.md": {
+    "bytes": 2595,
+    "sha256": "fd4a2d78b9548fae6247a837572bf60e94bc642f0bfa81bd3986edc504b46009"
+  },
+  "kanban/tasks/fix-run-alias-missing-infra-main.md": {
+    "bytes": 1502,
+    "sha256": "2cf84355b5b910828bcdfdd77adbdcc2a94c5cb5ccffe942e87fa23126ccf932"
+  },
+  "kanban/tasks/sink-absorb-angular-momentum-renormalization.md": {
+    "bytes": 3225,
+    "sha256": "7bda7a59d79dddb54b74fc44bc6c7d09b83f32d656a716e8a45dd2456f66c650"
+  },
+  "kanban/tasks/decouple-the-formation-loop-from-phase-0-framing.md": {
+    "bytes": 10481,
+    "sha256": "aa05f52950408a5bfa3b70aa44b9fc005f18975c188e3da01f87ca4839717748"
+  },
+  "kanban/tasks/compact-pair-softening.md": {
+    "bytes": 5755,
+    "sha256": "b24c968cc7b76b2876b8a3f24c838eade37110b43881e2070b7203a5d2d1d0ef"
+  },
+  "kanban/tasks/static-analysis-smell-metric-code-lines.md": {
+    "bytes": 5252,
+    "sha256": "c010e323888cf59a5de75156e4efc7938ebd0305ef831f6e74850f41c798f658"
+  },
+  "kanban/tasks/static-analysis-cljfmt-2026-07.md": {
+    "bytes": 3651,
+    "sha256": "f31e1faf94c3be4602814acd536d5113309f940d58e3422617601c1a05930d68"
+  },
+  "kanban/tasks/phase-0-stellar-winds-mass-transfer-remnants-technical-spec.md": {
+    "bytes": 13294,
+    "sha256": "7b843cf58a7c8c3eeed217e6fcf884d5cc36ec227024f71e1c72a1533585547e"
+  },
+  "kanban/tasks/narrowing-worldscale-overlap-gate.md": {
+    "bytes": 2023,
+    "sha256": "15a310453f78443c035f865bdbc7a79aa4e7a85ce961f270957727116d990177"
+  },
+  "kanban/tasks/static-analysis-dead-code-law-schemas.md": {
+    "bytes": 2847,
+    "sha256": "5ac10831dd4d0948359a9448120635309363351b3ca538729db9aaaf589f4770"
+  },
+  "kanban/tasks/static-analysis-splint-idiom-cleanup.md": {
+    "bytes": 23666,
+    "sha256": "87b5a5aebde6312eab34aaefae7bb0cf9d37691851c415e166b7c5ef03db9ce1"
+  },
+  "kanban/tasks/fix-warp-disabled-stale-write.md": {
+    "bytes": 1630,
+    "sha256": "9349ba63c3e840a615925c378fc51aa3250ad9154898b7037ecbcd9e4ecd2af2"
+  },
+  "kanban/tasks/spark-flight-force-channels.md": {
+    "bytes": 3259,
+    "sha256": "92f43adb0651600a0596d2319f6670a9f72be1e6c41db1f396bc426152e967e6"
+  },
+  "kanban/tasks/core-accretion-physics-spec.md": {
+    "bytes": 1129,
+    "sha256": "1563e517879462c4b411612bd15570c722b167dc91f2137083c672d0c6d530e3"
+  },
+  "kanban/tasks/spark-6dof-input-mapping.md": {
+    "bytes": 3218,
+    "sha256": "44d2bc45d667d1204b3c1fa53ba22f70bfc3975991561fb341ec6cef86b4c69d"
+  },
+  "kanban/tasks/body-trails-ringbuffer.md": {
+    "bytes": 2706,
+    "sha256": "1ff051e11fe6b57d28e349ddf0cf7ffe24d51a2ab8f751b0e42a6820387d6a04"
+  },
+  "kanban/tasks/static-analysis-splint-naming-structure.md": {
+    "bytes": 2107,
+    "sha256": "31a0d55409414976973ffc16ec0c71235175ad535962eed56aebf16c6755a7cb"
+  },
+  "kanban/tasks/flight-no-jump-accel.md": {
+    "bytes": 4910,
+    "sha256": "829ff45448c385c5c6a0398bfbf6e80fc7e7c25ae648854418189ba1bc63820c"
+  },
+  "kanban/tasks/static-analysis-clj-kondo-dead-code.md": {
+    "bytes": 1859,
+    "sha256": "b681a9822e65b161b10485c5d4b84c87d55018d72160d3b945aad0466f2e66b0"
+  },
+  "kanban/tasks/integrator-kepler-substep.md": {
+    "bytes": 5610,
+    "sha256": "51b88849663093323ca437cf4791d2e3f3ef1fa68c1ee014a46dda31b8d541a2"
+  },
+  "kanban/tasks/perf-tick-residual-gap-to-60fps.md": {
+    "bytes": 8462,
+    "sha256": "5d26be7c8603e52e1db6f5e2905643e2634eca3f8f0a8ca06bb1e8259c7f27ff"
+  },
+  "kanban/tasks/static-analysis-clj-kondo-verification.md": {
+    "bytes": 1813,
+    "sha256": "919528a9c759257f8717454f0c784c07baeb8039841be9e798572a1d5331e007"
+  },
+  "kanban/tasks/start-menu-save-game-spec.md": {
+    "bytes": 18478,
+    "sha256": "4a3e0e59149a0d517425fc78a9f394158a853797cb99fcce995a967e102761a9"
+  },
+  "kanban/tasks/static-analysis-regression-2026-07-24.md": {
+    "bytes": 26775,
+    "sha256": "1e9d1c0846d04af6702ed0796165ce06e4bb3910a287b2544a681f64f7b23a5f"
+  },
+  "kanban/tasks/formation-placement-v2.md": {
+    "bytes": 3098,
+    "sha256": "bc3fd50744bd70c84592b0ef8e43c3ecb1d70d4dbafb052387799a3b9c2a68c8"
+  },
+  "kanban/tasks/chase-camera-spring-rebuild.md": {
+    "bytes": 3251,
+    "sha256": "5c523d219dec0829cd119d0cf6b3964616ea5cd4222ffab3bae663e98fcfcaa4"
+  },
+  "kanban/tasks/phase-0-chemistry-differentiation-spec.md": {
+    "bytes": 11727,
+    "sha256": "daae32372d02a8d902f2bfb2693c0697effe2738f3e3f52694bce8886674c65e"
+  },
+  "kanban/tasks/metal-enrichment-and-seeding-spec.md": {
+    "bytes": 8800,
+    "sha256": "a4e3d6a7cf96a1ca13875800a941ee443af9a296477e5b94df86ab40221a9349"
+  },
+  "kanban/tasks/static-analysis-lsp-config-dead-vars.md": {
+    "bytes": 10738,
+    "sha256": "aedb1cfbfe7dc0964de02bf1e5c4294720fbf16f14833b651442e6305b3bc036"
+  },
+  "kanban/tasks/static-analysis-jscpd-src-extractions.md": {
+    "bytes": 10001,
+    "sha256": "f0efda243fb17ddbe0a27471f5de3247b6d35728754f3706467539dbf983e394"
+  },
+  "kanban/tasks/spec-merged-hydro-em-pair-loop-with-shared-neighbor-cache.md": {
+    "bytes": 6249,
+    "sha256": "7f07d1f823ea417622298617594cf314dd1beb82860114231f4a4a6954b56426"
+  },
+  "kanban/tasks/static-analysis-unused-pending-convention.md": {
+    "bytes": 8738,
+    "sha256": "5e7e10c31bbbea611ba9f220095e85960fafec3fa8fde8ed1eb070bbb4584c41"
+  },
+  "kanban/tasks/voxel-field-bias-persistence.md": {
+    "bytes": 3091,
+    "sha256": "3acf7cce2a623166b4376f817ddd0948ab90715f4a1c46569db5a3451e557ea4"
+  },
+  "kanban/tasks/static-analysis-dissolve-law-stellar-facade.md": {
+    "bytes": 5433,
+    "sha256": "3e9adb109ecd8aa58aaf85cc446c68b1bc1f8d6a88d890b077f21a84b83c2988"
+  },
+  "kanban/tasks/dark-matter-static-halo.md": {
+    "bytes": 2640,
+    "sha256": "e8cd2ec67dbd68800f5fb3a8a597dee9349b9f03a7990f4119f6e7aca25549c3"
+  },
+  "kanban/tasks/static-analysis-dead-code-ecs-components.md": {
+    "bytes": 2116,
+    "sha256": "6ae3eea800bf8c19e6c36993d9d6387d17dfd16a1940abedccac41db5bb5bfdf"
+  },
+  "kanban/tasks/epic-static-analysis-cleanup.md": {
+    "bytes": 14736,
+    "sha256": "90214382e2a7881dd685ba14d777188f93f9441f4b60b67bf03e6b0497d1c13e"
+  },
+  "kanban/tasks/remove-passive-halo-invert-influence.md": {
+    "bytes": 2782,
+    "sha256": "017b8be8d53b95a7892a4f625436d91b4a7fd792f82f3dca0f7a7d1ac92db1c6"
+  },
+  "kanban/tasks/embodied-character-voxel-mode.md": {
+    "bytes": 2172,
+    "sha256": "941cb948f6f7da567ebba5d1aa5bfc5dd04fe73871a150e8fe73a94c0a2ee86f"
+  },
+  "kanban/tasks/narrowing-frame-handoff.md": {
+    "bytes": 4434,
+    "sha256": "acc90a7a0408cede40d241e7978e58d2cc458169bd5b52774240fce8a20c5b9c"
+  },
+  "kanban/tasks/static-analysis-dead-code-cleanup.md": {
+    "bytes": 25482,
+    "sha256": "45f7f990fce107b1523de8fb3d52c4ecea74bd8199b5f0be8914f475d8e63ed8"
+  },
+  "kanban/tasks/static-analysis-ratchet-branch-protection.md": {
+    "bytes": 12861,
+    "sha256": "dc412e50725a32e150ace34101698be19f4a5e7071530213cd1c352491db7c0a"
+  },
+  "kanban/tasks/static-analysis-splint-math.md": {
+    "bytes": 1580,
+    "sha256": "802c0ac3e7fc899379c3d9c86dac0675581f07c3b0d2397cac188d2695b4004e"
+  },
+  "kanban/tasks/voxel-substrate-law-schema.md": {
+    "bytes": 2597,
+    "sha256": "89c8e5f708608059b705c9e9bc998c464f0206490e32fe710353524664582fb7"
+  },
+  "kanban/tasks/stage-2-sink-formation-technical-spec.md": {
+    "bytes": 10889,
+    "sha256": "9bce7537c567f250536c3cb7a0ac40429773d3b0cd26372906f6b456986a1b6a"
+  },
+  "kanban/tasks/spec-soa-primitive-array-physics-cache.md": {
+    "bytes": 5160,
+    "sha256": "9bb53c13842224e7787d8dd6a40c5cd7921b639000abea80894d6dba19b20e60"
+  },
+  "kanban/tasks/plan-hydro-em-structure-profiling.md": {
+    "bytes": 4570,
+    "sha256": "2094b93d72c5c49892a7ae4caadfd5cc469268704c63d0ca8d749a25173940d1"
+  },
+  "kanban/tasks/narrowing-binding-mechanic.md": {
+    "bytes": 3637,
+    "sha256": "e66d96bf7e1091f782642597baa93fa34a6a13b6164cc0d8345fec1bf88cc945"
+  },
+  "kanban/tasks/flight-hud-and-cues.md": {
+    "bytes": 2640,
+    "sha256": "7a0c45c0cdd59e4ae8eebee190d530a1fec4126c3a9b9efbce61b07b40f53313"
+  },
+  "kanban/tasks/focus-follows-pilot.md": {
+    "bytes": 6216,
+    "sha256": "3f150515704b47d40685ddf85c22b3dff7250a8e37884474134226d5b3824e97"
+  },
+  "kanban/tasks/phase-0-narrator-presence-spec.md": {
+    "bytes": 6936,
+    "sha256": "1a6e2b45956da90d77e6ba28945620884c76b3ed031a5b2daa3dd9ea17017eb1"
+  },
+  "kanban/tasks/phase-0-habitability-handoff-spec.md": {
+    "bytes": 836,
+    "sha256": "572859bb912a8513281769810ef9a374964ec0563a4656586c263a4afa9f228c"
+  },
+  "kanban/tasks/static-analysis-rationalize-genesis.md": {
+    "bytes": 1837,
+    "sha256": "40fc282b1faf373d1855c82264f2b4320921194c52031a7eb184f8a997ab9d6a"
+  },
+  "kanban/tasks/phase-0-player-focus-c-conservation-tests.md": {
+    "bytes": 3454,
+    "sha256": "3e9ca64a795b5e9ab9b1455a9ea58a4c5241f78febaabd27cac62c2690d174d4"
+  },
+  "kanban/tasks/.events/ledger.edn": {
+    "bytes": 508391,
+    "sha256": "6f2a8bc3a774ef87ff060828ebc62bdd4cd4e6a57ea8a45a0ecf3daf57d47328"
+  }
+}

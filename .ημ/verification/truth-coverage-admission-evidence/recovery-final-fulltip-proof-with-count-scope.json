@@ -1,0 +1,57 @@
+{
+  "head": "b30fe86a0d11e89c078c4f9011248f2afbbe3c55",
+  "base": "b239e6bf1a43fcce64ccebf9234b0a1ff0734be1",
+  "consumer": {
+    "revision": "b30fe86a0d11e89c078c4f9011248f2afbbe3c55",
+    "base": "b239e6bf1a43fcce64ccebf9234b0a1ff0734be1",
+    "prefix-preserved": true,
+    "base-rows": 427,
+    "total-rows": 428,
+    "new-owned-declared": [
+      {
+        "line-number": 428,
+        "ok": true,
+        "schema-id": ":eta-mu.receipt-river/receipt-recorded",
+        "schema-version": 1,
+        "event-id": "truth-filesystem-recovery-ve63vqf3",
+        "kind": ":observation",
+        "repo": "riatzukiza/Truth",
+        "errors": []
+      }
+    ]
+  },
+  "consumer_argv": [
+    "/home/err/.codex/parallel-goal/personal-root-20261006/pr116-admission-runtime/node-runtime/node_modules/.bin/nbb",
+    "-cp",
+    "/home/err/.codex/parallel-goal/foresight-prs-truth-recovery-20261006-ve63vqf3/receipt-runtime",
+    "/home/err/.codex/parallel-goal/foresight-prs-truth-recovery-20261006-ve63vqf3/audit-worktree/.\u03b7\u03bc/verification/truth-coverage-filesystem-recovery/validate-receipts.cljs",
+    "/home/err/.codex/parallel-goal/foresight-prs-truth-recovery-20261006-ve63vqf3/audit-worktree",
+    "b30fe86a0d11e89c078c4f9011248f2afbbe3c55",
+    "b239e6bf1a43fcce64ccebf9234b0a1ff0734be1",
+    "1"
+  ],
+  "clean": true,
+  "diffcheck_exit": 0,
+  "unchanged_original_entries": 1201,
+  "prefixes": {
+    ".\u03b7\u03bc/session-mycology/ledger.md": {
+      "bytes": 18613,
+      "sha256": "a524368626ed954fdfe6a0f5dac5214f7782413f11b28078f63d68bc8fc07de5",
+      "preserved": true
+    },
+    "receipts.edn": {
+      "bytes": 379992,
+      "sha256": "948a36a3405e43780bc30cba9b3947be50e1cfa083a0f54ecdcd56c9e6b70f78",
+      "preserved": true
+    }
+  },
+  "strict_streams": 78,
+  "changed_paths": 95,
+  "count_scope": {
+    "command_capture_streams": 78,
+    "encoded_original_source_files": 5,
+    "total_new_b64_files": 83,
+    "independent_observations": "not asserted; stdout/stderr and source-copy captures are distinct byte transports, not review credit"
+  },
+  "consumer_scope": "Six consumed owner namespaces at154440 only; not an assertion of all source files examined. Newdeclaredrow428 only; legacy427prefix not globally revalidated."
+}

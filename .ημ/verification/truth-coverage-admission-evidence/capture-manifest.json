@@ -1,0 +1,416 @@
+[
+  {
+    "label": "coverage-evidence-independent-clone",
+    "command": [
+      "timeout",
+      "120",
+      "env",
+      "-u",
+      "GH_TOKEN",
+      "-u",
+      "GITHUB_TOKEN",
+      "git",
+      "-c",
+      "core.hooksPath=/dev/null",
+      "clone",
+      "--bare",
+      "--filter=blob:none",
+      "--no-tags",
+      "https://github.com/riatzukiza/Truth.git",
+      "/home/err/.codex/parallel-goal/truth-coverage-evidence-source-20261007-nhefrfek/source.git"
+    ],
+    "cwd": "/home/err/.codex/parallel-goal/truth-coverage-evidence-source-20261007-nhefrfek",
+    "at": "2026-10-07T01:08:20.179738+00:00",
+    "exit": 0,
+    "stdout": {
+      "capture": "coverage-evidence-independent-clone.stdout.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stderr": {
+      "capture": "coverage-evidence-independent-clone.stderr.b64",
+      "bytes": 125,
+      "sha256": "c70439b8dd7b5eddad87991551bdc21f01e3d012604e90e41001eb6d5e3bcfd7"
+    }
+  },
+  {
+    "label": "coverage-evidence-worktree-0",
+    "command": [
+      "timeout",
+      "120",
+      "git",
+      "--git-dir=/home/err/.codex/parallel-goal/truth-coverage-evidence-source-20261007-nhefrfek/source.git",
+      "config",
+      "core.hooksPath",
+      "/dev/null"
+    ],
+    "cwd": "/home/err/.codex/parallel-goal/truth-coverage-evidence-source-20261007-nhefrfek",
+    "at": "2026-10-07T01:08:21.191990+00:00",
+    "exit": 0,
+    "stdout": {
+      "capture": "coverage-evidence-worktree-0.stdout.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stderr": {
+      "capture": "coverage-evidence-worktree-0.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "coverage-evidence-worktree-1",
+    "command": [
+      "timeout",
+      "120",
+      "git",
+      "--git-dir=/home/err/.codex/parallel-goal/truth-coverage-evidence-source-20261007-nhefrfek/source.git",
+      "worktree",
+      "add",
+      "--no-checkout",
+      "-b",
+      "codex/truth-coverage-admission-evidence",
+      "/home/err/.codex/parallel-goal/truth-coverage-evidence-source-20261007-nhefrfek/worktree",
+      "b239e6bf1a43fcce64ccebf9234b0a1ff0734be1"
+    ],
+    "cwd": "/home/err/.codex/parallel-goal/truth-coverage-evidence-source-20261007-nhefrfek",
+    "at": "2026-10-07T01:08:21.241766+00:00",
+    "exit": 0,
+    "stdout": {
+      "capture": "coverage-evidence-worktree-1.stdout.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stderr": {
+      "capture": "coverage-evidence-worktree-1.stderr.b64",
+      "bytes": 74,
+      "sha256": "0e4bd512c831b740bd5df497a05ade31cf588396f1a58852189d278e7f277f5e"
+    }
+  },
+  {
+    "label": "coverage-evidence-worktree-2",
+    "command": [
+      "timeout",
+      "120",
+      "git",
+      "-C",
+      "/home/err/.codex/parallel-goal/truth-coverage-evidence-source-20261007-nhefrfek/worktree",
+      "sparse-checkout",
+      "init",
+      "--no-cone"
+    ],
+    "cwd": "/home/err/.codex/parallel-goal/truth-coverage-evidence-source-20261007-nhefrfek",
+    "at": "2026-10-07T01:08:21.310435+00:00",
+    "exit": 0,
+    "stdout": {
+      "capture": "coverage-evidence-worktree-2.stdout.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stderr": {
+      "capture": "coverage-evidence-worktree-2.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "coverage-evidence-worktree-3",
+    "command": [
+      "timeout",
+      "120",
+      "git",
+      "-C",
+      "/home/err/.codex/parallel-goal/truth-coverage-evidence-source-20261007-nhefrfek/worktree",
+      "sparse-checkout",
+      "set",
+      "--no-cone",
+      "/AGENTS.md",
+      "/PROCESS.md",
+      "/openhax.kanban.json",
+      "/receipts.edn",
+      "/.\u03b7\u03bc/",
+      "/kanban/",
+      "/docs/notes/truth-personal-upstream-sync-20261006.md",
+      "/docs/AGENTS.md",
+      "/docs/notes/AGENTS.md",
+      "/.opencode/skill/truth-eta-mu-kanban/"
+    ],
+    "cwd": "/home/err/.codex/parallel-goal/truth-coverage-evidence-source-20261007-nhefrfek",
+    "at": "2026-10-07T01:08:21.354217+00:00",
+    "exit": 0,
+    "stdout": {
+      "capture": "coverage-evidence-worktree-3.stdout.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stderr": {
+      "capture": "coverage-evidence-worktree-3.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "coverage-evidence-worktree-4",
+    "command": [
+      "timeout",
+      "120",
+      "git",
+      "-C",
+      "/home/err/.codex/parallel-goal/truth-coverage-evidence-source-20261007-nhefrfek/worktree",
+      "checkout",
+      "codex/truth-coverage-admission-evidence"
+    ],
+    "cwd": "/home/err/.codex/parallel-goal/truth-coverage-evidence-source-20261007-nhefrfek",
+    "at": "2026-10-07T01:08:21.398894+00:00",
+    "exit": 0,
+    "stdout": {
+      "capture": "coverage-evidence-worktree-4.stdout.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stderr": {
+      "capture": "coverage-evidence-worktree-4.stderr.b64",
+      "bytes": 53,
+      "sha256": "248bc50e1a05a3dacc23b646d2d10a8038c01e98841c6393a553bdbeebc74f97"
+    }
+  },
+  {
+    "label": "native-installed-help",
+    "command": [
+      "timeout",
+      "30",
+      "env",
+      "-u",
+      "KANBAN_CONFIG",
+      "XDG_CACHE_HOME=/home/err/.codex/parallel-goal/truth-coverage-evidence-source-20261007-nhefrfek/cache",
+      "TMPDIR=/home/err/.codex/parallel-goal/truth-coverage-evidence-source-20261007-nhefrfek/tmp",
+      "node",
+      "/home/err/.volta/tools/image/packages/eta-mu/lib/node_modules/eta-mu/node_modules/@eta-mu/rheos/dist/cli.cjs",
+      "--help"
+    ],
+    "cwd": "/home/err/.codex/parallel-goal/truth-coverage-evidence-source-20261007-nhefrfek/worktree",
+    "at": "2026-10-07T01:09:11.499109+00:00",
+    "exit": 0,
+    "stdout": {
+      "capture": "native-installed-help.stdout.b64",
+      "bytes": 915,
+      "sha256": "a9845ed0d428f74b6e8d5841d8aeefe86ab460e4e53ac718e4e3ba21e84f18d0"
+    },
+    "stderr": {
+      "capture": "native-installed-help.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "native-comment-capability",
+    "command": [
+      "timeout",
+      "30",
+      "env",
+      "-u",
+      "KANBAN_CONFIG",
+      "XDG_CACHE_HOME=/home/err/.codex/parallel-goal/truth-coverage-evidence-source-20261007-nhefrfek/cache",
+      "TMPDIR=/home/err/.codex/parallel-goal/truth-coverage-evidence-source-20261007-nhefrfek/tmp",
+      "node",
+      "/home/err/.volta/tools/image/packages/eta-mu/lib/node_modules/eta-mu/node_modules/@eta-mu/rheos/dist/cli.cjs",
+      "add-comment",
+      "--config",
+      "/home/err/.codex/parallel-goal/truth-coverage-evidence-source-20261007-nhefrfek/worktree/openhax.kanban.json"
+    ],
+    "cwd": "/home/err/.codex/parallel-goal/truth-coverage-evidence-source-20261007-nhefrfek/worktree",
+    "at": "2026-10-07T01:09:11.783334+00:00",
+    "exit": 0,
+    "stdout": {
+      "capture": "native-comment-capability.stdout.b64",
+      "bytes": 60,
+      "sha256": "48dc9bf2aec16e5de42d4a64a59bf024060e43d9d049e077ef5098b38b547ee8"
+    },
+    "stderr": {
+      "capture": "native-comment-capability.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "native-task-before",
+    "command": [
+      "timeout",
+      "30",
+      "env",
+      "-u",
+      "KANBAN_CONFIG",
+      "XDG_CACHE_HOME=/home/err/.codex/parallel-goal/truth-coverage-evidence-source-20261007-nhefrfek/cache",
+      "TMPDIR=/home/err/.codex/parallel-goal/truth-coverage-evidence-source-20261007-nhefrfek/tmp",
+      "node",
+      "/home/err/.volta/tools/image/packages/eta-mu/lib/node_modules/eta-mu/node_modules/@eta-mu/rheos/dist/cli.cjs",
+      "read-task",
+      "ci-coverage-workflow-broken",
+      "--config",
+      "/home/err/.codex/parallel-goal/truth-coverage-evidence-source-20261007-nhefrfek/worktree/openhax.kanban.json"
+    ],
+    "cwd": "/home/err/.codex/parallel-goal/truth-coverage-evidence-source-20261007-nhefrfek/worktree",
+    "at": "2026-10-07T01:09:12.074805+00:00",
+    "exit": 0,
+    "stdout": {
+      "capture": "native-task-before.stdout.b64",
+      "bytes": 2734,
+      "sha256": "d6e2f82b6fdecd23ebd0fe2f2fcd011dcdae395d61e644d4026c3021037d7c9d"
+    },
+    "stderr": {
+      "capture": "native-task-before.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "native-add-evidence-comment",
+    "command": [
+      "timeout",
+      "30",
+      "env",
+      "-u",
+      "KANBAN_CONFIG",
+      "XDG_CACHE_HOME=/home/err/.codex/parallel-goal/truth-coverage-evidence-source-20261007-nhefrfek/cache",
+      "TMPDIR=/home/err/.codex/parallel-goal/truth-coverage-evidence-source-20261007-nhefrfek/tmp",
+      "node",
+      "/home/err/.volta/tools/image/packages/eta-mu/lib/node_modules/eta-mu/node_modules/@eta-mu/rheos/dist/cli.cjs",
+      "add-comment",
+      "ci-coverage-workflow-broken",
+      "--text",
+      "Fresh coverage evidence and proposed admission decision; no task transition or checklist edit.\n\nThe original three completion criteria remain in full: local bin/coverage --text succeeds; hosted coverage is green on main or deliberately deleted; if retained, decide whether coverage becomes a required check.\n\nA NEW unchanged whole bin/coverage --text run at accepted 58b0fd91ea65b7a4b3a1f571f22f3d394374a871 exited 0: 879 tests / 15,486 assertions / 0 failures / 0 errors; line coverage 78.78%, form coverage 84.96%. Its full stdout/stderr and reports are retained in a new persistent private audit. The subprocess used network-disabled bubblewrap, read-only source/host root, private literal /tmp, isolated home/JDK/Maven/cache, no DISPLAY or credential environment. No filters or source/test edits were made; all 300 prepared product files remain exact.\n\nAccepted-main coverage run 37532420467 attempt 2 / job 112557881933 also completed SUCCESS with report and upload steps successful. Its native raw log and artifact 11451592786 are freshly retained. LCOV matches the new local report. Codecov has one different positive hit counter (domain/ecs/parallel.clj line 37: local 1,406 / hosted 2,219); separate hashes and the complete comparison remain visible.\n\nProposed deliberate decision: retain the successful workflow and fail closed on deterministic execution failures under applicable PR-flow admission; keep percentages as reporting without introducing an unreviewed threshold. Current strict upstream protection requires analyze (App 15368); this evidence slice changes no settings and does not claim coverage already is a protected required context. Adding that context or a numeric threshold requires separate reviewed activation. The original third criterion remains visible for owner review of this explicit proposal.\n\nThe formerly observed local run and unpublished 5c5 candidate remain unavailable; these are NEW local and newly retrieved HOSTED observations, not reconstructed old bytes. No previous authorized comment had executed in this agent's retained history, and no old event is invented. READY/estimate 2/all original task text remain unchanged. Sync, dump isolation, hydro and review qualification remain separate. This evidence comment does not transition the task or mark its checklist complete.\n",
+      "--config",
+      "/home/err/.codex/parallel-goal/truth-coverage-evidence-source-20261007-nhefrfek/worktree/openhax.kanban.json"
+    ],
+    "cwd": "/home/err/.codex/parallel-goal/truth-coverage-evidence-source-20261007-nhefrfek/worktree",
+    "at": "2026-10-07T01:09:12.401143+00:00",
+    "exit": 0,
+    "stdout": {
+      "capture": "native-add-evidence-comment.stdout.b64",
+      "bytes": 2408,
+      "sha256": "1b4d8ad6a8d5d508d710cbce3c7390d31d57ad9cb003ccf83b53592f6ace88a4"
+    },
+    "stderr": {
+      "capture": "native-add-evidence-comment.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "native-task-after",
+    "command": [
+      "timeout",
+      "30",
+      "env",
+      "-u",
+      "KANBAN_CONFIG",
+      "XDG_CACHE_HOME=/home/err/.codex/parallel-goal/truth-coverage-evidence-source-20261007-nhefrfek/cache",
+      "TMPDIR=/home/err/.codex/parallel-goal/truth-coverage-evidence-source-20261007-nhefrfek/tmp",
+      "node",
+      "/home/err/.volta/tools/image/packages/eta-mu/lib/node_modules/eta-mu/node_modules/@eta-mu/rheos/dist/cli.cjs",
+      "read-task",
+      "ci-coverage-workflow-broken",
+      "--config",
+      "/home/err/.codex/parallel-goal/truth-coverage-evidence-source-20261007-nhefrfek/worktree/openhax.kanban.json"
+    ],
+    "cwd": "/home/err/.codex/parallel-goal/truth-coverage-evidence-source-20261007-nhefrfek/worktree",
+    "at": "2026-10-07T01:09:12.713564+00:00",
+    "exit": 0,
+    "stdout": {
+      "capture": "native-task-after.stdout.b64",
+      "bytes": 5178,
+      "sha256": "7a518109d7a043d06da594f974b0addcd1faa58c0527fb26bc606bf81b3985e2"
+    },
+    "stderr": {
+      "capture": "native-task-after.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "native-task-events-after",
+    "command": [
+      "timeout",
+      "30",
+      "env",
+      "-u",
+      "KANBAN_CONFIG",
+      "XDG_CACHE_HOME=/home/err/.codex/parallel-goal/truth-coverage-evidence-source-20261007-nhefrfek/cache",
+      "TMPDIR=/home/err/.codex/parallel-goal/truth-coverage-evidence-source-20261007-nhefrfek/tmp",
+      "node",
+      "/home/err/.volta/tools/image/packages/eta-mu/lib/node_modules/eta-mu/node_modules/@eta-mu/rheos/dist/cli.cjs",
+      "events",
+      "ci-coverage-workflow-broken",
+      "--limit",
+      "5",
+      "--config",
+      "/home/err/.codex/parallel-goal/truth-coverage-evidence-source-20261007-nhefrfek/worktree/openhax.kanban.json"
+    ],
+    "cwd": "/home/err/.codex/parallel-goal/truth-coverage-evidence-source-20261007-nhefrfek/worktree",
+    "at": "2026-10-07T01:09:13.041124+00:00",
+    "exit": 0,
+    "stdout": {
+      "capture": "native-task-events-after.stdout.b64",
+      "bytes": 240,
+      "sha256": "0d373c46b90b58a07c893e2b64ac1d9f623d06dfca17decffc11ff985a5421bb"
+    },
+    "stderr": {
+      "capture": "native-task-events-after.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "append-source-decision",
+    "command": [
+      "timeout",
+      "45",
+      "/home/err/.codex/parallel-goal/personal-root-20261006/pr116-admission-runtime/node-runtime/node_modules/.bin/nbb",
+      "-cp",
+      "/home/err/.codex/parallel-goal/truth-coverage-evidence-source-20261007-nhefrfek/receipt-runtime",
+      "/home/err/.codex/parallel-goal/truth-coverage-evidence-source-20261007-nhefrfek/worktree/.\u03b7\u03bc/verification/truth-coverage-admission-evidence/append-source-receipt.cljs",
+      "/home/err/.codex/parallel-goal/truth-coverage-evidence-source-20261007-nhefrfek/worktree"
+    ],
+    "cwd": "/home/err/.codex/parallel-goal/truth-coverage-evidence-source-20261007-nhefrfek",
+    "at": "2026-10-07T01:11:12.056967+00:00",
+    "exit": 0,
+    "stdout": {
+      "capture": "append-source-decision.stdout.b64",
+      "bytes": 45,
+      "sha256": "346fcf702e48c7ed02f2a85a305e72ac7c0c4eaeabacb1d6e55426b060fc8146"
+    },
+    "stderr": {
+      "capture": "append-source-decision.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "source-receipt-precommit",
+    "command": [
+      "timeout",
+      "45",
+      "/home/err/.codex/parallel-goal/personal-root-20261006/pr116-admission-runtime/node-runtime/node_modules/.bin/nbb",
+      "-cp",
+      "/home/err/.codex/parallel-goal/truth-coverage-evidence-source-20261007-nhefrfek/receipt-runtime",
+      "/home/err/.codex/parallel-goal/truth-coverage-evidence-source-20261007-nhefrfek/worktree/.\u03b7\u03bc/verification/truth-coverage-admission-evidence/validate-receipts.cljs",
+      "/home/err/.codex/parallel-goal/truth-coverage-evidence-source-20261007-nhefrfek/worktree",
+      "WORKTREE",
+      "b239e6bf1a43fcce64ccebf9234b0a1ff0734be1",
+      "1"
+    ],
+    "cwd": "/home/err/.codex/parallel-goal/truth-coverage-evidence-source-20261007-nhefrfek",
+    "at": "2026-10-07T01:11:12.524373+00:00",
+    "exit": 0,
+    "stdout": {
+      "capture": "source-receipt-precommit.stdout.b64",
+      "bytes": 369,
+      "sha256": "a2796c020c67fb0176c1c50700b8cffc03dcefef998649a300de7426a8e3b8e1"
+    },
+    "stderr": {
+      "capture": "source-receipt-precommit.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+]

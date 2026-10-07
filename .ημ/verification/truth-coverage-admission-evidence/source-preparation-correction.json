@@ -1,0 +1,6 @@
+{
+  "observed_failure": "git add refused new docs/notes/truth-coverage-admission-decision.md outside own sparse definition",
+  "effect": "Native comment and one valid receipt alreadyexecuted; no retryof either. Other explicitpaths mayalreadybe staged.",
+  "repair": "Use git add --sparse for exact ownedpathscope; no source/runtime/history rewrite.",
+  "new_issue_required": false
+}

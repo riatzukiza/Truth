@@ -1,0 +1,23 @@
+{
+  "artifact_id": 11451592786,
+  "run": 37532420467,
+  "attempt": 2,
+  "job": 112557881933,
+  "source": "58b0fd91ea65b7a4b3a1f571f22f3d394374a871",
+  "retained_at": "2026-10-07T01:00:52.189306+00:00",
+  "provenance": "Fresh GitHub hosted artifact retrieval, not original local report recovery or fabricated bytes. Earlier local hashes from retained conversation only.",
+  "files": [
+    {
+      "path": "codecov.json",
+      "bytes": 178193,
+      "sha256": "25ac0099e5d4cb8366225ee2fe1a8484a70f7e73c63fe91abe97cadefa04b94f",
+      "equals_previously_recorded_local_hash": true
+    },
+    {
+      "path": "lcov.info",
+      "bytes": 145123,
+      "sha256": "af0d3a4098b09597256e39982b1f663a3ae3def70b605c2ecc5761b1d4754eca",
+      "equals_previously_recorded_local_hash": true
+    }
+  ]
+}

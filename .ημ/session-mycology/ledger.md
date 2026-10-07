@@ -323,3 +323,7 @@
   spore: none
   receipt-refs: truth-sync-local-provenance-20261006-83u16qs3
   note: Preserve all accepted ancestry and identities with sparse metadata preparation; distinguish object preservation from content review, and terminal sync purpose from activation. Network failures remain visible; no source/board writes or published qualification.
+
+## Native coverage evidence comment — 2026-10-07
+
+Efficiency0.85 / friction0.55 / skill-candidate0.4. Verify the actual installed owner command surface rather than substitute a lost compiled artifact. Native commentary preserves the original body and field values while the engine owns serialization/write-id and one append-only event; do not restore presentation by hand or claim raw card prefix identity. New whole-run bytes have fresh provenance, distinct from missing former evidence. No skill promotion or global mutation.

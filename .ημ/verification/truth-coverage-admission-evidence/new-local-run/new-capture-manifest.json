@@ -1,0 +1,286 @@
+[
+  {
+    "label": "coverage-native-protection",
+    "command": [
+      "timeout",
+      "45",
+      "env",
+      "-u",
+      "GH_TOKEN",
+      "-u",
+      "GITHUB_TOKEN",
+      "gh",
+      "api",
+      "repos/octave-commons/Truth/branches/main/protection"
+    ],
+    "cwd": "/home/err/.codex/parallel-goal/foresight-prs-truth-recovery-20261006-ve63vqf3",
+    "at": "2026-10-07T00:59:30.439445+00:00",
+    "exit": 0,
+    "stdout": {
+      "capture": "coverage-native-protection.stdout.b64",
+      "bytes": 980,
+      "sha256": "42d657f6f560b4746209fdb69f280b11ff72cff53e5be7f97558a9dcb8c8a523"
+    },
+    "stderr": {
+      "capture": "coverage-native-protection.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "coverage-native-required-contexts",
+    "command": [
+      "timeout",
+      "45",
+      "env",
+      "-u",
+      "GH_TOKEN",
+      "-u",
+      "GITHUB_TOKEN",
+      "gh",
+      "api",
+      "repos/octave-commons/Truth/branches/main/protection/required_status_checks"
+    ],
+    "cwd": "/home/err/.codex/parallel-goal/foresight-prs-truth-recovery-20261006-ve63vqf3",
+    "at": "2026-10-07T00:59:30.433988+00:00",
+    "exit": 0,
+    "stdout": {
+      "capture": "coverage-native-required-contexts.stdout.b64",
+      "bytes": 316,
+      "sha256": "1f6459493868f9a5a3c5a5b219b366a93204640e492ddddda07c3835bc95b1f4"
+    },
+    "stderr": {
+      "capture": "coverage-native-required-contexts.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "coverage-native-rules",
+    "command": [
+      "timeout",
+      "45",
+      "env",
+      "-u",
+      "GH_TOKEN",
+      "-u",
+      "GITHUB_TOKEN",
+      "gh",
+      "api",
+      "repos/octave-commons/Truth/rules/branches/main"
+    ],
+    "cwd": "/home/err/.codex/parallel-goal/foresight-prs-truth-recovery-20261006-ve63vqf3",
+    "at": "2026-10-07T00:59:31.238902+00:00",
+    "exit": 0,
+    "stdout": {
+      "capture": "coverage-native-rules.stdout.b64",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "stderr": {
+      "capture": "coverage-native-rules.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "coverage-native-artifacts",
+    "command": [
+      "timeout",
+      "45",
+      "env",
+      "-u",
+      "GH_TOKEN",
+      "-u",
+      "GITHUB_TOKEN",
+      "gh",
+      "api",
+      "repos/octave-commons/Truth/actions/runs/37532420467/artifacts"
+    ],
+    "cwd": "/home/err/.codex/parallel-goal/foresight-prs-truth-recovery-20261006-ve63vqf3",
+    "at": "2026-10-07T00:59:31.251412+00:00",
+    "exit": 0,
+    "stdout": {
+      "capture": "coverage-native-artifacts.stdout.b64",
+      "bytes": 707,
+      "sha256": "8a68126ded858a1422840ce12106a9af68593d6f80334aa593e36b48c7ad00d6"
+    },
+    "stderr": {
+      "capture": "coverage-native-artifacts.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "hosted-coverage-artifact-retrieve",
+    "command": [
+      "timeout",
+      "60",
+      "env",
+      "-u",
+      "GH_TOKEN",
+      "-u",
+      "GITHUB_TOKEN",
+      "gh",
+      "run",
+      "download",
+      "37532420467",
+      "--repo",
+      "octave-commons/Truth",
+      "--name",
+      "coverage",
+      "--dir",
+      "/home/err/.codex/parallel-goal/foresight-prs-truth-recovery-20261006-ve63vqf3/hosted-coverage-artifact"
+    ],
+    "cwd": "/home/err/.codex/worktrees/cc59/foresight",
+    "at": "2026-10-07T01:00:41.618278+00:00",
+    "exit": 0,
+    "stdout": {
+      "capture": "hosted-coverage-artifact-retrieve.stdout.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stderr": {
+      "capture": "hosted-coverage-artifact-retrieve.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "coverage-whole-new-run",
+    "command": [
+      "timeout",
+      "1200",
+      "bwrap",
+      "--die-with-parent",
+      "--new-session",
+      "--unshare-all",
+      "--ro-bind",
+      "/",
+      "/",
+      "--tmpfs",
+      "/home",
+      "--ro-bind",
+      "/home/err/.codex/parallel-goal/foresight-prs-truth-recovery-20261006-ve63vqf3",
+      "/home/err/.codex/parallel-goal/foresight-prs-truth-recovery-20261006-ve63vqf3",
+      "--bind",
+      "/home/err/.codex/parallel-goal/foresight-prs-truth-recovery-20261006-ve63vqf3/coverage-runtime-home",
+      "/home/recovery",
+      "--bind",
+      "/home/err/.codex/parallel-goal/foresight-prs-truth-recovery-20261006-ve63vqf3/coverage-private-tmp",
+      "/tmp",
+      "--tmpfs",
+      "/run",
+      "--tmpfs",
+      "/root",
+      "--proc",
+      "/proc",
+      "--dev",
+      "/dev",
+      "--ro-bind",
+      "/home/err/.codex/parallel-goal/foresight-prs-truth-recovery-20261006-ve63vqf3/coverage-worktree",
+      "/home/err/.codex/parallel-goal/foresight-prs-truth-recovery-20261006-ve63vqf3/coverage-worktree",
+      "--bind",
+      "/home/err/.codex/parallel-goal/foresight-prs-truth-recovery-20261006-ve63vqf3/coverage-worktree/target",
+      "/home/err/.codex/parallel-goal/foresight-prs-truth-recovery-20261006-ve63vqf3/coverage-worktree/target",
+      "--bind",
+      "/home/err/.codex/parallel-goal/foresight-prs-truth-recovery-20261006-ve63vqf3/coverage-worktree/.cpcache",
+      "/home/err/.codex/parallel-goal/foresight-prs-truth-recovery-20261006-ve63vqf3/coverage-worktree/.cpcache",
+      "--clearenv",
+      "--setenv",
+      "PATH",
+      "/usr/local/bin:/usr/bin:/bin",
+      "--setenv",
+      "HOME",
+      "/home/recovery",
+      "--setenv",
+      "JAVA_HOME",
+      "/home/err/.codex/parallel-goal/foresight-prs-truth-recovery-20261006-ve63vqf3/coverage-jdk",
+      "--setenv",
+      "JAVA_TOOL_OPTIONS",
+      "-Duser.home=/home/recovery -Xmx768m -XX:ActiveProcessorCount=2",
+      "--setenv",
+      "CLJ_CONFIG",
+      "/home/recovery/.clojure",
+      "--setenv",
+      "XDG_CACHE_HOME",
+      "/home/recovery/.cache",
+      "--setenv",
+      "TMPDIR",
+      "/tmp",
+      "--setenv",
+      "LANG",
+      "C.UTF-8",
+      "--chdir",
+      "/home/err/.codex/parallel-goal/foresight-prs-truth-recovery-20261006-ve63vqf3/coverage-worktree",
+      "bin/coverage",
+      "--text"
+    ],
+    "cwd": "/home/err/.codex/parallel-goal/foresight-prs-truth-recovery-20261006-ve63vqf3",
+    "at": "2026-10-07T00:58:32.388218+00:00",
+    "exit": 0,
+    "stdout": {
+      "capture": "coverage-whole-new-run.stdout.b64",
+      "bytes": 31913,
+      "sha256": "53b16715ac0d9eaf4d1dfe4317cfc2f3b1a56a44d8fc186abdbb815c47f0c2f1"
+    },
+    "stderr": {
+      "capture": "coverage-whole-new-run.stderr.b64",
+      "bytes": 3260,
+      "sha256": "d0b9b79ac293a9b3c42152679937eccd5c81dba0b13ae9f476fcd5d1820841eb"
+    }
+  },
+  {
+    "label": "append-new-run-receipt",
+    "command": [
+      "timeout",
+      "45",
+      "/home/err/.codex/parallel-goal/personal-root-20261006/pr116-admission-runtime/node-runtime/node_modules/.bin/nbb",
+      "-cp",
+      "/home/err/.codex/parallel-goal/foresight-prs-truth-recovery-20261006-ve63vqf3/receipt-runtime",
+      "/home/err/.codex/parallel-goal/foresight-prs-truth-recovery-20261006-ve63vqf3/audit-worktree/.\u03b7\u03bc/verification/truth-coverage-new-local-run/append-new-run-receipt.cljs",
+      "/home/err/.codex/parallel-goal/foresight-prs-truth-recovery-20261006-ve63vqf3/audit-worktree"
+    ],
+    "cwd": "/home/err/.codex/parallel-goal/foresight-prs-truth-recovery-20261006-ve63vqf3",
+    "at": "2026-10-07T01:06:53.058724+00:00",
+    "exit": 0,
+    "stdout": {
+      "capture": "append-new-run-receipt.stdout.b64",
+      "bytes": 57,
+      "sha256": "76e02a8458d13c78bed4f9a83e943bf487152ea3a00fa717bb11c0ee2354dd0c"
+    },
+    "stderr": {
+      "capture": "append-new-run-receipt.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "new-run-receipts-precommit",
+    "command": [
+      "timeout",
+      "45",
+      "/home/err/.codex/parallel-goal/personal-root-20261006/pr116-admission-runtime/node-runtime/node_modules/.bin/nbb",
+      "-cp",
+      "/home/err/.codex/parallel-goal/foresight-prs-truth-recovery-20261006-ve63vqf3/receipt-runtime",
+      "/home/err/.codex/parallel-goal/foresight-prs-truth-recovery-20261006-ve63vqf3/audit-worktree/.\u03b7\u03bc/verification/truth-coverage-filesystem-recovery/validate-receipts.cljs",
+      "/home/err/.codex/parallel-goal/foresight-prs-truth-recovery-20261006-ve63vqf3/audit-worktree",
+      "WORKTREE",
+      "b239e6bf1a43fcce64ccebf9234b0a1ff0734be1",
+      "2"
+    ],
+    "cwd": "/home/err/.codex/parallel-goal/foresight-prs-truth-recovery-20261006-ve63vqf3",
+    "at": "2026-10-07T01:06:53.280193+00:00",
+    "exit": 0,
+    "stdout": {
+      "capture": "new-run-receipts-precommit.stdout.b64",
+      "bytes": 574,
+      "sha256": "5162c18f373bb0305582c97867cf3b18dca6dc72367eea09fc7b94171b9b8204"
+    },
+    "stderr": {
+      "capture": "new-run-receipts-precommit.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+]

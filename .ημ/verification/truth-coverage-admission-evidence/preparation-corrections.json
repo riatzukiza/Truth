@@ -1,0 +1,8 @@
+{
+  "append_helper_first_exit": 1,
+  "effect": "One valid observation row428 appended before trailing delimiter parse failure; verified canonicalconsumer exactlyone append; never reran append. Original failing helper text retained as.txt; helper delimiter corrected only. No historical rows edited.",
+  "sandbox_first_exit": 1,
+  "cause": "Owned sandbox mount preparation attempted nonexisting/home/recovery under RO/home; corrected tmpfs/home mount. Not a product bug or evidence of unisolated execution.",
+  "raw_capture_count": 39,
+  "strict_streams": 78
+}
