@@ -1,0 +1,45 @@
+{
+  "transport_count": 47,
+  "strict_unwrapped_terminal_LF": true,
+  "all_sizes_hashes_and_reencoding_equal": true,
+  "native_structural_comparisons": [
+    {
+      "capture": "native-pr.redacted.json.b64",
+      "structural_expected_equality": true,
+      "ids_head_state_keys_cardinality_preserved": true,
+      "raw_private_hash_size_verified": true
+    },
+    {
+      "capture": "native-reviews.redacted.json.b64",
+      "structural_expected_equality": true,
+      "ids_head_state_keys_cardinality_preserved": true,
+      "raw_private_hash_size_verified": true
+    },
+    {
+      "capture": "native-inlines.redacted.json.b64",
+      "structural_expected_equality": true,
+      "ids_head_state_keys_cardinality_preserved": true,
+      "raw_private_hash_size_verified": true
+    },
+    {
+      "capture": "native-risk.redacted.json.b64",
+      "structural_expected_equality": true,
+      "ids_head_state_keys_cardinality_preserved": true,
+      "raw_private_hash_size_verified": true
+    },
+    {
+      "capture": "native-threads.redacted.json.b64",
+      "structural_expected_equality": true,
+      "ids_head_state_keys_cardinality_preserved": true,
+      "raw_private_hash_size_verified": true
+    },
+    {
+      "capture": "new-source-base-native-guard.redacted.json.b64",
+      "structural_expected_equality": true,
+      "ids_head_state_keys_cardinality_preserved": true,
+      "raw_private_hash_size_verified": true
+    }
+  ],
+  "opaque_tokens_excluded": true,
+  "original_raw_sources_remain_private": true
+}
