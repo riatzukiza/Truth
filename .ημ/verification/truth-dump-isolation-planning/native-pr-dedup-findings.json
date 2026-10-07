@@ -1,0 +1,24 @@
+{
+  "all_open_prs": 17,
+  "captured_at_intake": "priorfresh17 scope, no adoption",
+  "hits": [
+    {
+      "pr": 19,
+      "head": "b402939931575e377ae4409d9cd4061dff11df06",
+      "body_matches": [],
+      "overlap": [
+        "src/infra/dev/window/loop.clj"
+      ]
+    },
+    {
+      "pr": 15,
+      "head": "7f0f2b3fe65f91c2dc1305bcf3a02a3c7ef18cc1",
+      "body_matches": [
+        "The real production line pass draws pixels but emits `GL_INVALID_VALUE` in the game's forward-compatible OpenGL core context because it requests `glLineWidth 1.5`. This repair explicitly requests the supported width `1.0`. Context hints, shader opacity, mesh upload, draw call and cleanup remain unchanged.",
+        "- A private-Xvfb regression creates the production forward-compatible context, compiles the real line shader and invokes the actual line pass. Both ordinary/default-opacity and fading-opacity lines must produce framebuffer pixels without GL errors. Cleanup releases GL and GLFW resources; no public test-only API is added."
+      ],
+      "overlap": []
+    }
+  ],
+  "exact_isolation_scope_found": false
+}

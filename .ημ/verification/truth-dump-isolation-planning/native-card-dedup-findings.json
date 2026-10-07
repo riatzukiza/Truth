@@ -1,0 +1,388 @@
+{
+  "full_bodies_read": 159,
+  "query": "literal/shared error-dump paths/cleanup/per-run",
+  "matches": [
+    {
+      "uuid": "epic-static-analysis-cleanup",
+      "matches": [
+        "# Epic: Static Analysis Cleanup",
+        "- `kanban/tasks/static-analysis-clj-kondo-cleanup.md` \u2014 shadowed vars, unused bindings, unresolved requires, docstrings",
+        "- `kanban/tasks/static-analysis-splint-idiom-cleanup.md` \u2014 `clojure.math`, `condp`, `inc`/`dec`, idiomatic forms",
+        "- `kanban/tasks/static-analysis-structural-cleanup.md` \u2014 god namespaces, mega-functions, parameter bloat, fan-out, undocumented public fns",
+        "- `kanban/tasks/static-analysis-dead-code-cleanup.md` \u2014 unused public vars, genuine dead code, false positives",
+        "- `kanban/tasks/spec-cljfmt-formatting-cleanup.md` \u2014 formatting consistency across `src` and `test`",
+        "3. **Architecture tests remain authoritative.** No cleanup may relax `test/architecture_test.clj` or introduce cross-quadrant imports.",
+        "### Phase C \u2014 Structural cleanup (M2)",
+        "| M2 \u2014 Structural cleanup | M1 | zero HARD structural breaches, zero undocumented public fns, tests green |",
+        "  Source: `kanban/tasks/static-analysis-clj-kondo-cleanup.md`",
+        "  Source: `kanban/tasks/static-analysis-splint-idiom-cleanup.md`",
+        "  Source: `kanban/tasks/static-analysis-structural-cleanup.md`",
+        "  Source: `kanban/tasks/static-analysis-dead-code-cleanup.md`",
+        "  Source: `kanban/tasks/spec-cljfmt-formatting-cleanup.md`",
+        "1. Should the structural-smell thresholds be tightened (e.g., warn at 300 LOC) after the initial cleanup, or are the current thresholds the right long-term policy?  ",
+        "| `kanban/tasks/static-analysis-clj-kondo-cleanup.md` | Open | 13 | 147 findings across 47 files; hot-path namespaces require careful review. |",
+        "| `kanban/tasks/static-analysis-splint-idiom-cleanup.md` | Open | 13 | 404 warnings across 54 files; high-volume but mechanical; needs numeric/semantic verification. |",
+        "| `kanban/tasks/static-analysis-structural-cleanup.md` | Open | 21 | Namespace splits, mega-function decomposition, 81 docstrings; highest risk and review load. |",
+        "| `kanban/tasks/static-analysis-dead-code-cleanup.md` | Open | 15 | 157 unused vars; per-var triage with `rg` and API-surface decisions; split into four \u22645-point sub-tasks. |",
+        "| `kanban/tasks/spec-cljfmt-formatting-cleanup.md` | Open | 2 | Single formatting pass; dependent on other mechanical passes. |",
+        "Triage 2026-07-10 progress (bin/analyze ground truth): DONE \u2014 clj-kondo 0/0 (all 6 kondo cards), structural 0 HARD/0 undoc (structural-cleanup, decompose-mega, document-privatize, rationalize-genesis, split-stellar-disc-wind), jscpd reporting fixed. REMAINING \u2014 splint 18 warnings (~1-2pt, over-fragmented across 6 cards), dead-code 312 unused-public-var (suppress-vs-delete triage, the big one), cljfmt 7 files (~2pt, now Ready), then final-validation/final-gate capstones. Epic is ~80% done by card count.",
+        "Owner decision 2026-07-24: the regressed children (`static-analysis-clj-kondo-*` \u00d76, `-decompose-mega-functions`, `-structural-cleanup`, `-split-stellar-core`) **stay `done` as history**; new cards carry the work. See `kanban/tasks/static-analysis-regression-2026-07-24.md` for the full breakdown and the thirteen children."
+      ]
+    },
+    {
+      "uuid": "phase-0-renderer-asset-organization-spec",
+      "matches": [
+        "    asset.clj             ; resource cache, creation, hot-reload, cleanup",
+        "5. **Cleanup** \u2014 `dispose-asset!` and `dispose-all!` for graceful GL teardown."
+      ]
+    },
+    {
+      "uuid": "static-analysis-final-validation",
+      "matches": [
+        "# Final Validation and Gating for Structural Cleanup",
+        "> Parent spec: `kanban/tasks/static-analysis-structural-cleanup.md`",
+        "> Parent kanban: `kanban/tasks/static-analysis-structural-cleanup.md`",
+        "Run the final validation gate for the structural cleanup. Ensure all child tasks have driven the structural-smell findings to zero and that architecture invariants still hold.",
+        "- Run `bin/bench` on any hot paths touched by the child tasks and compare against the pre-cleanup baseline.",
+        "Triage 2026-07-22 (Claude, decision from Aaron): KEEP the full zero-warning bar. bin/analyze --strict already passes, but this capstone stays BLOCKED until splint warnings, dead-code findings, and cljfmt files all reach zero. NOTE the tension to resolve: the 5 splint sub-cards (arithmetic-control, math, naming-structure, predicate-test-collections, final-gate) were all REJECTED, so reaching zero splint requires reviving that cluster. Follow-up needed: re-open or re-scope the splint work; this card cannot close while splint=18. Remaining ready cards that feed this gate: dead-code (domain-infra, ecs-components, law-schemas, tooling-dsl), cljfmt-cleanup, splint-idiom-cleanup."
+      ]
+    },
+    {
+      "uuid": "focus-follows-pilot",
+      "matches": [
+        "`epic-static-analysis-cleanup` (which documents this exact baseline). Not"
+      ]
+    },
+    {
+      "uuid": "voxel-sculpt-verb-palette-wiring",
+      "matches": [
+        "in unrelated namespaces, owned by `epic-static-analysis-cleanup`. Not caused"
+      ]
+    },
+    {
+      "uuid": "protoplanetary-disk-and-planet-formation-spec",
+      "matches": [
+        "**Also in M3 (disk-side cleanups, task cards):**"
+      ]
+    },
+    {
+      "uuid": "static-analysis-decompose-mega-functions",
+      "matches": [
+        "> Parent spec: `kanban/tasks/static-analysis-structural-cleanup.md`",
+        "> Parent kanban: `kanban/tasks/static-analysis-structural-cleanup.md`"
+      ]
+    },
+    {
+      "uuid": "static-analysis-document-privatize",
+      "matches": [
+        "> Parent spec: `kanban/tasks/static-analysis-structural-cleanup.md`",
+        "> Parent kanban: `kanban/tasks/static-analysis-structural-cleanup.md`"
+      ]
+    },
+    {
+      "uuid": "phase-0-player-focus-b-focus-zone-system",
+      "matches": [
+        "Complete + independently verified 2026-07-22 (resumed session, Claude session c9f1a749 died on API limit mid-cleanup). focus-zone-test 5 tests green; full suite 669/13536 (was 664/13519) 0 failures; architecture-test green; write-conflicts {} \u2014 :focus-zone is sole writer of field-zone/statistical-mass/spawn-request-promotion/consumed-demote. Landed: one combined promotion+demotion fan-out emitter in domain.genesis.promotion; promotion emits spawn-request-promotion spec (full cell mass/velocity/L) + debits cell ledger to 0.0 same write-set; demotion folds withdrawn clump mass+velocity+L back into source cell and marks consumed-demote; same-tick threshold events block demotion (delay preserved); no c/matter-state writes. in_progress -> done. Unblocks child C (conservation tests)."
+      ]
+    },
+    {
+      "uuid": "static-analysis-rationalize-genesis",
+      "matches": [
+        "> Parent spec: `kanban/tasks/static-analysis-structural-cleanup.md`",
+        "> Parent kanban: `kanban/tasks/static-analysis-structural-cleanup.md`"
+      ]
+    },
+    {
+      "uuid": "spec-cljfmt-formatting-cleanup",
+      "matches": [
+        "# Spec: cljfmt Formatting Cleanup",
+        "**Parent epic:** `kanban/tasks/epic-static-analysis-cleanup.md` (Phase B \u2014 M1)  ",
+        "Triage 2026-07-24 \u2014 SUPERSEDED by `kanban/tasks/static-analysis-cljfmt-2026-07.md`. This card's \"only 2 files\" rationale is three revisions stale: `clojure -M:cljfmt check src test` now fails on **24 files**. It also duplicates `static-analysis-cljfmt-cleanup.md` (which states 7). Both folded into the one successor, which additionally sequences the pass LAST \u2014 8 of the 24 files are rewritten by the Wave 1-3 work, so formatting first only creates churn.",
+        "Duplicate of `kanban/tasks/static-analysis-cljfmt-cleanup.md`; both folded into"
+      ]
+    },
+    {
+      "uuid": "spec-fix-jscpd-reporting-in-bin-analyze",
+      "matches": [
+        "**Parent epic:** `kanban/tasks/epic-static-analysis-cleanup.md` (Phase A \u2014 M0 Tooling honesty)  "
+      ]
+    },
+    {
+      "uuid": "static-analysis-split-stellar-core",
+      "matches": [
+        "> Parent spec: `kanban/tasks/static-analysis-structural-cleanup.md`",
+        "> Parent kanban: `kanban/tasks/static-analysis-structural-cleanup.md`"
+      ]
+    },
+    {
+      "uuid": "static-analysis-split-stellar-disc-wind",
+      "matches": [
+        "> Parent spec: `kanban/tasks/static-analysis-structural-cleanup.md`",
+        "> Parent kanban: `kanban/tasks/static-analysis-structural-cleanup.md`"
+      ]
+    },
+    {
+      "uuid": "static-analysis-split-render",
+      "matches": [
+        "> Parent spec: `kanban/tasks/static-analysis-structural-cleanup.md`",
+        "> Parent kanban: `kanban/tasks/static-analysis-structural-cleanup.md`"
+      ]
+    },
+    {
+      "uuid": "static-analysis-structural-cleanup",
+      "matches": [
+        "# Spec: Structural Cleanup (Static Analysis)",
+        "**Parent epic:** `kanban/tasks/epic-static-analysis-cleanup.md` (Phase C \u2014 M2 Structural cleanup)  ",
+        "Grouped by namespace. The full list is reproduced here so the cleanup can be tracked to completion.",
+        "If a future split is desired, the alternative would be `domain.ecs.components.*` sub-modules. That is out of scope for this cleanup and is left as an open question in \u00a78.",
+        "The split must respect the quadrant law and the single-substrate invariant. The following boundaries are proposed as the target state after the cleanup.",
+        "No new `src/domain/ecs/components/*.clj` files are introduced as part of this cleanup. A future architecture review may decide to split the vocabulary, but that is a separate, higher-risk change with its own spec.",
+        "This work belongs to the parent epic's **M2 \u2014 Structural cleanup**. It should be executed as a series of small PRs, one namespace or one function at a time, with full test runs after each.",
+        "- [ ] Every public function that existed before the cleanup either (a) has a docstring, (b) is marked `^:private`, or (c) has a `^:deprecated` alias in the old namespace pointing to the new location.",
+        "- [ ] If a hot-path namespace was touched, `bin/bench` shows no regression vs. the pre-cleanup baseline.",
+        "| **Test namespaces remain oversized** | Low | Test namespaces are tracked but may be allowed larger thresholds. If test files grow, consider splitting them by topic, but do not block the main cleanup on test files. |",
+        "3. Should `dev/smell_report.clj` thresholds be tightened after this cleanup (e.g., warn at 400 LOC / 40 vars), or are the current thresholds the right long-term policy?",
+        "- **Architecture invariants:** Every change must keep `domain/` free of `infra/` imports, keep `domain.genesis` as the sole Phase 0 bootstrapper, and keep exactly one renderer. This adds verification overhead to each phase but prevents the cleanup from creating a second reality.",
+        "| **Total** | **21** | Fits the 21-story-point Fibonacci bucket for a bounded, multi-PR structural cleanup. |",
+        "This estimate assumes no new feature work is added to the touched namespaces during the cleanup and that the project accepts the `domain.ecs.components` vocabulary exception.",
+        "| `static-analysis-final-validation` | Final Validation and Gating for Structural Cleanup | 1 | Strict analysis, tests, bench, docs; P2. |"
+      ]
+    },
+    {
+      "uuid": "static-analysis-regression-2026-07-24",
+      "matches": [
+        "> Parent: `kanban/tasks/epic-static-analysis-cleanup.md`",
+        "`epic-static-analysis-cleanup.md`'s triage footer records that on **2026-07-10**",
+        "- `epic-static-analysis-cleanup.md` \u2014 the 2026-07-10 triage footer is now false;",
+        "- `static-analysis-dead-code-cleanup.md` \u00a71 \u2014 says 157 findings; actual is 353.",
+        "  `static-analysis-splint-idiom-cleanup.md` is `ready` and still owns the work.",
+        "- Duplicate cljfmt cards: `static-analysis-cljfmt-cleanup.md` (`ready`) and",
+        "  `spec-cljfmt-formatting-cleanup.md` (`todo`) are the same work.",
+        "- `-dead-code-cleanup` \u2192 `done`, with both stale claims corrected (157 was really 353;",
+        "- Duplicate cljfmt cards (`-cljfmt-cleanup`, `spec-cljfmt-formatting-cleanup`) folded",
+        "- `-splint-idiom-cleanup` \u2192 `done`/superseded; the four `rejected` Splint cards"
+      ]
+    },
+    {
+      "uuid": "static-analysis-ratchet-branch-protection",
+      "matches": [
+        "goes red on the cleanup PR itself."
+      ]
+    },
+    {
+      "uuid": "static-analysis-jscpd-src-extractions",
+      "matches": [
+        "  cleanup sequence. Extract `draw-hud-tris!`."
+      ]
+    },
+    {
+      "uuid": "static-analysis-facade-prune",
+      "matches": [
+        "### Cascade cleanup"
+      ]
+    },
+    {
+      "uuid": "static-analysis-lsp-config-dead-vars",
+      "matches": [
+        "> Corrects: `kanban/tasks/static-analysis-dead-code-cleanup.md` \u00a71 (says 157;"
+      ]
+    },
+    {
+      "uuid": "static-analysis-clj-kondo-correctness",
+      "matches": [
+        "> Parent spec: `kanban/tasks/static-analysis-clj-kondo-cleanup.md`  ",
+        "> Parent kanban: `kanban/tasks/static-analysis-clj-kondo-cleanup.md`"
+      ]
+    },
+    {
+      "uuid": "static-analysis-clj-kondo-dead-code",
+      "matches": [
+        "> Parent spec: `kanban/tasks/static-analysis-clj-kondo-cleanup.md`  ",
+        "> Parent kanban: `kanban/tasks/static-analysis-clj-kondo-cleanup.md`"
+      ]
+    },
+    {
+      "uuid": "static-analysis-clj-kondo-verification",
+      "matches": [
+        "> Parent spec: `kanban/tasks/static-analysis-clj-kondo-cleanup.md`  ",
+        "> Parent kanban: `kanban/tasks/static-analysis-clj-kondo-cleanup.md`",
+        "- Update the suppression inventory table in `kanban/tasks/static-analysis-clj-kondo-cleanup.md`."
+      ]
+    },
+    {
+      "uuid": "static-analysis-clj-kondo-shadowed-vars",
+      "matches": [
+        "# clj-kondo: Shadowed Vars & Idiom Cleanup",
+        "> Parent spec: `kanban/tasks/static-analysis-clj-kondo-cleanup.md`  ",
+        "> Parent kanban: `kanban/tasks/static-analysis-clj-kondo-cleanup.md`",
+        "Perform the most invasive local-rename pass after the tree is otherwise stable, plus small idiom cleanups."
+      ]
+    },
+    {
+      "uuid": "static-analysis-clj-kondo-unused-bindings",
+      "matches": [
+        "# clj-kondo: Unused Bindings & Values Cleanup",
+        "> Parent spec: `kanban/tasks/static-analysis-clj-kondo-cleanup.md`  ",
+        "> Parent kanban: `kanban/tasks/static-analysis-clj-kondo-cleanup.md`"
+      ]
+    },
+    {
+      "uuid": "static-analysis-cljfmt-cleanup",
+      "matches": [
+        "# cljfmt Formatting Cleanup",
+        "> Original spec: `kanban/tasks/spec-cljfmt-formatting-cleanup.md`",
+        "**Blocked by:** `static-analysis-clj-kondo-cleanup`, `static-analysis-splint-idiom-cleanup` (to avoid formatting churn on code that is about to change).",
+        "Triage 2026-07-24 \u2014 SUPERSEDED by `kanban/tasks/static-analysis-cljfmt-2026-07.md`. Two corrections: the count is **24 files, not 7** (regression since 2026-07-10), and this card is a **duplicate of `spec-cljfmt-formatting-cleanup.md`** (which states 2 files) \u2014 both describe the same single `bin/analyze --fix` pass. Folded into the one successor so a future reader does not run the pass twice against two stale counts. Critically, the successor also fixes the sequencing: at least 8 of the 24 files are rewritten by the Wave 1-3 structural/lint work, so the format pass must run LAST or it is pure churn.",
+        "This card and `spec-cljfmt-formatting-cleanup.md` described the SAME formatting pass"
+      ]
+    },
+    {
+      "uuid": "static-analysis-component-vocabulary-exception",
+      "matches": [
+        "> Parent spec: `kanban/tasks/static-analysis-structural-cleanup.md`",
+        "> Parent kanban: `kanban/tasks/static-analysis-structural-cleanup.md`"
+      ]
+    },
+    {
+      "uuid": "static-analysis-dead-code-cleanup",
+      "matches": [
+        "# Dead Code Audit: `clojure-lsp` unused-public-var cleanup",
+        "**Parent epic:** `kanban/tasks/epic-static-analysis-cleanup.md`  ",
+        "### Phase 5 \u2014 `domain.*` and `infra.*` cleanup (1\u20132 PRs)",
+        "**Goal:** Make the cleanup stick.",
+        "The cleanup is split into four self-contained sub-tasks, each small enough to be a focused PR or work session. Each sub-task is tracked by its own kanban card in `kanban/tasks/`.",
+        "| `static-analysis-dead-code-tooling-dsl` | Dead code cleanup: tooling baseline and test DSL suppressions | Phases 1\u20132: reproducible diagnostics, clj-kondo config, DSL-generated test var suppressions | 3 |",
+        "| `static-analysis-dead-code-ecs-components` | Dead code cleanup: ECS component future-facing vocabulary | Phase 3: keep/delete decisions for the 13 unused component keywords | 2 |",
+        "| `static-analysis-dead-code-law-schemas` | Dead code cleanup: law.* contracts and schemas | Phase 4: triage 67 law.* findings | 5 |",
+        "| `static-analysis-dead-code-domain-infra` | Dead code cleanup: domain.* and infra.* + final verification | Phases 5\u20136: remaining domain/infra findings, final docs, gating | 5 |",
+        "| Breaking the single-substrate architecture during cleanup | Run `test/architecture_test.clj` after every phase. Do not introduce `infra` imports into `domain`. |",
+        "Rationale: the cleanup touches **157 unused public vars across 30 namespaces**, so the volume alone makes this larger than a single sitting. Each var must be triaged into one of four buckets (delete, `^:private`, `^:api`, or DSL-generated suppression), and every deletion requires `rg` verification against downstream consumers in both `src/` and `test/`. The risk is elevated in `law.*` and `domain.*` namespaces where qualified cross-namespace usage is common, and in `domain.ecs.components` where future-phase vocabulary must be preserved rather than removed. The six-phase execution plan maps to four small PRs (Phases 1\u20132, 3, 4, and 5\u20136 combined), each requiring a full test run (`clojure -M:test`), architecture-test compliance (`test/architecture_test.clj`), and, for hot-path changes, a `bin/bench` check. That combination of breadth, per-item verification, and multi-PR verification overhead places the task in the upper-middle range of the Fibonacci scale. The point total is raised from 13 to 15 to match the phase-level effort breakdown and the four sub-tasks below."
+      ]
+    },
+    {
+      "uuid": "static-analysis-dead-code-domain-infra",
+      "matches": [
+        "# Dead code cleanup: domain.* and infra.* + final verification",
+        "Parent: `kanban/tasks/static-analysis-dead-code-cleanup.md` (dead-code epic)",
+        "Scope: Phases 5\u20136 of the dead-code cleanup spec."
+      ]
+    },
+    {
+      "uuid": "static-analysis-dead-code-ecs-components",
+      "matches": [
+        "# Dead code cleanup: ECS component future-facing vocabulary",
+        "Parent: `kanban/tasks/static-analysis-dead-code-cleanup.md` (dead-code epic)",
+        "Scope: Phase 3 of the dead-code cleanup spec."
+      ]
+    },
+    {
+      "uuid": "static-analysis-dead-code-law-schemas",
+      "matches": [
+        "# Dead code cleanup: law.* contracts and schemas",
+        "Parent: `kanban/tasks/static-analysis-dead-code-cleanup.md` (dead-code epic)",
+        "Scope: Phase 4 of the dead-code cleanup spec."
+      ]
+    },
+    {
+      "uuid": "static-analysis-dead-code-tooling-dsl",
+      "matches": [
+        "# Dead code cleanup: tooling baseline and test DSL suppressions",
+        "Parent: `kanban/tasks/static-analysis-dead-code-cleanup.md` (dead-code epic)",
+        "Scope: Phases 1\u20132 of the dead-code cleanup spec."
+      ]
+    },
+    {
+      "uuid": "static-analysis-clj-kondo-cleanup",
+      "matches": [
+        "# Spec: Static Analysis Cleanup \u2014 clj-kondo Mechanical Warnings",
+        "> **Parent epic:** `kanban/tasks/epic-static-analysis-cleanup.md`  ",
+        "This is a member spec of the *Static Analysis Cleanup* epic. It covers only the clj-kondo mechanical findings: shadowed vars, unused bindings, unresolved namespaces, misplaced docstrings, and related anti-patterns. Sibling specs handle Splint idioms, structural smells, dead code, jscpd, and cljfmt.",
+        "`clj-kondo` is the closest thing this project has to a compiler that catches real bugs: unresolved namespaces, redefined vars, shadowed core functions, and dead requires. With 147 findings, the signal is drowning in noise, and the next genuine error risks being missed. This spec makes the cleanup deterministic and reviewable.",
+        "### M1.4 \u2014 Shadowed vars & idiom cleanup",
+        "- [ ] No new warnings introduced in namespaces not touched by the cleanup.",
+        "2. Does `infra.render` need a separate structural cleanup PR before the mechanical fixes, or can they proceed in parallel?",
+        "- **Volume:** 147 findings (146 warnings + 1 info) across roughly 51 files \u2014 a large mechanical cleanup with a nontrivial review surface.",
+        "| M1.4 \u2014 Shadowed vars & idiom cleanup | 49 | 3 | Most invasive rename pass; needs careful review in hot-path namespaces. |",
+        "This work is tracked as a parent kanban card (`kanban/tasks/static-analysis-clj-kondo-cleanup.md`) and split into the following child tasks, each \u22645 story points:",
+        "| `static-analysis-clj-kondo-unused-bindings` | clj-kondo: unused bindings & values cleanup | 5 | M1.3 | Largest phase: 46 unused bindings, 10 unused values, 1 underscored binding. |",
+        "| `static-analysis-clj-kondo-shadowed-vars` | clj-kondo: shadowed vars & idiom cleanup | 3 | M1.4 | Invasive local renames in hot-path namespaces plus idiom fixes. |"
+      ]
+    },
+    {
+      "uuid": "static-analysis-splint-sweep-2026-07",
+      "matches": [
+        "> Supersedes the count in `kanban/tasks/static-analysis-splint-idiom-cleanup.md`"
+      ]
+    },
+    {
+      "uuid": "static-analysis-splint-idiom-cleanup",
+      "matches": [
+        "# Spec: Splint Idiom Cleanup",
+        "**Parent epic:** [`kanban/tasks/epic-static-analysis-cleanup.md`](epic-static-analysis-cleanup.md)  ",
+        "**Labels:** `static-analysis`, `epic-static-analysis-cleanup`",
+        "This is the mechanical-idiom member spec of the `epic-static-analysis-cleanup`. It covers only the Splint linter output. Other member specs handle:",
+        "- `kanban/tasks/static-analysis-clj-kondo-cleanup.md` \u2014 clj-kondo bugs, shadowed vars, unused bindings, unresolved requires.",
+        "- `kanban/tasks/static-analysis-structural-cleanup.md` \u2014 god namespaces, mega-functions, parameter bloat, fan-out, undocumented public fns.",
+        "- `kanban/tasks/static-analysis-dead-code-cleanup.md` \u2014 unused public vars reported by clojure-lsp.",
+        "- `kanban/tasks/static-analysis-cljfmt-cleanup.md` \u2014 formatting consistency across `src` and `test`.",
+        "- Parent epic: `kanban/tasks/epic-static-analysis-cleanup.md`",
+        "| `static-analysis-splint-math` | Splint cleanup: math interop bulk sweep | 5 | Phase 1 \u2014 `style/prefer-clj-math` (323 findings) |",
+        "| `static-analysis-splint-arithmetic-control` | Splint cleanup: arithmetic and control-flow idioms | 2 | Phase 2 \u2014 arithmetic and control-flow idioms |",
+        "| `static-analysis-splint-naming-structure` | Splint cleanup: naming and structural rules | 3 | Phase 3 \u2014 naming, arity order, and `def-fn` |",
+        "| `static-analysis-splint-predicate-test-collections` | Splint cleanup: predicate, test, and collection idioms | 2 | Phase 4 \u2014 predicate, test, collection, and wrapper idioms |",
+        "| `static-analysis-splint-final-gate` | Splint cleanup: final suppression and gating readiness | 1 | Phase 5 \u2014 final triage, suppression, and gating docs |",
+        "**Rationale:** 404 findings across 54 files is a substantial mechanical cleanup. The bulk (323, ~80%) is the highly mechanical `Math/*` \u2192 `clojure.math` replacement, but the remaining 81 findings span control-flow, naming, arity order, exception handling, and test idioms, several of which require semantic judgment rather than simple substitution. The math changes carry a real risk of numeric or return-type regressions, multi-arity reordering and public var renames can break downstream consumers, and the spec mandates per-phase green tests plus `bin/bench` review for hot-path namespaces. These risk and review factors push the estimate above a simple mechanical 8-point pass."
+      ]
+    },
+    {
+      "uuid": "static-analysis-cljfmt-2026-07",
+      "matches": [
+        "> Folds: `static-analysis-cljfmt-cleanup.md` (`ready`) and",
+        "> `spec-cljfmt-formatting-cleanup.md` (`todo`) \u2014 duplicates of each other."
+      ]
+    },
+    {
+      "uuid": "static-analysis-splint-arithmetic-control",
+      "matches": [
+        "# Splint cleanup: arithmetic and control-flow idioms",
+        "> Parent: `kanban/tasks/static-analysis-splint-idiom-cleanup.md`",
+        "Triage 2026-07-10 \u2192 rejected: consolidated into static-analysis-splint-idiom-cleanup (18-warning remainder too small to justify separate cards)."
+      ]
+    },
+    {
+      "uuid": "static-analysis-splint-final-gate",
+      "matches": [
+        "# Splint cleanup: final suppression and gating readiness",
+        "> Parent: `kanban/tasks/static-analysis-splint-idiom-cleanup.md`",
+        "Triage 2026-07-10 \u2192 rejected: consolidated into static-analysis-splint-idiom-cleanup (18-warning remainder too small to justify separate cards)."
+      ]
+    },
+    {
+      "uuid": "static-analysis-splint-math",
+      "matches": [
+        "# Splint cleanup: math interop bulk sweep",
+        "> Parent: `kanban/tasks/static-analysis-splint-idiom-cleanup.md`",
+        "Replace all `Math/*` interop with the equivalent `clojure.math` function across `src/` and `test/`. This is the bulk of the Splint idiom cleanup (323 of 404 warnings).",
+        "Triage 2026-07-10 \u2192 rejected: consolidated into static-analysis-splint-idiom-cleanup (18-warning remainder too small to justify separate cards)."
+      ]
+    },
+    {
+      "uuid": "static-analysis-splint-naming-structure",
+      "matches": [
+        "# Splint cleanup: naming and structural rules",
+        "> Parent: `kanban/tasks/static-analysis-splint-idiom-cleanup.md`",
+        "Triage 2026-07-10 \u2192 rejected: consolidated into static-analysis-splint-idiom-cleanup (18-warning remainder too small to justify separate cards)."
+      ]
+    },
+    {
+      "uuid": "static-analysis-splint-predicate-test-collections",
+      "matches": [
+        "# Splint cleanup: predicate, test, and collection idioms",
+        "> Parent: `kanban/tasks/static-analysis-splint-idiom-cleanup.md`",
+        "Triage 2026-07-10 \u2192 rejected: consolidated into static-analysis-splint-idiom-cleanup (18-warning remainder too small to justify separate cards)."
+      ]
+    }
+  ],
+  "exact_isolation_card_found": false,
+  "not_board_validation_or_transition": true
+}

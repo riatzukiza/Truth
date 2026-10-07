@@ -323,3 +323,8 @@
   spore: none
   receipt-refs: truth-sync-local-provenance-20261006-83u16qs3
   note: Preserve all accepted ancestry and identities with sparse metadata preparation; distinguish object preservation from content review, and terminal sync purpose from activation. Network failures remain visible; no source/board writes or published qualification.
+
+
+## 2026-10-06 — contained dump ownership planning
+
+Owner: /root/issues. Efficiency0.80; friction0.62; skill-candidate0.65. Literal shared /tmp paths evade java.io.tmpdir: inspect unchanged fixture effects first and contain filesystem ownership before running the original suite. New Incoming3 proposes both runtime per-run/per-dump identity and exact-owned cleanup, preserving bundle/log/error contracts. Actual Rheos readback is parse visibility, not readiness. Historical source/receipt/reflection/event bytes remain authority; source issue26, the typed planning decision in receipts.edn, and .ημ/verification/truth-dump-isolation-planning retain evidence. No spore creation/promotion or global helper action.

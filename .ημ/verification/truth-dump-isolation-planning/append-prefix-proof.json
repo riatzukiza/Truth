@@ -1,0 +1,16 @@
+{
+  "receipts.edn": {
+    "base_bytes": 379992,
+    "base_sha256": "948a36a3405e43780bc30cba9b3947be50e1cfa083a0f54ecdcd56c9e6b70f78",
+    "prefix_exact": true,
+    "current_bytes": 381854,
+    "current_sha256": "9ab57eb45d69fedf4417dcf6552f9d2e01d0598c429b1c9357367df180f7961f"
+  },
+  ".\u03b7\u03bc/session-mycology/ledger.md": {
+    "base_bytes": 18613,
+    "base_sha256": "a524368626ed954fdfe6a0f5dac5214f7782413f11b28078f63d68bc8fc07de5",
+    "prefix_exact": true,
+    "current_bytes": 19331,
+    "current_sha256": "628ac33f983fa0d781d78d85b0fa3249c600c587db16aa24e5827ae5bced0708"
+  }
+}

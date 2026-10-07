@@ -1,0 +1,4 @@
+{
+  "own_operator_error": "Python bytes literal contained Unicode emdash: parse refused before script executed; corrected to str.encode; source and native state were untouched",
+  "upstream_issue_required": false
+}

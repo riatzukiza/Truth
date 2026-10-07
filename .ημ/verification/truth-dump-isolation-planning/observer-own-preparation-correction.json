@@ -1,0 +1,7 @@
+{
+  "failure": "own preflight incorrectly required all declared classpath dirs to exist; no Java invocation happened",
+  "missing": [
+    "/tmp/truth-coverage-full-private-20261006-vy34cir7/worktree/resources"
+  ],
+  "correction": "Java classpath may include absent declared directory; verify all JARs present and source paths exact without adding files/rewriting deps"
+}
