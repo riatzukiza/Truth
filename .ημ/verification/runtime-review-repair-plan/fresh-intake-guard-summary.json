@@ -1,0 +1,71 @@
+{
+  "upstream_current_issues": [
+    26
+  ],
+  "upstream_current_prs": [
+    29,
+    28,
+    27,
+    25,
+    24,
+    23,
+    22,
+    21,
+    20,
+    19,
+    18,
+    17,
+    16,
+    15,
+    14,
+    13,
+    12,
+    11,
+    10,
+    9,
+    8
+  ],
+  "new_or_changed": [
+    {
+      "number": 29,
+      "new": false,
+      "title": "Record native trail aging and visibility limits",
+      "body_changed": false
+    },
+    {
+      "number": 26,
+      "new": false,
+      "title": "Isolate error-dump bundles and cleanup by owning run",
+      "body_changed": false
+    },
+    {
+      "number": 13,
+      "new": false,
+      "title": "Plan explicit reference selection and bounded flight assist",
+      "body_changed": false
+    }
+  ],
+  "closed_since_snapshot": [],
+  "origin_main": "58b0fd91ea65b7a4b3a1f571f22f3d394374a871",
+  "personal_heads": [
+    {
+      "number": 3,
+      "head": "03a3bf0280576ff8001b060ca47344ba11352da8",
+      "base": "b239e6bf1a43fcce64ccebf9234b0a1ff0734be1"
+    },
+    {
+      "number": 2,
+      "head": "b239e6bf1a43fcce64ccebf9234b0a1ff0734be1",
+      "base": "b76e87381c3ed39c66059236bb14843cecc85ff7"
+    },
+    {
+      "number": 1,
+      "head": "977d3e4d2f3ce09a46708be971e37636d0a087bb",
+      "base": "b76e87381c3ed39c66059236bb14843cecc85ff7"
+    }
+  ],
+  "issue26_body_unchanged": true,
+  "issue26_labels": [
+    "blocked"
+  ]
+}

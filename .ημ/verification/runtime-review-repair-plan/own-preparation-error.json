@@ -1,0 +1,6 @@
+{
+  "command": "git archive154440 | tar -x -C receipt-river-runtime",
+  "exit": 2,
+  "stderr": "tar: receipt-river-runtime: Cannot open: No such file or directory\ntar: Error is not recoverable: exiting now\n",
+  "classification": "own absent destination directory; corrected only own path; not upstream or shared defect"
+}

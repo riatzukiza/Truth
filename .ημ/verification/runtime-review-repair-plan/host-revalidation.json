@@ -1,0 +1,9 @@
+{
+  "hostname": "err-Stealth-16-AI-Studio-A1VGG",
+  "boot_id": "b04f7fb6-ea65-4b47-8866-73e24a6887f6",
+  "uptime_seconds": 1730.66,
+  "observed_at": "2026-10-07T00:50:30.602441+00:00",
+  "missing_prior_tmp": true,
+  "deletion_cause": "unknown",
+  "prior_worker_not_resumed": true
+}

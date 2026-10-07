@@ -1,0 +1,52 @@
+{
+  "scope": "actual installed owner0.1.0 reads corrected candidate cards in own unchanged-JSONconfig fixture; no transition/admission/ef3-equivalence",
+  "parent_checkpoint": "447cdeefc4abcc28b110309782ae2e33c7ca127b",
+  "calls": [
+    {
+      "command": [
+        "node",
+        "/home/err/.codex/parallel-goal/issues-20261006/truth-runtime-planning-bff7bfd493/installed-rheos/dist/cli.cjs",
+        "read-task",
+        "b1b46a3a-78e8-42a2-8a6b-17ff82d66cc5",
+        "--config",
+        "/home/err/.codex/parallel-goal/issues-20261006/truth-runtime-planning-bff7bfd493/candidate-board-fixture/openhax.kanban.json"
+      ],
+      "exit": 0,
+      "streams": {
+        "stdout": {
+          "file": "native-capture.stdout.b64",
+          "bytes": 5090,
+          "sha256": "31252e3ea7feb99f8d3705778151c7a5c4ffdeb48a168d8badfe644b0d97ccdd"
+        },
+        "stderr": {
+          "file": "native-capture.stderr.b64",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      }
+    },
+    {
+      "command": [
+        "node",
+        "/home/err/.codex/parallel-goal/issues-20261006/truth-runtime-planning-bff7bfd493/installed-rheos/dist/cli.cjs",
+        "read-task",
+        "35d70711-409d-481c-9aee-496e7694da73",
+        "--config",
+        "/home/err/.codex/parallel-goal/issues-20261006/truth-runtime-planning-bff7bfd493/candidate-board-fixture/openhax.kanban.json"
+      ],
+      "exit": 0,
+      "streams": {
+        "stdout": {
+          "file": "native-rollback.stdout.b64",
+          "bytes": 4634,
+          "sha256": "50822057b3b9010e4267caadcea0df4fb641360505bef942b8113db07c1ec6a5"
+        },
+        "stderr": {
+          "file": "native-rollback.stderr.b64",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      }
+    }
+  ]
+}

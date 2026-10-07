@@ -1,0 +1,7 @@
+{
+  "exit": 1,
+  "operation": "read nonexistent worktree/.\u03b7\u03bc/receipts.edn",
+  "error": "FileNotFoundError",
+  "actual_existing_authority": "worktree/receipts.edn",
+  "effect": "read-only own operator path mistake; no source/shared write"
+}

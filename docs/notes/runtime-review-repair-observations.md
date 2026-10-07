@@ -1,0 +1,11 @@
+# Contained Truth runtime regression observations
+
+GPL-3.0-or-later. Observed against accepted runtime `58b0fd91ea65b7a4b3a1f571f22f3d394374a871` preserved by Truth PR 2 at `b239e6bf1a43fcce64ccebf9234b0a1ff0734be1`. See [proposed design](../designs/runtime-review-repair.md) and [proof family](../../.ημ/verification/runtime-review-repair-plan/README.md).
+
+Native review 5435898183 inlines 4201617984 / 4201617989 identify missing exclusive capture destination ownership and failed selection pause restoration. Exact accepted function forms with synthetic boundaries reproduce failed reads/interrupted waits across present/nil/absent pause keys, with preserved original errors/independent fields and successful controls. Accepted formation rollback is a positive recovery control.
+
+Unchanged capture preflight statements, with a synchronized mkdir shim delegating original flags and an empty socket-check stub, admit two fictional owners of one private destination. Existing destinations refuse with exit 2 and separate destinations succeed with exit 0. Only owned private files were created under network-isolated bwrap. No actual media overwrite, GUI/nREPL/provider/service startup or host interference is claimed.
+
+The passive legend starts at x = 352 for diagnostic width 320. No supported 320-pixel window, font-width or visual acceptance is asserted. Foreign PR 9 already owns passive legend/framebuffer bounds; its finding remains unsettled. No duplicate HUD card is introduced.
+
+Recovery observed a continuity change and absent owned temporary paths. The cause of the missing paths is unknown; no actor, reboot or cleanup mechanism is attributed. Original temporary audit objects are unavailable, not represented as recovered. The accepted source was independently cloned into a persistent bare store. Canonical mechanics use private NBB 1.3.204, not current CI qualification. Installed Rheos 0.1.0 reads copied unchanged JSON config; the lost ef3 artifact remains unavailable and no equivalence is claimed. Selected exact observer outputs preserve results and limitations; the original whole recovery manifests describe their external recovery-family scope rather than claim every referenced capture is included here.
