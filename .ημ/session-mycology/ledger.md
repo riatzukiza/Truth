@@ -323,3 +323,12 @@
   spore: none
   receipt-refs: truth-sync-local-provenance-20261006-83u16qs3
   note: Preserve all accepted ancestry and identities with sparse metadata preparation; distinguish object preservation from content review, and terminal sync purpose from activation. Network failures remain visible; no source/board writes or published qualification.
+- ts: 2026-10-07T01:05:19.407810+00:00
+  session: truth-metadata-review-repair-planning
+  task: Authored Incoming proposal for four native helper findings
+  p-efficiency: 0.78
+  p-friction: 0.50
+  p-skill-candidate: 0.20
+  spore: none
+  receipt-refs: truth-metadata-repair-planning-de9dc1ac-20261007
+  note: Separate indexed facts from working-tree restoration and immutable observation bytes from current executable authority. Preserve stable receipt content on retry and partial output under bounded capture. Source-only planning; current native card visibility does not imply admission. Root coordinates publication and all reviews; no global helper/plugin or historical rewrite.

@@ -1,0 +1,396 @@
+[
+  {
+    "capture": "recovered-canonical-first.stdout.raw.b64",
+    "family": "recovered-observation",
+    "decoded_bytes": 679,
+    "decoded_sha256": "1a78174bf714a65d09c82b35819a1fb52f11c146528c60bd0f47586b5702f0b3",
+    "source": "/home/err/.codex/parallel-goal/child-prs-20261006/truth2-metadata-recovery-xy0j_6zm/canonical-first.stdout.raw",
+    "encoding": "RFC4648 standard base64, one unwrapped line, one terminal LF"
+  },
+  {
+    "capture": "recovered-canonical-first.stderr.raw.b64",
+    "family": "recovered-observation",
+    "decoded_bytes": 0,
+    "decoded_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "/home/err/.codex/parallel-goal/child-prs-20261006/truth2-metadata-recovery-xy0j_6zm/canonical-first.stderr.raw",
+    "encoding": "RFC4648 standard base64, one unwrapped line, one terminal LF"
+  },
+  {
+    "capture": "recovered-fresh-reproduction-proof.json.b64",
+    "family": "recovered-observation",
+    "decoded_bytes": 1115,
+    "decoded_sha256": "6d1a24114803cc21254c1df47680f3ddc1446d9b9ff36b95f5b9681683f50182",
+    "source": "/home/err/.codex/parallel-goal/child-prs-20261006/truth2-metadata-recovery-xy0j_6zm/fresh-reproduction-proof.json",
+    "encoding": "RFC4648 standard base64, one unwrapped line, one terminal LF"
+  },
+  {
+    "capture": "recovered-fresh-final-immutable-source-proof.json.b64",
+    "family": "recovered-observation",
+    "decoded_bytes": 8457,
+    "decoded_sha256": "d7eae3cb8c2995412c2f2cb998b0ae1e892ef3caa33d64adb32c032d808c1d45",
+    "source": "/home/err/.codex/parallel-goal/child-prs-20261006/truth2-metadata-recovery-xy0j_6zm/fresh-final-immutable-source-proof.json",
+    "encoding": "RFC4648 standard base64, one unwrapped line, one terminal LF"
+  },
+  {
+    "capture": "recovered-fresh-source-proof.json.b64",
+    "family": "recovered-observation",
+    "decoded_bytes": 3706,
+    "decoded_sha256": "fe188a3940db29da44f7bc4fda335898fdabbaf6e7794369a58add98240acb1a",
+    "source": "/home/err/.codex/parallel-goal/child-prs-20261006/truth2-metadata-recovery-xy0j_6zm/fresh-source-proof.json",
+    "encoding": "RFC4648 standard base64, one unwrapped line, one terminal LF"
+  },
+  {
+    "capture": "recovered-reproduce-metadata.py.b64",
+    "family": "recovered-observation",
+    "decoded_bytes": 4529,
+    "decoded_sha256": "95670bcf0ff061f783ae80c5ac12e7ea735047894799f7f857f4d3db837447b8",
+    "source": "/home/err/.codex/parallel-goal/child-prs-20261006/truth2-metadata-recovery-xy0j_6zm/reproduce-metadata.py",
+    "encoding": "RFC4648 standard base64, one unwrapped line, one terminal LF"
+  },
+  {
+    "capture": "preservation-positive.stdout.raw.b64",
+    "family": "private-unchanged-helper-fixture",
+    "decoded_bytes": 1026,
+    "decoded_sha256": "0baeef6ec40dc013ead005b9f1c458c6e5dd7b68ffcaec4f00480445eb37b928",
+    "source": "/home/err/.codex/parallel-goal/child-prs-20261006/truth2-metadata-recovery-xy0j_6zm/preservation-positive.stdout.raw",
+    "encoding": "RFC4648 standard base64, one unwrapped line, one terminal LF"
+  },
+  {
+    "capture": "preservation-positive.stderr.raw.b64",
+    "family": "private-unchanged-helper-fixture",
+    "decoded_bytes": 0,
+    "decoded_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "/home/err/.codex/parallel-goal/child-prs-20261006/truth2-metadata-recovery-xy0j_6zm/preservation-positive.stderr.raw",
+    "encoding": "RFC4648 standard base64, one unwrapped line, one terminal LF"
+  },
+  {
+    "capture": "preservation-positive.meta.json.b64",
+    "family": "private-unchanged-helper-fixture",
+    "decoded_bytes": 1056,
+    "decoded_sha256": "7f7d2829bb0b772c1337139342d9d39c3fd1aea398343bad7c81ef41cfa3dbb9",
+    "source": "/home/err/.codex/parallel-goal/child-prs-20261006/truth2-metadata-recovery-xy0j_6zm/preservation-positive.meta.json",
+    "encoding": "RFC4648 standard base64, one unwrapped line, one terminal LF"
+  },
+  {
+    "capture": "unapproved-addition-passes.stdout.raw.b64",
+    "family": "private-unchanged-helper-fixture",
+    "decoded_bytes": 1026,
+    "decoded_sha256": "0baeef6ec40dc013ead005b9f1c458c6e5dd7b68ffcaec4f00480445eb37b928",
+    "source": "/home/err/.codex/parallel-goal/child-prs-20261006/truth2-metadata-recovery-xy0j_6zm/unapproved-addition-passes.stdout.raw",
+    "encoding": "RFC4648 standard base64, one unwrapped line, one terminal LF"
+  },
+  {
+    "capture": "unapproved-addition-passes.stderr.raw.b64",
+    "family": "private-unchanged-helper-fixture",
+    "decoded_bytes": 0,
+    "decoded_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "/home/err/.codex/parallel-goal/child-prs-20261006/truth2-metadata-recovery-xy0j_6zm/unapproved-addition-passes.stderr.raw",
+    "encoding": "RFC4648 standard base64, one unwrapped line, one terminal LF"
+  },
+  {
+    "capture": "unapproved-addition-passes.meta.json.b64",
+    "family": "private-unchanged-helper-fixture",
+    "decoded_bytes": 1056,
+    "decoded_sha256": "7f7d2829bb0b772c1337139342d9d39c3fd1aea398343bad7c81ef41cfa3dbb9",
+    "source": "/home/err/.codex/parallel-goal/child-prs-20261006/truth2-metadata-recovery-xy0j_6zm/unapproved-addition-passes.meta.json",
+    "encoding": "RFC4648 standard base64, one unwrapped line, one terminal LF"
+  },
+  {
+    "capture": "staged-prefix-mismatch-passes.stdout.raw.b64",
+    "family": "private-unchanged-helper-fixture",
+    "decoded_bytes": 1026,
+    "decoded_sha256": "aefaa505c3b75cc7d37dd9a8a1c79cb39aea836de007ced179a7248bcb993600",
+    "source": "/home/err/.codex/parallel-goal/child-prs-20261006/truth2-metadata-recovery-xy0j_6zm/staged-prefix-mismatch-passes.stdout.raw",
+    "encoding": "RFC4648 standard base64, one unwrapped line, one terminal LF"
+  },
+  {
+    "capture": "staged-prefix-mismatch-passes.stderr.raw.b64",
+    "family": "private-unchanged-helper-fixture",
+    "decoded_bytes": 0,
+    "decoded_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "/home/err/.codex/parallel-goal/child-prs-20261006/truth2-metadata-recovery-xy0j_6zm/staged-prefix-mismatch-passes.stderr.raw",
+    "encoding": "RFC4648 standard base64, one unwrapped line, one terminal LF"
+  },
+  {
+    "capture": "staged-prefix-mismatch-passes.meta.json.b64",
+    "family": "private-unchanged-helper-fixture",
+    "decoded_bytes": 1056,
+    "decoded_sha256": "87376d58287d5ed2aa07a6e94c28f63bd76e8a379110bb20ee349687aace46d0",
+    "source": "/home/err/.codex/parallel-goal/child-prs-20261006/truth2-metadata-recovery-xy0j_6zm/staged-prefix-mismatch-passes.meta.json",
+    "encoding": "RFC4648 standard base64, one unwrapped line, one terminal LF"
+  },
+  {
+    "capture": "append-retry-1.stdout.raw.b64",
+    "family": "private-unchanged-helper-fixture",
+    "decoded_bytes": 67,
+    "decoded_sha256": "de4898c26daaf43cd8504c0ebbdd98dcfb4c95c3448db2120c02eec484bae3f7",
+    "source": "/home/err/.codex/parallel-goal/child-prs-20261006/truth2-metadata-recovery-xy0j_6zm/append-retry-1.stdout.raw",
+    "encoding": "RFC4648 standard base64, one unwrapped line, one terminal LF"
+  },
+  {
+    "capture": "append-retry-1.stderr.raw.b64",
+    "family": "private-unchanged-helper-fixture",
+    "decoded_bytes": 0,
+    "decoded_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "/home/err/.codex/parallel-goal/child-prs-20261006/truth2-metadata-recovery-xy0j_6zm/append-retry-1.stderr.raw",
+    "encoding": "RFC4648 standard base64, one unwrapped line, one terminal LF"
+  },
+  {
+    "capture": "append-retry-1.meta.json.b64",
+    "family": "private-unchanged-helper-fixture",
+    "decoded_bytes": 1411,
+    "decoded_sha256": "0c32003b1a6c572dcd7f0afae69a37a0f1b8e17e57714303a951bed43440dee8",
+    "source": "/home/err/.codex/parallel-goal/child-prs-20261006/truth2-metadata-recovery-xy0j_6zm/append-retry-1.meta.json",
+    "encoding": "RFC4648 standard base64, one unwrapped line, one terminal LF"
+  },
+  {
+    "capture": "append-retry-2.stdout.raw.b64",
+    "family": "private-unchanged-helper-fixture",
+    "decoded_bytes": 67,
+    "decoded_sha256": "de4898c26daaf43cd8504c0ebbdd98dcfb4c95c3448db2120c02eec484bae3f7",
+    "source": "/home/err/.codex/parallel-goal/child-prs-20261006/truth2-metadata-recovery-xy0j_6zm/append-retry-2.stdout.raw",
+    "encoding": "RFC4648 standard base64, one unwrapped line, one terminal LF"
+  },
+  {
+    "capture": "append-retry-2.stderr.raw.b64",
+    "family": "private-unchanged-helper-fixture",
+    "decoded_bytes": 0,
+    "decoded_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "/home/err/.codex/parallel-goal/child-prs-20261006/truth2-metadata-recovery-xy0j_6zm/append-retry-2.stderr.raw",
+    "encoding": "RFC4648 standard base64, one unwrapped line, one terminal LF"
+  },
+  {
+    "capture": "append-retry-2.meta.json.b64",
+    "family": "private-unchanged-helper-fixture",
+    "decoded_bytes": 1411,
+    "decoded_sha256": "0c32003b1a6c572dcd7f0afae69a37a0f1b8e17e57714303a951bed43440dee8",
+    "source": "/home/err/.codex/parallel-goal/child-prs-20261006/truth2-metadata-recovery-xy0j_6zm/append-retry-2.meta.json",
+    "encoding": "RFC4648 standard base64, one unwrapped line, one terminal LF"
+  },
+  {
+    "capture": "original-helper-append-receipt.cljs.b64",
+    "family": "published-b239-source",
+    "decoded_bytes": 2125,
+    "decoded_sha256": "fa19fc0aa4bd7538937bb79a55160667e180279618a32c2f086f1c0e87c56dc1",
+    "source": "b239e6bf1a43fcce64ccebf9234b0a1ff0734be1:.\u03b7\u03bc/verification/truth-accepted-sync/append-receipt.cljs",
+    "encoding": "RFC4648 standard base64, one unwrapped line, one terminal LF"
+  },
+  {
+    "capture": "original-helper-capture-command.py.b64",
+    "family": "published-b239-source",
+    "decoded_bytes": 957,
+    "decoded_sha256": "aea9dfaeb6d77a305b7498c191b29206f9939eafe9c9e8a1d4da603d736281c6",
+    "source": "b239e6bf1a43fcce64ccebf9234b0a1ff0734be1:.\u03b7\u03bc/verification/truth-accepted-sync/capture-command.py",
+    "encoding": "RFC4648 standard base64, one unwrapped line, one terminal LF"
+  },
+  {
+    "capture": "original-helper-check-preservation.py.b64",
+    "family": "published-b239-source",
+    "decoded_bytes": 2202,
+    "decoded_sha256": "65c5538fbd6c0822f594b9077ad883ebee7f91ccee519e918eb2045e78e0282c",
+    "source": "b239e6bf1a43fcce64ccebf9234b0a1ff0734be1:.\u03b7\u03bc/verification/truth-accepted-sync/check-preservation.py",
+    "encoding": "RFC4648 standard base64, one unwrapped line, one terminal LF"
+  },
+  {
+    "capture": "native-pr.redacted.json.b64",
+    "family": "native-structurally-redacted",
+    "decoded_bytes": 20872,
+    "decoded_sha256": "3c2745f5ba0892d4bea46a529f0d492af1960b6563bc69b7c7a4b4e593a10078",
+    "source": "/home/err/.codex/parallel-goal/child-prs-20261006/truth2-metadata-recovery-xy0j_6zm/pr.stdout.private.raw",
+    "encoding": "RFC4648 standard base64, one unwrapped line, one terminal LF",
+    "original_private_bytes": 18241,
+    "original_private_sha256": "f0863d524837795dfee2816ac7ecea45394a7ed29bfe8bcf83f1fdb23ff4ba51",
+    "transform": "Structural JSON recursive string-value redaction: opaque scoped URL tokens and whole scoped URLs removed; native global-learning scope=lang marker unchanged."
+  },
+  {
+    "capture": "native-reviews.redacted.json.b64",
+    "family": "native-structurally-redacted",
+    "decoded_bytes": 26608,
+    "decoded_sha256": "6a1beea4243883a50c23cdface53b3ba725cfb2db8bbae3813c28f272cabd781",
+    "source": "/home/err/.codex/parallel-goal/child-prs-20261006/truth2-metadata-recovery-xy0j_6zm/reviews.stdout.private.raw",
+    "encoding": "RFC4648 standard base64, one unwrapped line, one terminal LF",
+    "original_private_bytes": 26236,
+    "original_private_sha256": "4ebccbb86774a36ac18741c68f0c514848ebcfaebe263fb1c0b7db0beb862707",
+    "transform": "Structural JSON recursive string-value redaction: opaque scoped URL tokens and whole scoped URLs removed; native global-learning scope=lang marker unchanged."
+  },
+  {
+    "capture": "native-inlines.redacted.json.b64",
+    "family": "native-structurally-redacted",
+    "decoded_bytes": 42260,
+    "decoded_sha256": "b6deb0df3d7220cbb39e9d60a341cf43bf3230d5431bcc21c12af8df8345615f",
+    "source": "/home/err/.codex/parallel-goal/child-prs-20261006/truth2-metadata-recovery-xy0j_6zm/inlines.stdout.private.raw",
+    "encoding": "RFC4648 standard base64, one unwrapped line, one terminal LF",
+    "original_private_bytes": 38520,
+    "original_private_sha256": "011926a05fa43420050abb57109d3382f691afd1a7e8a2219d7b48447504254d",
+    "transform": "Structural JSON recursive string-value redaction: opaque scoped URL tokens and whole scoped URLs removed; native global-learning scope=lang marker unchanged."
+  },
+  {
+    "capture": "native-risk.redacted.json.b64",
+    "family": "native-structurally-redacted",
+    "decoded_bytes": 11747,
+    "decoded_sha256": "daec3f95c6025d576fb110a21f42db25bd2c3241a595ac4181a22949cbefbdd9",
+    "source": "/home/err/.codex/parallel-goal/child-prs-20261006/truth2-metadata-recovery-xy0j_6zm/risk.stdout.private.raw",
+    "encoding": "RFC4648 standard base64, one unwrapped line, one terminal LF",
+    "original_private_bytes": 11205,
+    "original_private_sha256": "b74d4254ca1248169ea73c65bc72820024f4c336163755fcfc2b2e35eebfd839",
+    "transform": "Structural JSON recursive string-value redaction: opaque scoped URL tokens and whole scoped URLs removed; native global-learning scope=lang marker unchanged."
+  },
+  {
+    "capture": "native-threads.redacted.json.b64",
+    "family": "native-structurally-redacted",
+    "decoded_bytes": 17728,
+    "decoded_sha256": "daac70ee58ac92532d77b64a3824558c1c8c5ac72410a35d3445f5256e6a0086",
+    "source": "/home/err/.codex/parallel-goal/child-prs-20261006/truth2-metadata-recovery-xy0j_6zm/threads.stdout.private.raw",
+    "encoding": "RFC4648 standard base64, one unwrapped line, one terminal LF",
+    "original_private_bytes": 15536,
+    "original_private_sha256": "1e93b549fd231484d1fe2b196ce981f2a1caefdbeb75b4eba7df983f55623bad",
+    "transform": "Structural JSON recursive string-value redaction: opaque scoped URL tokens and whole scoped URLs removed; native global-learning scope=lang marker unchanged."
+  },
+  {
+    "capture": "recovered-native-board-read-node24.stdout.raw.b64",
+    "family": "native-card-read-fixture",
+    "decoded_bytes": 3130,
+    "decoded_sha256": "6df8abf4f268b68beff4d53f91056e5d15d0b914955e7f21d881575c9cb22a47",
+    "source": "/home/err/.codex/parallel-goal/child-prs-20261006/truth2-metadata-recovery-xy0j_6zm/native-board-read-node24.stdout.raw",
+    "encoding": "RFC4648 standard base64, one unwrapped line, one terminal LF"
+  },
+  {
+    "capture": "recovered-native-board-read-node24.stderr.raw.b64",
+    "family": "native-card-read-fixture",
+    "decoded_bytes": 0,
+    "decoded_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "/home/err/.codex/parallel-goal/child-prs-20261006/truth2-metadata-recovery-xy0j_6zm/native-board-read-node24.stderr.raw",
+    "encoding": "RFC4648 standard base64, one unwrapped line, one terminal LF"
+  },
+  {
+    "capture": "recovered-native-board-read-node24.meta.json.b64",
+    "family": "native-card-read-fixture",
+    "decoded_bytes": 605,
+    "decoded_sha256": "ad41ea666bd7a098551fc92ccfff9b5b7c7b4fbc2bc69c7b62c68e83c7b8dd43",
+    "source": "/home/err/.codex/parallel-goal/child-prs-20261006/truth2-metadata-recovery-xy0j_6zm/native-board-read-node24.meta.json",
+    "encoding": "RFC4648 standard base64, one unwrapped line, one terminal LF"
+  },
+  {
+    "capture": "recovered-native-board-read.stderr.raw.b64",
+    "family": "native-card-read-fixture",
+    "decoded_bytes": 803,
+    "decoded_sha256": "93ea1f51821b2a5d9de3422f25fd62fe54bfadb3dfc59dc255efecc311593b12",
+    "source": "/home/err/.codex/parallel-goal/child-prs-20261006/truth2-metadata-recovery-xy0j_6zm/native-board-read.stderr.raw",
+    "encoding": "RFC4648 standard base64, one unwrapped line, one terminal LF"
+  },
+  {
+    "capture": "recovered-native-board-read.meta.json.b64",
+    "family": "native-card-read-fixture",
+    "decoded_bytes": 682,
+    "decoded_sha256": "ad77d377d1dbe2ac6c41ce7fe4abcf664fb42695230f0ceef27bc54df6c7b387",
+    "source": "/home/err/.codex/parallel-goal/child-prs-20261006/truth2-metadata-recovery-xy0j_6zm/native-board-read.meta.json",
+    "encoding": "RFC4648 standard base64, one unwrapped line, one terminal LF"
+  },
+  {
+    "capture": "new-source-canonical-first.stdout.private.raw.b64",
+    "family": "new-independent-source-preparation",
+    "decoded_bytes": 679,
+    "decoded_sha256": "1a78174bf714a65d09c82b35819a1fb52f11c146528c60bd0f47586b5702f0b3",
+    "source": "/home/err/.codex/parallel-goal/child-prs-20261006/truth-metadata-plan-65nttq19/canonical-first.stdout.private.raw",
+    "encoding": "RFC4648 standard base64, one unwrapped line, one terminal LF"
+  },
+  {
+    "capture": "new-source-canonical-first.stderr.private.raw.b64",
+    "family": "new-independent-source-preparation",
+    "decoded_bytes": 0,
+    "decoded_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "/home/err/.codex/parallel-goal/child-prs-20261006/truth-metadata-plan-65nttq19/canonical-first.stderr.private.raw",
+    "encoding": "RFC4648 standard base64, one unwrapped line, one terminal LF"
+  },
+  {
+    "capture": "new-source-canonical-first.meta.json.b64",
+    "family": "new-independent-source-preparation",
+    "decoded_bytes": 618,
+    "decoded_sha256": "4f0a2d70e316e0284bee0b524c5abe7d6af9cfad97b80734a9b78b841d71ed6a",
+    "source": "/home/err/.codex/parallel-goal/child-prs-20261006/truth-metadata-plan-65nttq19/canonical-first.meta.json",
+    "encoding": "RFC4648 standard base64, one unwrapped line, one terminal LF"
+  },
+  {
+    "capture": "new-source-clone.meta.json.b64",
+    "family": "new-independent-source-preparation",
+    "decoded_bytes": 492,
+    "decoded_sha256": "4921e7068a9efd7c1d3aa88eb17c3e8b14023d89625f3549ae30960ca2da26ae",
+    "source": "/home/err/.codex/parallel-goal/child-prs-20261006/truth-metadata-plan-65nttq19/clone.meta.json",
+    "encoding": "RFC4648 standard base64, one unwrapped line, one terminal LF"
+  },
+  {
+    "capture": "new-source-worktree.meta.json.b64",
+    "family": "new-independent-source-preparation",
+    "decoded_bytes": 662,
+    "decoded_sha256": "97822ab4e55cb46f017a916de118c3ea1eacf4d1000d80b41bb0b47bd260c429",
+    "source": "/home/err/.codex/parallel-goal/child-prs-20261006/truth-metadata-plan-65nttq19/worktree.meta.json",
+    "encoding": "RFC4648 standard base64, one unwrapped line, one terminal LF"
+  },
+  {
+    "capture": "new-source-base-native-guard.redacted.json.b64",
+    "family": "native-structurally-redacted",
+    "decoded_bytes": 20872,
+    "decoded_sha256": "2ae12a7746d5ddf3e8d84b0054e7e9945b489721a05d17e8783e531fd0bbf33d",
+    "source": "/home/err/.codex/parallel-goal/child-prs-20261006/truth-metadata-plan-65nttq19/base-native-guard.stdout.private.raw",
+    "encoding": "RFC4648 standard base64, one unwrapped line, one terminal LF",
+    "original_private_bytes": 18241,
+    "original_private_sha256": "131b553753880ece1a9dbd170c653500ffe0fbd73816779a4ca1d5de99b32de6",
+    "transform": "Structural JSON recursive string-value redaction: opaque scoped URL tokens and whole scoped URLs removed; native global-learning scope=lang marker unchanged."
+  },
+  {
+    "capture": "candidate-card-read.stdout.raw.b64",
+    "family": "authored-card-native-visibility",
+    "decoded_bytes": 8514,
+    "decoded_sha256": "847d05f3b63b132084b050e1fe7376eadf4cad8856ea4ed8acbde80a02016306",
+    "source": "/home/err/.codex/parallel-goal/child-prs-20261006/truth-metadata-plan-65nttq19/candidate-card-read.stdout.raw",
+    "encoding": "RFC4648 standard base64, one unwrapped line, one terminal LF"
+  },
+  {
+    "capture": "candidate-card-read.stderr.raw.b64",
+    "family": "authored-card-native-visibility",
+    "decoded_bytes": 0,
+    "decoded_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "/home/err/.codex/parallel-goal/child-prs-20261006/truth-metadata-plan-65nttq19/candidate-card-read.stderr.raw",
+    "encoding": "RFC4648 standard base64, one unwrapped line, one terminal LF"
+  },
+  {
+    "capture": "candidate-card-read.meta.json.b64",
+    "family": "authored-card-native-visibility",
+    "decoded_bytes": 491,
+    "decoded_sha256": "e90f8945d314ed65a1ca926ae0d1f6559c28ef9b2500be533669b540d2d0ad73",
+    "source": "/home/err/.codex/parallel-goal/child-prs-20261006/truth-metadata-plan-65nttq19/candidate-card-read.meta.json",
+    "encoding": "RFC4648 standard base64, one unwrapped line, one terminal LF"
+  },
+  {
+    "capture": "append-candidate-receipt.cljs.b64",
+    "family": "actual-owning-receipt-api-preparation",
+    "decoded_bytes": 2300,
+    "decoded_sha256": "f7928ceb9dc3bef651f4b3fde00137ee75992c83b4c9faf99f3fd7ea5df3bb1b",
+    "source": "/home/err/.codex/parallel-goal/child-prs-20261006/truth-metadata-plan-65nttq19/append-candidate-receipt.cljs",
+    "encoding": "RFC4648 standard base64, one unwrapped line, one terminal LF"
+  },
+  {
+    "capture": "receipt-append.stdout.raw.b64",
+    "family": "actual-owning-receipt-api-preparation",
+    "decoded_bytes": 92,
+    "decoded_sha256": "481656cdbefdfdf34035519431b8f239368bcf11ec820451d9474d9fff2905c7",
+    "source": "/home/err/.codex/parallel-goal/child-prs-20261006/truth-metadata-plan-65nttq19/receipt-append.stdout.raw",
+    "encoding": "RFC4648 standard base64, one unwrapped line, one terminal LF"
+  },
+  {
+    "capture": "receipt-append.stderr.raw.b64",
+    "family": "actual-owning-receipt-api-preparation",
+    "decoded_bytes": 0,
+    "decoded_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "/home/err/.codex/parallel-goal/child-prs-20261006/truth-metadata-plan-65nttq19/receipt-append.stderr.raw",
+    "encoding": "RFC4648 standard base64, one unwrapped line, one terminal LF"
+  },
+  {
+    "capture": "receipt-append.meta.json.b64",
+    "family": "actual-owning-receipt-api-preparation",
+    "decoded_bytes": 622,
+    "decoded_sha256": "644757754fa253284f4306b1fd5a5b2c07f68866083665872510e31f6d12c915",
+    "source": "/home/err/.codex/parallel-goal/child-prs-20261006/truth-metadata-plan-65nttq19/receipt-append.meta.json",
+    "encoding": "RFC4648 standard base64, one unwrapped line, one terminal LF"
+  }
+]
