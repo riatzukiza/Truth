@@ -14,7 +14,7 @@ category: specs
 > Design: docs/designs/runtime-review-repair.md
 
 ## Context
-CodeRabbit inline 4201617989 at exact b239 identifies select! pause settings left at identity when world replacement fails. Exact accepted function-form observers show failed reads and interruption preserve the original exception but leave tick-fn/on-step paused across present/nil/absent prior-key cases. Existing prepare-formation! restores those settings and unrelated concurrent fields; success controls complete for both. Accepted dev/demo_test.clj already tests formation rollback; no matching select! outcome found in current native cards/PR scopes.
+CodeRabbit inline 4201617989 at exact `b239e6bf1a43fcce64ccebf9234b0a1ff0734be1` identifies select! pause settings left at identity when world replacement fails. Exact accepted function-form observers show failed reads and interruption preserve the original exception but leave tick-fn/on-step paused across present/nil/absent prior-key cases. Existing prepare-formation! restores those settings and unrelated concurrent fields; success controls complete for both. Accepted dev/demo_test.clj already tests formation rollback; no matching select! outcome found in current native cards/PR scopes.
 
 ## Outcome
 Failed queued scenario handoff restores the previous tick-fn and on-step key presence and values, propagates the original failure, and preserves independent config changes. Successful scenario and formation behavior retains its accepted semantics.
@@ -34,7 +34,7 @@ No second world writer, scenario fixtures promoted to natural gameplay, real nRE
 6. Red new regressions before green; retain the complete configured test suite and all six strict-analysis gates. Planning observers are evidence of the defect, not implementation qualification.
 
 ## Verification
-See [the design](../../docs/designs/runtime-review-repair.md) and `.ημ/verification/runtime-review-repair-plan/function-observer-run.json`. These are first-class Incoming planning inputs, not admitted implementation work. Planning qualification, actual Rheos readiness, and a new isolated implementation branch are prerequisites. Frozen personal PR2 b239 and its historical review remain unchanged; no finding is settled by this proposal. Estimates are provisional; review must decide fit or lawful breakdown without dropping acceptance.
+See [the design](../../docs/designs/runtime-review-repair.md) and `.ημ/verification/runtime-review-repair-plan/function-observer-run.json`. These are first-class Incoming planning inputs, not admitted implementation work. Planning qualification, actual Rheos readiness, and a new isolated implementation branch are prerequisites. Frozen personal PR 2 at `b239e6bf1a43fcce64ccebf9234b0a1ff0734be1` and its historical review remain unchanged; no finding is settled by this proposal. Estimates are provisional; review must decide fit or lawful breakdown without dropping acceptance.
 
 
 ## Risks

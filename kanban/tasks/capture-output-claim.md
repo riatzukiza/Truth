@@ -16,7 +16,7 @@ category: specs
 ## Context
 
 Refs [Truth issue 31](https://github.com/octave-commons/Truth/issues/31), whose six acceptance criteria remain open. Planning merge does not close it.
-CodeRabbit inline 4201617984 at exact Truth PR 2 at b239 identifies the separate existence check and mkdir -p in both capture adapters. The unchanged accepted58 preflight observer shows two fictional owners both exit0 for one private destination; existing-destination exits2 and separate destinations exit0. No actual media overwrite or host interference was executed. Current159 native card bodies,21 upstream PR bodies/files in the original snapshot (22 after the supplemental PR 30 read) and3 personal PR bodies show no exact reservation owner; foreign capture/evidence PRs remain distinct.
+CodeRabbit inline 4201617984 on Truth PR 2 at `b239e6bf1a43fcce64ccebf9234b0a1ff0734be1` identifies the separate existence check and mkdir -p in both capture adapters. The unchanged accepted runtime `58b0fd91ea65b7a4b3a1f571f22f3d394374a871` preflight observer shows two fictional owners both exit 0 for one private destination; existing-destination exits 2 and separate destinations exit 0. No actual media overwrite or host interference was executed. The captured 159 native card bodies, 21 upstream PR bodies/files in the original snapshot (22 after the supplemental PR 30 read) and 3 personal PR bodies show no exact reservation owner; foreign capture/evidence PRs remain distinct.
 
 ## Outcome
 Exactly one run owns a destination before any recording, output-file write or capture process startup. A loser fails nonzero without overwriting/removing the winner's files. Both bin/demo-capture and bin/formation-capture retain their public capture contracts.
@@ -33,10 +33,10 @@ No GUI/service/provider launch during planning; no renderer/media/encoding redes
 3. Different destinations admit independent owners. A failed claim/validation never deletes or writes another owner's destination. Later owned cleanup preserves other runs and the existing process-cleanup contract.
 4. Accepted options/default naming/duration/port/tool checks and output/provenance artifacts retain their existing meanings; report the first relevant failure, not a fabricated successful capture.
 5. Hermetic actual-entry-point subprocess tests use private destinations and mocked outer executables, with synchronized race, loser-no-effects, existing-destination, independent-run and failing-claim controls. No production test flags or real renderer/provider contact.
-6. Red new regression before green adapters; retain existing meaningful shell/demo tests, full configured Clojure suite and all six bin/analyze --strict gates. Native capture qualification remains separate from hermetic tests.
+6. Red new regression before green adapters; retain existing meaningful shell/demo tests, full configured Clojure suite and all six `bin/analyze --strict` gates. Native capture qualification remains separate from hermetic tests.
 
 ## Verification
-See [the design](../../docs/designs/runtime-review-repair.md) and retained `.ημ/verification/runtime-review-repair-plan/race-observer-run.json` for the bounded preflight observation, not product-test qualification. These are first-class Incoming planning inputs, not admitted implementation work. Planning qualification, actual Rheos readiness, and a new isolated implementation branch are prerequisites. Frozen personal PR2 b239 and its historical review remain unchanged; no finding is settled by this proposal. Estimates are provisional; review must decide fit or lawful breakdown without dropping acceptance.
+See [the design](../../docs/designs/runtime-review-repair.md) and retained `.ημ/verification/runtime-review-repair-plan/race-observer-run.json` for the bounded preflight observation, not product-test qualification. These are first-class Incoming planning inputs, not admitted implementation work. Planning qualification, actual Rheos readiness, and a new isolated implementation branch are prerequisites. Frozen personal PR 2 at `b239e6bf1a43fcce64ccebf9234b0a1ff0734be1` and its historical review remain unchanged; no finding is settled by this proposal. Estimates are provisional; review must decide fit or lawful breakdown without dropping acceptance.
 
 
 ## Risks

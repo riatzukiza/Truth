@@ -1,0 +1,23 @@
+{
+  "parent_checkpoint": "447cdeefc4abcc28b110309782ae2e33c7ca127b",
+  "all_other_parent_blobs_exact": 1242,
+  "except_four_reviewed_prose_products_and_two_appendonly_records": true,
+  "append_prefixes": [
+    {
+      "path": ".\u03b7\u03bc/session-mycology/ledger.md",
+      "old_bytes": 19220,
+      "sha256": "3e755e4cffc664879525901515d0b60cfcd151e395c5aafba7b2fd94001e983d"
+    },
+    {
+      "path": "receipts.edn",
+      "old_bytes": 381626,
+      "sha256": "d64b7fca80b887a96727863919b9341ab4ff621368006b34a9a61718434b998d"
+    }
+  ],
+  "two_frontmatters_exact": true,
+  "six_plus_six_acceptance_text_exact_except_markdown_backticks": true,
+  "historical_parent_family_and_prior14_streams_exact": true,
+  "corrective_receipt429": "knownkind adjudication declared PASS; historical428 prefix preserved",
+  "native_reads": "actual engine reads new fullbody Incoming3/2; no transitions/admission",
+  "no_implementation_gate_input_change_or_regression_rerun": true
+}

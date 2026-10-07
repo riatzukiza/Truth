@@ -328,3 +328,8 @@
 ## Truth runtime review repair planning — Incoming only
 
 Owner: root/issues. Receipt: root receipts.edn new row428, base b239. Efficiency0.78; friction0.48; skill-candidate0.42; no spore promotion. Preserve accepted formation rollback as a control while repairing select; use a real host atomic operation for reservation rather than promote a portable existence predicate to ownership. Separate foreign HUD planning, and distinguish exact synthetic defect witnesses from full test/native qualification. Both3+2 estimates remain provisional; planning review and lawful Rheos readiness precede red/green.
+
+
+## Runtime planning prose correction — history retained
+
+Owner: root/issues. Receipt: root receipts.edn row429 adjudication; parent447 retained. An observed boot/continuity difference and absent owned temporary paths do not prove a cause of disappearance. State unknown cause/no attribution; preserve old claims as inspectable history and correct present prose. Numeric spacing/full revision IDs improve reviewability without changing six-plus-six acceptance or Incoming3/2. Efficiency0.87; friction0.18; skill-candidate0.36; no promotion. No regression rerun or operational action.
