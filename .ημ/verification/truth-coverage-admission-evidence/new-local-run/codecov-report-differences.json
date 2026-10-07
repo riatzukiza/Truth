@@ -1,0 +1,11 @@
+{
+  "differences": [
+    {
+      "path": "/coverage/domain/ecs/parallel.clj/37",
+      "local": 1406,
+      "hosted": 2219
+    }
+  ],
+  "count": 1,
+  "scope": "Report comparison only; no source change or rerun"
+}

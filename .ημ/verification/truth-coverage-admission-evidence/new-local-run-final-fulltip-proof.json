@@ -1,0 +1,170 @@
+{
+  "head": "bb03dfa5f147ce186ac1f0f27a6759dd9df6183f",
+  "parent_audit": "b30fe86a0d11e89c078c4f9011248f2afbbe3c55",
+  "published_source_base": "b239e6bf1a43fcce64ccebf9234b0a1ff0734be1",
+  "consumer": {
+    "revision": "bb03dfa5f147ce186ac1f0f27a6759dd9df6183f",
+    "base": "b239e6bf1a43fcce64ccebf9234b0a1ff0734be1",
+    "prefix-preserved": true,
+    "base-rows": 427,
+    "total-rows": 429,
+    "new-owned-declared": [
+      {
+        "line-number": 428,
+        "ok": true,
+        "schema-id": ":eta-mu.receipt-river/receipt-recorded",
+        "schema-version": 1,
+        "event-id": "truth-filesystem-recovery-ve63vqf3",
+        "kind": ":observation",
+        "repo": "riatzukiza/Truth",
+        "errors": []
+      },
+      {
+        "line-number": 429,
+        "ok": true,
+        "schema-id": ":eta-mu.receipt-river/receipt-recorded",
+        "schema-version": 1,
+        "event-id": "truth-coverage-new-local-run-ve63vqf3",
+        "kind": ":test-run",
+        "repo": "riatzukiza/Truth",
+        "errors": []
+      }
+    ]
+  },
+  "consumer_argv": [
+    "/home/err/.codex/parallel-goal/personal-root-20261006/pr116-admission-runtime/node-runtime/node_modules/.bin/nbb",
+    "-cp",
+    "/home/err/.codex/parallel-goal/foresight-prs-truth-recovery-20261006-ve63vqf3/receipt-runtime",
+    "/home/err/.codex/parallel-goal/foresight-prs-truth-recovery-20261006-ve63vqf3/audit-worktree/.\u03b7\u03bc/verification/truth-coverage-filesystem-recovery/validate-receipts.cljs",
+    "/home/err/.codex/parallel-goal/foresight-prs-truth-recovery-20261006-ve63vqf3/audit-worktree",
+    "bb03dfa5f147ce186ac1f0f27a6759dd9df6183f",
+    "b239e6bf1a43fcce64ccebf9234b0a1ff0734be1",
+    "2"
+  ],
+  "source_no_push": true,
+  "board_comment_executed": false,
+  "published_unchanged_other_entries": 1201,
+  "published_prefixes": {
+    ".\u03b7\u03bc/session-mycology/ledger.md": {
+      "bytes": 18613,
+      "sha256": "a524368626ed954fdfe6a0f5dac5214f7782413f11b28078f63d68bc8fc07de5",
+      "prefix_preserved": true
+    },
+    "receipts.edn": {
+      "bytes": 379992,
+      "sha256": "948a36a3405e43780bc30cba9b3947be50e1cfa083a0f54ecdcd56c9e6b70f78",
+      "prefix_preserved": true
+    }
+  },
+  "prior_audit_unchanged_other_entries": 1294,
+  "prior_audit_prefixes": {
+    ".\u03b7\u03bc/session-mycology/ledger.md": {
+      "bytes": 19021,
+      "sha256": "30b557336b7413f7312062ec504aafa0f4daf8a47476d29afec8264e9e2e2a67",
+      "prefix_preserved": true
+    },
+    "receipts.edn": {
+      "bytes": 381494,
+      "sha256": "a0c7995fe567b1c6740b2b226a927c16554767863d9ae4ebf23dde7e7c9a101a",
+      "prefix_preserved": true
+    }
+  },
+  "clean": true,
+  "cumulative_diffcheck_exit": 0,
+  "successor_diffcheck_exit": 0,
+  "capture_counts": [
+    {
+      "packet": ".\u03b7\u03bc/verification/truth-coverage-filesystem-recovery",
+      "commands": 39,
+      "command_streams": 78,
+      "source_or_report_copy_captures": 5,
+      "all_b64": 83
+    },
+    {
+      "packet": ".\u03b7\u03bc/verification/truth-coverage-new-local-run",
+      "commands": 8,
+      "command_streams": 16,
+      "source_or_report_copy_captures": 4,
+      "all_b64": 20
+    }
+  ],
+  "new_b64_total": 103,
+  "count_scope": "These are byte transports; copies are not independent observations/review credit.",
+  "new_run": {
+    "source": "58b0fd91ea65b7a4b3a1f571f22f3d394374a871",
+    "exit": 0,
+    "whole_original_command": "bin/coverage --text",
+    "test_count": 879,
+    "assertion_count": 15486,
+    "failures": 0,
+    "errors": 0,
+    "line_percent": 78.78,
+    "form_percent": 84.96,
+    "stdout_bytes": 31913,
+    "stdout_sha256": "53b16715ac0d9eaf4d1dfe4317cfc2f3b1a56a44d8fc186abdbb815c47f0c2f1",
+    "stderr_bytes": 3260,
+    "stderr_sha256": "d0b9b79ac293a9b3c42152679937eccd5c81dba0b13ae9f476fcd5d1820841eb",
+    "product_files_unchanged": 300,
+    "tracked_status": "",
+    "reports": [
+      {
+        "path": "/home/err/.codex/parallel-goal/foresight-prs-truth-recovery-20261006-ve63vqf3/coverage-worktree/target/coverage/lcov.info",
+        "bytes": 145123,
+        "sha256": "af0d3a4098b09597256e39982b1f663a3ae3def70b605c2ecc5761b1d4754eca"
+      },
+      {
+        "path": "/home/err/.codex/parallel-goal/foresight-prs-truth-recovery-20261006-ve63vqf3/coverage-worktree/target/coverage/codecov.json",
+        "bytes": 178193,
+        "sha256": "64d6e867d61f967ee455d54b65978ecbedda7879595a531166565ba04d497b58"
+      }
+    ],
+    "at": "2026-10-07T01:05:07.112805+00:00",
+    "provenance": "NEW isolated unchanged accepted run after filesystem loss, not reconstructed former local output.",
+    "codecovequals_hosted_parsed_JSON": false,
+    "codecov_bytes_equal_hosted": false
+  },
+  "hosted_artifact": {
+    "artifact_id": 11451592786,
+    "run": 37532420467,
+    "attempt": 2,
+    "job": 112557881933,
+    "source": "58b0fd91ea65b7a4b3a1f571f22f3d394374a871",
+    "retained_at": "2026-10-07T01:00:52.189306+00:00",
+    "provenance": "Fresh GitHub hosted artifact retrieval, not original local report recovery or fabricated bytes. Earlier local hashes from retained conversation only.",
+    "files": [
+      {
+        "path": "codecov.json",
+        "bytes": 178193,
+        "sha256": "25ac0099e5d4cb8366225ee2fe1a8484a70f7e73c63fe91abe97cadefa04b94f",
+        "equals_previously_recorded_local_hash": true
+      },
+      {
+        "path": "lcov.info",
+        "bytes": 145123,
+        "sha256": "af0d3a4098b09597256e39982b1f663a3ae3def70b605c2ecc5761b1d4754eca",
+        "equals_previously_recorded_local_hash": true
+      }
+    ]
+  },
+  "codecovevidence": {
+    "differences": [
+      {
+        "path": "/coverage/domain/ecs/parallel.clj/37",
+        "local": 1406,
+        "hosted": 2219
+      }
+    ],
+    "count": 1,
+    "scope": "Report comparison only; no source change or rerun"
+  },
+  "external_drafts": {
+    "coverage-admission-decision-draft.md": {
+      "bytes": 9473,
+      "sha256": "09a4dbfc8e1c9d351b78e85dca185400ce38d22f7031335b4c229232e6656b95"
+    },
+    "coverage-native-comment-draft.md": {
+      "bytes": 2283,
+      "sha256": "ead0240a0e5da71bb9892f59a8581cb6740fa50bfbd2a18b3baa5853111326a0"
+    }
+  }
+}

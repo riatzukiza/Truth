@@ -1,0 +1,28 @@
+[
+  {
+    "path": "/tmp/rheos-edn-upstream-gap-20261006/artifact/rheos-ef3c4abf/cli.cjs",
+    "exists": false,
+    "symlink": false
+  },
+  {
+    "path": "/tmp/truth-coverage-full-private-20261006-vy34cir7/rheos/cli.cjs",
+    "exists": false,
+    "symlink": false
+  },
+  {
+    "path": "/home/err/.volta/bin/eta-mu",
+    "exists": true,
+    "symlink": true,
+    "resolved": "/home/err/.volta/bin/volta-shim",
+    "bytes": 10637848,
+    "sha256": "6273f56ba4f573bd925761f0a67872501fc3ec7b532ef3a96fed5c0c7a2df024"
+  },
+  {
+    "path": "/home/err/.volta/tools/image/packages/eta-mu/lib/node_modules/eta-mu/node_modules/@eta-mu/rheos/dist/cli.cjs",
+    "exists": true,
+    "symlink": false,
+    "resolved": "/home/err/.volta/tools/image/packages/eta-mu/lib/node_modules/eta-mu/node_modules/@eta-mu/rheos/dist/cli.cjs",
+    "bytes": 2028106,
+    "sha256": "fba8bef53a9dbc159136de56f5a3c174af33b0d309ae0a26fce440467b50590c"
+  }
+]
