@@ -1,0 +1,19 @@
+{
+  "argv": [
+    "npm",
+    "exec",
+    "--yes",
+    "--package",
+    "jscpd@4",
+    "--",
+    "jscpd",
+    "--config",
+    ".jscpd.json",
+    "--output",
+    "/home/err/.codex/parallel-goal/child-prs-20261006/truth-static-fixtures-20261006/audit/jscpd",
+    "--reporters",
+    "json,console"
+  ],
+  "cwd": "/home/err/.codex/parallel-goal/child-prs-20261006/truth-static-fixtures-20261006/worktree",
+  "private_cache": "/home/err/.codex/parallel-goal/child-prs-20261006/truth-static-fixtures-20261006/runtime/npm-cache"
+}

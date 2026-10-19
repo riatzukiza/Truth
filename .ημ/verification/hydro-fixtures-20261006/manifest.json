@@ -1,0 +1,20 @@
+{
+  "source_sha": "b76e87381c3ed39c66059236bb14843cecc85ff7",
+  "jscpd_version": "4.3.0",
+  "existing_gate_package_selector": "jscpd@4",
+  "captured_at": "2026-10-06T16:12:25.761400Z",
+  "exit_code": 0,
+  "statistics": {
+    "files": 275,
+    "lines": 49602,
+    "clones": 65,
+    "duplicated_lines": 800,
+    "percentage": 1.61
+  },
+  "sha256": {
+    "command.raw.json": "44c8df569d55a053450bb7a6a113f2e229daef1784201b9faaf7556dbad30f95",
+    "jscpd.raw.out": "871e790232463f0dc222615709cbde0f2a55d635d6f26c1e3201fcb1e808d64f",
+    "jscpd-report.raw.json": "47693fc91472f2495ef7c9a8eee36ce9235127ecaa6fda2f0435946724febc57"
+  },
+  "readiness": "planning only; no implementation/JVM or full-gate pass"
+}
