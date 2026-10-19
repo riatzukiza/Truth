@@ -1,0 +1,41 @@
+{
+  "base": "58b0fd91ea65b7a4b3a1f571f22f3d394374a871",
+  "personal_base": "b76e87381c3ed39c66059236bb14843cecc85ff7",
+  "existing_entries": 1124,
+  "unchanged_existing_entries": 1122,
+  "append_only_existing_paths": [
+    {
+      "path": ".\u03b7\u03bc/session-mycology/ledger.md",
+      "old_bytes": 18050,
+      "old_sha256": "6e8b5f9f69b877a74a93b06e9a70f2f293c866aff9fe21c61b1ea7744bbea40a",
+      "new_bytes": 18613,
+      "new_sha256": "a524368626ed954fdfe6a0f5dac5214f7782413f11b28078f63d68bc8fc07de5",
+      "prefix_exact": true
+    },
+    {
+      "path": "receipts.edn",
+      "old_bytes": 378403,
+      "old_sha256": "49d10aa2dc7fc04ddea70ff021cefc49e31fa3d2110a7362652b16a003a2c042",
+      "new_bytes": 379992,
+      "new_sha256": "948a36a3405e43780bc30cba9b3947be50e1cfa083a0f54ecdcd56c9e6b70f78",
+      "prefix_exact": true
+    }
+  ],
+  "accepted_8_commits_ancestor": true,
+  "engine_events_exact": [
+    "docs/agile/tasks/.events/ledger.edn",
+    "kanban/tasks/.events/ledger.edn",
+    "tasks/.events/ledger.edn"
+  ],
+  "all_cards_configs_code_workflows_accepted_OIDs_exact": true,
+  "gitlinks_exact": [],
+  "commands": 23,
+  "strict_streams": 46,
+  "captured_failed_commands": [
+    "personal-pr1-native",
+    "personal-open-prs",
+    "upstream-open-prs"
+  ],
+  "no_full_suite_qualification": true,
+  "sparse_object_identity_not_content_review": true
+}

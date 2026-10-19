@@ -1,0 +1,665 @@
+[
+  {
+    "label": "personal-main",
+    "command": [
+      "timeout",
+      "35",
+      "env",
+      "-u",
+      "GH_TOKEN",
+      "-u",
+      "GITHUB_TOKEN",
+      "gh",
+      "api",
+      "repos/riatzukiza/Truth/git/ref/heads/main"
+    ],
+    "cwd": "/home/err/.codex/worktrees/cc59/foresight",
+    "at": "2026-10-06T23:41:52.729471+00:00",
+    "exit": 0,
+    "stdout": {
+      "capture": "personal-main.stdout.b64",
+      "bytes": 330,
+      "sha256": "87e9a75084106525315985d27592ac7fdaa3c2fe83452d917b03b826db1e82b1"
+    },
+    "stderr": {
+      "capture": "personal-main.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "upstream-repository",
+    "command": [
+      "timeout",
+      "35",
+      "env",
+      "-u",
+      "GH_TOKEN",
+      "-u",
+      "GITHUB_TOKEN",
+      "gh",
+      "api",
+      "repos/octave-commons/Truth"
+    ],
+    "cwd": "/home/err/.codex/worktrees/cc59/foresight",
+    "at": "2026-10-06T23:41:52.682329+00:00",
+    "exit": 0,
+    "stdout": {
+      "capture": "upstream-repository.stdout.b64",
+      "bytes": 7035,
+      "sha256": "2966a4c78ff4a15c1a2edaa59fe62c2860cb08d42c3ebabed48a284d82cb21e6"
+    },
+    "stderr": {
+      "capture": "upstream-repository.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "personal-repository",
+    "command": [
+      "timeout",
+      "35",
+      "env",
+      "-u",
+      "GH_TOKEN",
+      "-u",
+      "GITHUB_TOKEN",
+      "gh",
+      "api",
+      "repos/riatzukiza/Truth"
+    ],
+    "cwd": "/home/err/.codex/worktrees/cc59/foresight",
+    "at": "2026-10-06T23:41:52.679300+00:00",
+    "exit": 0,
+    "stdout": {
+      "capture": "personal-repository.stdout.b64",
+      "bytes": 16143,
+      "sha256": "d89da810e5865f0701e5ffeab728aa5cb67fa03ded0a2b1d3db4d4a9d398908e"
+    },
+    "stderr": {
+      "capture": "personal-repository.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "accepted-main",
+    "command": [
+      "timeout",
+      "35",
+      "env",
+      "-u",
+      "GH_TOKEN",
+      "-u",
+      "GITHUB_TOKEN",
+      "gh",
+      "api",
+      "repos/octave-commons/Truth/git/ref/heads/main"
+    ],
+    "cwd": "/home/err/.codex/worktrees/cc59/foresight",
+    "at": "2026-10-06T23:41:52.733142+00:00",
+    "exit": 0,
+    "stdout": {
+      "capture": "accepted-main.stdout.b64",
+      "bytes": 338,
+      "sha256": "452b6165256a17bcebd44e2362807816c84632166ba1952495dcbddd75a6a526"
+    },
+    "stderr": {
+      "capture": "accepted-main.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "accepted-ancestry",
+    "command": [
+      "timeout",
+      "45",
+      "env",
+      "-u",
+      "GH_TOKEN",
+      "-u",
+      "GITHUB_TOKEN",
+      "gh",
+      "api",
+      "repos/octave-commons/Truth/compare/riatzukiza:main...main"
+    ],
+    "cwd": "/home/err/.codex/worktrees/cc59/foresight",
+    "at": "2026-10-06T23:41:52.724216+00:00",
+    "exit": 0,
+    "stdout": {
+      "capture": "accepted-ancestry.stdout.b64",
+      "bytes": 285948,
+      "sha256": "79a7ccd1bf16b17bcedce719d17a3b6605d3c96fa6445e625b39c7fa22bf1bc0"
+    },
+    "stderr": {
+      "capture": "accepted-ancestry.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "personal-pr1-canonical-status",
+    "command": [
+      "timeout",
+      "45",
+      "env",
+      "-u",
+      "GH_TOKEN",
+      "-u",
+      "GITHUB_TOKEN",
+      "XDG_CACHE_HOME=/tmp/truth-accepted-sync-20261006-83u16qs3/cache",
+      "TMPDIR=/tmp/truth-accepted-sync-20261006-83u16qs3/tmp",
+      "/home/err/.codex/parallel-goal/personal-root-20261006/pr116-admission-runtime/node-runtime/node_modules/.bin/nbb",
+      "-cp",
+      "/home/err/.agents/skills/pr-flow/scripts",
+      "/home/err/.agents/skills/pr-flow/scripts/pr.cljs",
+      "status",
+      "riatzukiza/Truth",
+      "1"
+    ],
+    "cwd": "/tmp/truth-accepted-sync-20261006-83u16qs3",
+    "at": "2026-10-06T23:41:42.659079+00:00",
+    "exit": 0,
+    "stdout": {
+      "capture": "personal-pr1-canonical-status.stdout.b64",
+      "bytes": 468,
+      "sha256": "0af5e45b830140625a0977b8cb59c13ac8a93b00e678d8736b0d8c27ec9bc909"
+    },
+    "stderr": {
+      "capture": "personal-pr1-canonical-status.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "personal-pr1-native",
+    "command": [
+      "timeout",
+      "35",
+      "env",
+      "-u",
+      "GH_TOKEN",
+      "-u",
+      "GITHUB_TOKEN",
+      "gh",
+      "api",
+      "repos/riatzukiza/Truth/pulls/1"
+    ],
+    "cwd": "/home/err/.codex/worktrees/cc59/foresight",
+    "at": "2026-10-06T23:43:09.081885+00:00",
+    "exit": 1,
+    "stdout": {
+      "capture": "personal-pr1-native.stdout.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stderr": {
+      "capture": "personal-pr1-native.stderr.b64",
+      "bytes": 94,
+      "sha256": "eed65211f0fcee1b82c2661764250c1adaebcb36f0cb78a702d59632f056c439"
+    }
+  },
+  {
+    "label": "personal-open-prs",
+    "command": [
+      "timeout",
+      "35",
+      "env",
+      "-u",
+      "GH_TOKEN",
+      "-u",
+      "GITHUB_TOKEN",
+      "gh",
+      "api",
+      "--paginate",
+      "--slurp",
+      "repos/riatzukiza/Truth/pulls?state=open&per_page=100"
+    ],
+    "cwd": "/home/err/.codex/worktrees/cc59/foresight",
+    "at": "2026-10-06T23:43:09.086569+00:00",
+    "exit": 1,
+    "stdout": {
+      "capture": "personal-open-prs.stdout.b64",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "stderr": {
+      "capture": "personal-open-prs.stderr.b64",
+      "bytes": 94,
+      "sha256": "eed65211f0fcee1b82c2661764250c1adaebcb36f0cb78a702d59632f056c439"
+    }
+  },
+  {
+    "label": "upstream-open-prs",
+    "command": [
+      "timeout",
+      "35",
+      "env",
+      "-u",
+      "GH_TOKEN",
+      "-u",
+      "GITHUB_TOKEN",
+      "gh",
+      "api",
+      "--paginate",
+      "--slurp",
+      "repos/octave-commons/Truth/pulls?state=open&per_page=100"
+    ],
+    "cwd": "/home/err/.codex/worktrees/cc59/foresight",
+    "at": "2026-10-06T23:43:09.091265+00:00",
+    "exit": 1,
+    "stdout": {
+      "capture": "upstream-open-prs.stdout.b64",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "stderr": {
+      "capture": "upstream-open-prs.stderr.b64",
+      "bytes": 94,
+      "sha256": "eed65211f0fcee1b82c2661764250c1adaebcb36f0cb78a702d59632f056c439"
+    }
+  },
+  {
+    "label": "personal-open-prs-refresh",
+    "command": [
+      "timeout",
+      "35",
+      "env",
+      "-u",
+      "GH_TOKEN",
+      "-u",
+      "GITHUB_TOKEN",
+      "gh",
+      "api",
+      "--paginate",
+      "--slurp",
+      "repos/riatzukiza/Truth/pulls?state=open&per_page=100"
+    ],
+    "cwd": "/home/err/.codex/worktrees/cc59/foresight",
+    "at": "2026-10-06T23:44:50.063414+00:00",
+    "exit": 0,
+    "stdout": {
+      "capture": "personal-open-prs-refresh.stdout.b64",
+      "bytes": 18551,
+      "sha256": "e37ab77de43cee89854d3a9f107b61f3aa3d3c2a44832abbd84e4b9c0ecceac3"
+    },
+    "stderr": {
+      "capture": "personal-open-prs-refresh.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "pinned-review-callee",
+    "command": [
+      "timeout",
+      "35",
+      "env",
+      "-u",
+      "GH_TOKEN",
+      "-u",
+      "GITHUB_TOKEN",
+      "gh",
+      "api",
+      "repos/open-hax/eta-mu/contents/.github/workflows/opencode-code-review.yml?ref=2b918cdab2ebd30e745bb8fa86d077d7a3af0030"
+    ],
+    "cwd": "/home/err/.codex/worktrees/cc59/foresight",
+    "at": "2026-10-06T23:44:49.974051+00:00",
+    "exit": 0,
+    "stdout": {
+      "capture": "pinned-review-callee.stdout.b64",
+      "bytes": 41261,
+      "sha256": "3f2c43f6e34eb308011b287b1fcd3f678f73afa530c62f77eee2f6ede87a9439"
+    },
+    "stderr": {
+      "capture": "pinned-review-callee.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "upstream-open-prs-refresh",
+    "command": [
+      "timeout",
+      "35",
+      "env",
+      "-u",
+      "GH_TOKEN",
+      "-u",
+      "GITHUB_TOKEN",
+      "gh",
+      "api",
+      "--paginate",
+      "--slurp",
+      "repos/octave-commons/Truth/pulls?state=open&per_page=100"
+    ],
+    "cwd": "/home/err/.codex/worktrees/cc59/foresight",
+    "at": "2026-10-06T23:44:50.025700+00:00",
+    "exit": 0,
+    "stdout": {
+      "capture": "upstream-open-prs-refresh.stdout.b64",
+      "bytes": 325179,
+      "sha256": "a10fa76c234cc075af5bf6ee7967ec2720531f73a364fab0112246cb7113c612"
+    },
+    "stderr": {
+      "capture": "upstream-open-prs-refresh.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "personal-pr1-native-refresh",
+    "command": [
+      "timeout",
+      "35",
+      "env",
+      "-u",
+      "GH_TOKEN",
+      "-u",
+      "GITHUB_TOKEN",
+      "gh",
+      "api",
+      "repos/riatzukiza/Truth/pulls/1"
+    ],
+    "cwd": "/home/err/.codex/worktrees/cc59/foresight",
+    "at": "2026-10-06T23:44:50.024714+00:00",
+    "exit": 0,
+    "stdout": {
+      "capture": "personal-pr1-native-refresh.stdout.b64",
+      "bytes": 18767,
+      "sha256": "b8089539343714eb7459ab8404d934271bddea95d9f244cb65c94e3fa7576a3d"
+    },
+    "stderr": {
+      "capture": "personal-pr1-native-refresh.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "accepted-tree-baseline",
+    "command": [
+      "python3",
+      "-"
+    ],
+    "cwd": "/home/err/.codex/worktrees/cc59/foresight",
+    "at": "2026-10-06T23:44:51.267984+00:00",
+    "exit": 0,
+    "stdout": {
+      "capture": "accepted-tree-baseline.stdout.b64",
+      "bytes": 1803,
+      "sha256": "d2786cadbe835ca1dfe1f97b2f8b0034716abb3acf4e358215488e1293c5dfad"
+    },
+    "stderr": {
+      "capture": "accepted-tree-baseline.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "personal-main-final",
+    "command": [
+      "env",
+      "-u",
+      "GH_TOKEN",
+      "-u",
+      "GITHUB_TOKEN",
+      "gh",
+      "api",
+      "repos/riatzukiza/Truth/commits/main"
+    ],
+    "cwd": "/tmp/truth-accepted-sync-20261006-83u16qs3",
+    "at": "2026-10-06T23:47:54.008834+00:00",
+    "exit": 0,
+    "stdout": {
+      "capture": "personal-main-final.stdout.b64",
+      "bytes": 7163,
+      "sha256": "ce9ebc3b7518418e6bc21d493177fba76f1e920681a4462adc3090014f07bd91"
+    },
+    "stderr": {
+      "capture": "personal-main-final.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "personal-open-prs-final",
+    "command": [
+      "env",
+      "-u",
+      "GH_TOKEN",
+      "-u",
+      "GITHUB_TOKEN",
+      "gh",
+      "api",
+      "--paginate",
+      "repos/riatzukiza/Truth/pulls?state=open&per_page=100"
+    ],
+    "cwd": "/tmp/truth-accepted-sync-20261006-83u16qs3",
+    "at": "2026-10-06T23:47:54.053289+00:00",
+    "exit": 0,
+    "stdout": {
+      "capture": "personal-open-prs-final.stdout.b64",
+      "bytes": 18549,
+      "sha256": "5813510c283b31d38ac19593327ec7864ed1384010484b86820a485af69b8d7b"
+    },
+    "stderr": {
+      "capture": "personal-open-prs-final.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "accepted-main-final",
+    "command": [
+      "env",
+      "-u",
+      "GH_TOKEN",
+      "-u",
+      "GITHUB_TOKEN",
+      "gh",
+      "api",
+      "repos/octave-commons/Truth/commits/main"
+    ],
+    "cwd": "/tmp/truth-accepted-sync-20261006-83u16qs3",
+    "at": "2026-10-06T23:47:54.024365+00:00",
+    "exit": 0,
+    "stdout": {
+      "capture": "accepted-main-final.stdout.b64",
+      "bytes": 250995,
+      "sha256": "7675e534839479e4a5e85eda71528b5dc01df585a457ede8ed15d8d78edf4640"
+    },
+    "stderr": {
+      "capture": "accepted-main-final.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "personal-pr1-final",
+    "command": [
+      "env",
+      "-u",
+      "GH_TOKEN",
+      "-u",
+      "GITHUB_TOKEN",
+      "gh",
+      "api",
+      "repos/riatzukiza/Truth/pulls/1"
+    ],
+    "cwd": "/tmp/truth-accepted-sync-20261006-83u16qs3",
+    "at": "2026-10-06T23:47:54.022799+00:00",
+    "exit": 0,
+    "stdout": {
+      "capture": "personal-pr1-final.stdout.b64",
+      "bytes": 18767,
+      "sha256": "b8089539343714eb7459ab8404d934271bddea95d9f244cb65c94e3fa7576a3d"
+    },
+    "stderr": {
+      "capture": "personal-pr1-final.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "receipt-owner-final",
+    "command": [
+      "env",
+      "-u",
+      "GH_TOKEN",
+      "-u",
+      "GITHUB_TOKEN",
+      "gh",
+      "api",
+      "repos/open-hax/receipt-river/commits/main"
+    ],
+    "cwd": "/tmp/truth-accepted-sync-20261006-83u16qs3",
+    "at": "2026-10-06T23:47:54.829733+00:00",
+    "exit": 0,
+    "stdout": {
+      "capture": "receipt-owner-final.stdout.b64",
+      "bytes": 7054,
+      "sha256": "97c814ddfbf28478a43dbda1ea680a8d47aac441b0cc930b1165a8c9581ec0d7"
+    },
+    "stderr": {
+      "capture": "receipt-owner-final.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "upstream-open-prs-final",
+    "command": [
+      "env",
+      "-u",
+      "GH_TOKEN",
+      "-u",
+      "GITHUB_TOKEN",
+      "gh",
+      "api",
+      "--paginate",
+      "repos/octave-commons/Truth/pulls?state=open&per_page=100"
+    ],
+    "cwd": "/tmp/truth-accepted-sync-20261006-83u16qs3",
+    "at": "2026-10-06T23:47:54.815109+00:00",
+    "exit": 0,
+    "stdout": {
+      "capture": "upstream-open-prs-final.stdout.b64",
+      "bytes": 325177,
+      "sha256": "1a7062d8567499d254a6f1552000d6dbe966c7c51cd98286afda14f5f84b05bb"
+    },
+    "stderr": {
+      "capture": "upstream-open-prs-final.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "append-owned-receipt",
+    "command": [
+      "env",
+      "XDG_CACHE_HOME=/tmp/truth-accepted-sync-20261006-83u16qs3/cache",
+      "TMPDIR=/tmp/truth-accepted-sync-20261006-83u16qs3/tmp",
+      "/home/err/.codex/parallel-goal/personal-root-20261006/pr116-admission-runtime/node-runtime/node_modules/.bin/nbb",
+      "-cp",
+      "/tmp/truth-accepted-sync-20261006-83u16qs3/rr-source",
+      "/tmp/truth-accepted-sync-20261006-83u16qs3/append-receipt.cljs",
+      "/tmp/truth-accepted-sync-20261006-83u16qs3/worktree"
+    ],
+    "cwd": "/tmp/truth-accepted-sync-20261006-83u16qs3",
+    "at": "2026-10-06T23:49:12.356039+00:00",
+    "exit": 0,
+    "stdout": {
+      "capture": "append-owned-receipt.stdout.b64",
+      "bytes": 67,
+      "sha256": "de4898c26daaf43cd8504c0ebbdd98dcfb4c95c3448db2120c02eec484bae3f7"
+    },
+    "stderr": {
+      "capture": "append-owned-receipt.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "append-owned-reflection",
+    "command": [
+      "bb",
+      "/home/err/.agents/skills/session-mycology/scripts/sm-log.bb",
+      "--task",
+      "Truth accepted upstream sync local provenance",
+      "--efficiency",
+      "0.85",
+      "--friction",
+      "0.25",
+      "--candidate",
+      "0.1",
+      "--receipt-refs",
+      "truth-sync-local-provenance-20261006-83u16qs3",
+      "--note",
+      "Preserve all accepted ancestry and identities with sparse metadata preparation; distinguish object preservation from content review, and terminal sync purpose from activation. Network failures remain visible; no source/board writes or published qualification."
+    ],
+    "cwd": "/tmp/truth-accepted-sync-20261006-83u16qs3/worktree",
+    "at": "2026-10-06T23:49:27.528522+00:00",
+    "exit": 0,
+    "stdout": {
+      "capture": "append-owned-reflection.stdout.b64",
+      "bytes": 97,
+      "sha256": "99c5d2f0085db808773aa67b1eba99ae40e7da01b9d7a45a1a8f8420d3c19c7e"
+    },
+    "stderr": {
+      "capture": "append-owned-reflection.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "candidate-receipt-precommit",
+    "command": [
+      "env",
+      "XDG_CACHE_HOME=/tmp/truth-accepted-sync-20261006-83u16qs3/cache",
+      "TMPDIR=/tmp/truth-accepted-sync-20261006-83u16qs3/tmp",
+      "/home/err/.codex/parallel-goal/personal-root-20261006/pr116-admission-runtime/node-runtime/node_modules/.bin/nbb",
+      "-cp",
+      "/tmp/truth-accepted-sync-20261006-83u16qs3/rr-source",
+      "/tmp/truth-accepted-sync-20261006-83u16qs3/validate-receipts.cljs",
+      "/tmp/truth-accepted-sync-20261006-83u16qs3/worktree",
+      "WORKTREE",
+      "58b0fd91ea65b7a4b3a1f571f22f3d394374a871",
+      "1"
+    ],
+    "cwd": "/tmp/truth-accepted-sync-20261006-83u16qs3/worktree",
+    "at": "2026-10-06T23:49:27.760788+00:00",
+    "exit": 0,
+    "stdout": {
+      "capture": "candidate-receipt-precommit.stdout.b64",
+      "bytes": 372,
+      "sha256": "64debfc6cfe55677fae57d0cead3664a1af3dbb62aa572c6183d566a7a910cc1"
+    },
+    "stderr": {
+      "capture": "candidate-receipt-precommit.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "candidate-preservation",
+    "command": [
+      "python3",
+      "/tmp/truth-accepted-sync-20261006-83u16qs3/check-preservation.py"
+    ],
+    "cwd": "/tmp/truth-accepted-sync-20261006-83u16qs3",
+    "at": "2026-10-06T23:49:47.221551+00:00",
+    "exit": 0,
+    "stdout": {
+      "capture": "candidate-preservation.stdout.b64",
+      "bytes": 1211,
+      "sha256": "7cbc136057ef86695d6b4fe0c0bb70ddd44556069c31e56bff63705e16e5d63a"
+    },
+    "stderr": {
+      "capture": "candidate-preservation.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+]

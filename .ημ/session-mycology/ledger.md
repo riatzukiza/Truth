@@ -314,3 +314,12 @@
   spore: none
   receipt-refs: none
   note: Two patterns worth spores: (1) a gate config in a conventionally-cached dir (.lsp/) is silently gitignored, so the gate passes locally and fails forever in CI -- check git check-ignore on every new config file before promoting a tool to blocking; (2) scoped symbol renames need a whole-scope re-audit, because a missed site does not error, it silently resolves to clojure.core (comp/count/name/field) and the test passes vacuously.
+- ts: 2026-10-06T23:49:27.541014253Z
+  session: /tmp/truth-accepted-sync-20261006-83u16qs3/worktree
+  task: Truth accepted upstream sync local provenance
+  p-efficiency: 0.85
+  p-friction: 0.25
+  p-skill-candidate: 0.1
+  spore: none
+  receipt-refs: truth-sync-local-provenance-20261006-83u16qs3
+  note: Preserve all accepted ancestry and identities with sparse metadata preparation; distinguish object preservation from content review, and terminal sync purpose from activation. Network failures remain visible; no source/board writes or published qualification.

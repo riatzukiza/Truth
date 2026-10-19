@@ -1,0 +1,11 @@
+{
+  "commands": 24,
+  "streams": 48,
+  "all_strict_decode_hash_size": true,
+  "failed_commands": [
+    "personal-pr1-native",
+    "personal-open-prs",
+    "upstream-open-prs"
+  ],
+  "absence_not_inferred_from_failed_reads": true
+}
